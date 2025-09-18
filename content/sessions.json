@@ -1,0 +1,27 @@
+[
+  {
+    "id": "tue-speedwork",
+    "day": "Tuesday",
+    "name": "Speedwork",
+    "time": "06:00",
+    "location": "KLCC Park",
+    "description": "High-intensity intervals and tempo runs to build speed and lactate threshold."
+  },
+  {
+    "id": "sun-lsd",
+    "day": "Sunday", 
+    "name": "Long Slow Distance",
+    "time": "06:00",
+    "location": "Bukit Jalil",
+    "description": "Endurance building runs at conversational pace. Build your aerobic base."
+  },
+  {
+    "id": "fri-strength",
+    "day": "Friday",
+    "name": "Strength & Skills",
+    "time": "19:00",
+    "location": "Taman Tun Dr Ismail",
+    "description": "Running-specific strength training and technical skill development.",
+    "skillOfTheWeek": "Single-leg hops"
+  }
+]
