@@ -3,12 +3,15 @@ import { AngledPanel } from '@/components/AngledPanel';
 import { Barcode } from '@/components/Barcode';
 import { SessionStrip } from '@/components/SessionStrip';
 import { EventList } from '@/components/EventList';
+import clubData from '@/content/club.json';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
+const { club: clubInfo, identity, keyMessage, impact } = clubData;
+
 export const metadata: Metadata = {
-  title: 'KJ Run Club - Brutal Training, Real Results',
-  description: 'Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.',
+  title: `${clubInfo.name} - ${clubInfo.tagline}`,
+  description: keyMessage,
 };
 
 export default function Home() {
@@ -27,16 +30,20 @@ export default function Home() {
         
         <div className="relative z-10 text-center text-white px-4">
           <div className="mb-8">
-            <Barcode label="KJRC-001" className="text-white" />
+            <Barcode label={identity.regNo} className="text-white" />
           </div>
           
           <AnimatedHeadline 
-            text="KJ RUN CLUB" 
+            text={clubInfo.name}
             className="mb-6"
           />
           
           <p className="font-mono text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-            Elite training sessions in Kuala Lumpur. Join Malaysia's most dedicated runners and push beyond your limits.
+            {clubInfo.tagline}
+          </p>
+
+          <p className="font-mono text-sm md:text-base max-w-3xl mx-auto mb-8 leading-relaxed text-white/80">
+            {keyMessage}
           </p>
           
           <Link 
@@ -46,29 +53,6 @@ export default function Home() {
             Join the Run
           </Link>
         </div>
-        
-        {/* Navigation */}
-        <nav className="absolute top-8 right-8 z-20">
-          <div className="brutal-border bg-white/90 backdrop-blur-sm p-4">
-            <div className="flex flex-col space-y-2">
-              {[
-                { href: '/about', label: 'About' },
-                { href: '/schedule', label: 'Schedule' },
-                { href: '/team', label: 'Team' },
-                { href: '/merch', label: 'Merch' },
-                { href: '/contact', label: 'Contact' }
-              ].map(({ href, label }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="font-mono text-sm uppercase tracking-wider hover:underline focus-brutal"
-                >
-                  {label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </nav>
       </section>
 
       {/* Sessions */}
@@ -82,8 +66,7 @@ export default function Home() {
               Upcoming Events
             </h2>
             <p className="text-lg mb-6 leading-relaxed">
-              Stay connected with the running community. Track races, marathons, 
-              and training events across Malaysia.
+              {clubInfo.mission} Explore our {impact.programmes.toLowerCase()} and collaborations that keep the crew moving together.
             </p>
             <Barcode label="EVENTS-MY" />
           </div>

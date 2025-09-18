@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Bebas_Neue, Inter, IBM_Plex_Mono } from 'next/font/google';
 import { FooterSimple } from '@/components/FooterSimple';
+import { SiteNav } from '@/components/SiteNav';
 import { Analytics } from '@vercel/analytics/react';
 
 const bebasNeue = Bebas_Neue({ 
@@ -71,6 +72,7 @@ export default function RootLayout({
     <html lang="en" className={`${bebasNeue.variable} ${inter.variable} ${ibmPlexMono.variable}`}>
       <body className="font-inter bg-white text-black overflow-x-hidden">
         <div className="min-h-screen flex flex-col">
+          <SiteNav />
           <main className="flex-1">
             {children}
           </main>

@@ -1,114 +1,75 @@
-'use client';
-
-import { useEffect, useState } from 'react';
 import { AnimatedHeadline } from '@/components/AnimatedHeadline';
 import { AngledPanel } from '@/components/AngledPanel';
 import { TeamDivision } from '@/components/TeamDivision';
 import { Barcode } from '@/components/Barcode';
+import clubData from '@/content/club.json';
+import { Metadata } from 'next';
 
-interface Person {
-  name: string;
-  role: string;
-  avatar: string;
-  instagram?: string;
-  tiktok?: string;
-}
+const { club: clubInfo, leadership, divisions, keyMessage } = clubData;
 
-interface Division {
-  division: string;
-  people: Person[];
-}
+export const metadata: Metadata = {
+  title: `Team - ${clubInfo.name}`,
+  description: keyMessage,
+};
 
 export default function Team() {
-  const [divisions, setDivisions] = useState<Division[]>([]);
-
-  useEffect(() => {
-    fetch('/content/team.json')
-      .then(res => res.json())
-      .then(setDivisions)
-      .catch(console.error);
-  }, []);
-
   return (
     <main className="pt-16">
       <div className="max-w-7xl mx-auto px-4 py-8">
         
         <AngledPanel className="p-8 md:p-16 mb-8">
           <div className="mb-8">
-            <Barcode label="TEAM-ROSTER" />
+            <Barcode label="TEAM-KJRC" />
           </div>
           
           <AnimatedHeadline 
-            text="OUR TEAM" 
+            text="THE CREW" 
             className="mb-8"
           />
           
           <p className="text-lg leading-relaxed max-w-3xl">
-            Behind every great runner is a team that believes in pushing limits. 
-            Our coaches, specialists, and coordinators are united by one mission: 
-            helping you become faster, stronger, and more resilient than you ever imagined.
+            {keyMessage}
           </p>
+
+          <p className="font-mono text-sm text-gray-700 max-w-3xl mt-6">
+            {clubInfo.mission}
+          </p>
+        </AngledPanel>
+
+        <AngledPanel className="p-8 md:p-12 mb-8" angle="tl">
+          <h2 className="font-bebas text-3xl uppercase mb-6">Leadership</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {[
+              {
+                label: 'CAPTAIN',
+                name: leadership.captain.name,
+                role: leadership.captain.role
+              },
+              {
+                label: 'CO-CAPTAIN',
+                name: leadership.coCaptain.name,
+                role: leadership.coCaptain.role
+              }
+            ].map((leader, index) => (
+              <div key={index} className="brutal-border-thin bg-white p-6">
+                <Barcode label={leader.label} className="mb-3" />
+                <h3 className="font-bebas text-2xl uppercase mb-1">{leader.name}</h3>
+                <p className="font-mono text-sm text-gray-700">{leader.role}</p>
+              </div>
+            ))}
+          </div>
         </AngledPanel>
 
         <div className="space-y-8">
           {divisions.map((division, index) => (
             <TeamDivision 
               key={index}
-              division={division.division}
+              division={division.name}
+              description={division.description}
               people={division.people}
             />
           ))}
         </div>
-
-        {/* Team Philosophy */}
-        <AngledPanel className="p-8 md:p-16 mt-8" angle="both">
-          <h2 className="font-bebas text-4xl uppercase mb-8 text-center">
-            Leadership Philosophy
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div className="space-y-6">
-              <div className="brutal-border-thin bg-white p-6">
-                <Barcode label="LEAD-BY-EXAMPLE" className="mb-4" />
-                <h3 className="font-bebas text-xl uppercase mb-3">Lead by Example</h3>
-                <p className="text-sm">
-                  Our coaches don't just teach—they train alongside you, 
-                  demonstrating the commitment they expect.
-                </p>
-              </div>
-              
-              <div className="brutal-border-thin bg-gray-50 p-6">
-                <Barcode label="INDIVIDUAL-FOCUS" className="mb-4" />
-                <h3 className="font-bebas text-xl uppercase mb-3">Individual Focus</h3>
-                <p className="text-sm">
-                  Every runner is unique. Our team creates personalized approaches 
-                  within our collective training framework.
-                </p>
-              </div>
-            </div>
-            
-            <div className="space-y-6">
-              <div className="brutal-border-thin bg-gray-50 p-6">
-                <Barcode label="DATA-DRIVEN" className="mb-4" />
-                <h3 className="font-bebas text-xl uppercase mb-3">Data Driven</h3>
-                <p className="text-sm">
-                  Decisions backed by metrics, progress tracked by numbers, 
-                  improvement measured and celebrated.
-                </p>
-              </div>
-              
-              <div className="brutal-border-thin bg-white p-6">
-                <Barcode label="NEVER-SETTLED" className="mb-4" />
-                <h3 className="font-bebas text-xl uppercase mb-3">Never Settled</h3>
-                <p className="text-sm">
-                  Our team continuously evolves, learns, and adapts to bring you 
-                  the latest in running science and methodology.
-                </p>
-              </div>
-            </div>
-          </div>
-        </AngledPanel>
-
       </div>
     </main>
   );

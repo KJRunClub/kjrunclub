@@ -4,6 +4,9 @@ import { useState } from 'react';
 import { AnimatedHeadline } from '@/components/AnimatedHeadline';
 import { AngledPanel } from '@/components/AngledPanel';
 import { Barcode } from '@/components/Barcode';
+import clubData from '@/content/club.json';
+
+const { club: clubInfo, identity, keyMessage } = clubData;
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -43,9 +46,11 @@ export default function Contact() {
           />
           
           <p className="text-lg leading-relaxed max-w-3xl">
-            Ready to transform your running? We're looking for dedicated athletes 
-            who aren't afraid of hard work. Tell us about yourself and let's see 
-            if KJ Run Club is right for you.
+            {keyMessage}
+          </p>
+
+          <p className="text-base leading-relaxed max-w-3xl font-mono text-gray-700 mt-4">
+            {clubInfo.mission}
           </p>
         </AngledPanel>
 
@@ -143,29 +148,18 @@ export default function Contact() {
                 <div>
                   <h4 className="font-mono text-sm uppercase tracking-wider text-gray-600 mb-1">Email</h4>
                   <a 
-                    href="mailto:hello@kjrunclub.com"
+                    href={`mailto:${identity.contact}`}
                     className="font-mono hover:underline focus-brutal"
                   >
-                    hello@kjrunclub.com
+                    {identity.contact}
                   </a>
                 </div>
 
                 <div>
-                  <h4 className="font-mono text-sm uppercase tracking-wider text-gray-600 mb-1">Phone</h4>
-                  <a 
-                    href="tel:+60123456789"
-                    className="font-mono hover:underline focus-brutal"
-                  >
-                    +60 12 345 6789
-                  </a>
-                </div>
-
-                <div>
-                  <h4 className="font-mono text-sm uppercase tracking-wider text-gray-600 mb-1">Address</h4>
+                  <h4 className="font-mono text-sm uppercase tracking-wider text-gray-600 mb-1">Registered Name</h4>
                   <p className="font-mono">
-                    KLCC Park<br />
-                    Kuala Lumpur City Centre<br />
-                    50088 Kuala Lumpur
+                    {identity.registeredName}<br />
+                    Reg No: {identity.regNo}
                   </p>
                 </div>
               </div>

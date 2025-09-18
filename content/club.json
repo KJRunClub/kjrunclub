@@ -1,0 +1,86 @@
+{
+  "club": {
+    "name": "Kelana Jaya Run Club (KJRC)",
+    "tagline": "We're more than just runners - we're a movement",
+    "vision": [
+      "Create an inclusive, welcoming space where runners of all levels grow, connect, and thrive.",
+      "Be the go-to running club that empowers through the joy of running, community, and purposeful strides."
+    ],
+    "mission": "Community, growth, knowledge, and heart at every step."
+  },
+  "leadership": {
+    "captain": {
+      "name": "Syed",
+      "role": "Heart of the crew, motivator"
+    },
+    "coCaptain": {
+      "name": "Amin",
+      "role": "Strategist, pacer"
+    }
+  },
+  "divisions": [
+    {
+      "name": "Speedwork DVSN",
+      "description": "Weekly curated sessions to build speed, strength, and help runners reach their next PR. Beginners to intermediates welcome.",
+      "people": [
+        { "name": "Syafiq"},
+        { "name": "Ijal" }
+      ]
+    },
+    {
+      "name": "Trail DVSN",
+      "description": "Beginner-friendly off-road runs guided by experienced trail runners. Fitness + adventure, muddy shoes, stronger legs."
+    },
+    {
+      "name": "Coaching DVSN",
+      "description": "Workshops, weekly runs, HIIT, running technique, and strength training to move smarter and recover better."
+    },
+    {
+      "name": "City DVSN",
+      "description": "Guided group city runs that blend fitness with friendship. Shared stories, laughs, and joy through KL & PJ."
+    },
+    {
+      "name": "LSD DVSN",
+      "description": "Long Slow Distance runs to build endurance at conversational pace. Includes LSDT (looping runs)."
+    },
+    {
+      "name": "Hiking DVSN",
+      "description": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together."
+    },
+    {
+      "name": "Ultra DVSN",
+      "description": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness."
+    },
+    {
+      "name": "Media DVSN",
+      "description": "Captures spirit of every session via photos, videos, and reels. Celebrates each runner's journey.",
+      "people": [
+        { "name": "Nisa Othman" },
+        { 
+          "name": "Afiq Xilantra",
+          "instagram": "xilantra",
+          "tiktok": "xilantra"
+      }
+      ]
+    }
+  ],
+  "impact": {
+    "programmes": "Weekly programmes",
+    "eventsHosted": "50+",
+    "runnersEngaged": "1,000+",
+    "collaborations": "Cross-collabs with brands & venues"
+  },
+  "identity": {
+    "registeredName": "Kelab Larian Kelana Jaya (KJRC)",
+    "regNo": "PPM-018-10-23102024",
+    "roles": [
+      "President",
+      "Vice President",
+      "Secretary",
+      "Vice Secretary",
+      "Treasurer"
+    ],
+    "contact": "kjrunclub19@gmail.com"
+  },
+  "keyMessage": "KJRC is more than a club - it's family. Every finish line is a celebration. All runners, all levels, one crew."
+}
