@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Bebas_Neue, Inter, IBM_Plex_Mono } from 'next/font/google';
 import { FooterSimple } from '@/components/FooterSimple';
+import { Analytics } from '@vercel/analytics/react';
 
 const bebasNeue = Bebas_Neue({ 
   subsets: ['latin'],
@@ -75,6 +76,7 @@ export default function RootLayout({
           </main>
           <FooterSimple />
         </div>
+        <Analytics />
       </body>
     </html>
   );
