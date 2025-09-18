@@ -6,7 +6,7 @@ export const calendars = [
   },
   {
     name: 'KL Running Club Events',
-    icsUrl: 'https://calendar.google.com/calendar/ical/c_running_events_kl%40group.calendar.google.com/public/basic.ics',
-    embedUrl: 'https://calendar.google.com/calendar/embed?src=c_running_events_kl%40group.calendar.google.com&ctz=Asia%2FKuala_Lumpur'
+    icsUrl: 'https://calendar.google.com/calendar/ical/kjrcmedia%40gmail.com/public/basic.ics',
+    embedUrl: 'https://calendar.google.com/calendar/embed?src=kjrcmedia%40gmail.com&ctz=Asia%2FKuala_Lumpur'
   }
 ];
