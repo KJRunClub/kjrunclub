@@ -32,18 +32,13 @@ export function SiteNav() {
     <header className="fixed inset-x-0 top-0 z-50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="relative mt-6 flex h-16 items-center justify-between rounded-3xl border border-white/10 bg-black/40 px-5 backdrop-blur-xl">
-          <Link href="/" className="group flex items-center gap-4" onClick={closeMobile}>
-            <div className="relative h-12 w-12 overflow-hidden rounded-2xl border border-white/10 bg-black/60">
+          <Link href="/" className="group flex items-center gap-3" onClick={closeMobile}>
+          <div className="relative h-12 w-12 overflow-hidden rounded-2xl border border-white/10 bg-black/60">
               <Image src="/logo-kjrc.png" alt={`${club.name} logo`} fill sizes="48px" className="object-contain p-1" priority />
             </div>
-            <div className="flex flex-col">
-              <span className="font-bebas text-2xl uppercase tracking-[0.18em] text-[hsl(var(--foreground))]">
-                {club.name}
-              </span>
-              <span className="hidden text-[10px] font-mono uppercase tracking-[0.38em] text-[hsl(var(--foreground))]/50 sm:block">
-                {club.tagline}
-              </span>
-            </div>
+            <span className="font-bebas text-3xl uppercase tracking-[0.28em] text-[hsl(var(--foreground))]">
+              KJRC
+            </span>
           </Link>
 
           <nav className="hidden items-center gap-8 md:flex">
@@ -66,10 +61,6 @@ export function SiteNav() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link href="/contact" className="btn-framer hidden text-[9px] md:inline-flex">
-              <span>Join</span>
-            </Link>
-
             <button
               type="button"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[hsl(var(--foreground))] md:hidden"

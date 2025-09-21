@@ -15,9 +15,9 @@ export const metadata: Metadata = {
 };
 
 const heroImages = [
-  'https://images.unsplash.com/photo-1526401485004-46910ecc8e51?auto=format&fit=crop&w=1600&q=80',
-  'https://images.unsplash.com/photo-1545060894-0f4d4e953efb?auto=format&fit=crop&w=1600&q=80',
-  'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1600&q=80'
+  'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80',
+  'https://images.unsplash.com/photo-1542204165-19b33620e321?auto=format&fit=crop&w=1600&q=80',
+  'https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80'
 ];
 
 export default function Home() {
