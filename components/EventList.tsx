@@ -1,8 +1,7 @@
-'use client';
+"use client";
 
 import { useEffect, useState } from 'react';
 import { format } from 'date-fns';
-import { Barcode } from './Barcode';
 
 interface Event {
   start: string;
@@ -36,19 +35,24 @@ export function EventList({ filter = 'all' }: EventListProps) {
 
   if (loading) {
     return (
-      <div className="brutal-border-thin bg-gray-50 p-6">
-        <div className="animate-pulse">
-          <div className="h-4 bg-gray-300 rounded mb-2"></div>
-          <div className="h-4 bg-gray-300 rounded w-3/4"></div>
-        </div>
+      <div className="grid gap-4">
+        {[...Array(3)].map((_, index) => (
+          <div key={index} className="surface-panel p-5 animate-pulse">
+            <div className="h-3.5 w-24 rounded-full bg-white/10" />
+            <div className="mt-3 h-2.5 w-3/4 rounded-full bg-white/8" />
+            <div className="mt-2 h-2 w-2/4 rounded-full bg-white/6" />
+          </div>
+        ))}
       </div>
     );
   }
 
   if (error || events.length === 0) {
     return (
-      <div className="brutal-border-thin bg-gray-50 p-6">
-        <h3 className="font-bebas text-xl uppercase mb-4">Running Events</h3>
+      <div className="surface-panel p-6">
+        <h3 className="font-bebas text-2xl uppercase tracking-wide text-[hsl(var(--foreground))]">
+          Running Events
+        </h3>
         <iframe
           src="https://calendar.google.com/calendar/embed?src=en.malaysia%23holiday%40group.v.calendar.google.com&ctz=Asia%2FKuala_Lumpur"
           style={{ border: 0 }}
@@ -56,45 +60,71 @@ export function EventList({ filter = 'all' }: EventListProps) {
           height="400"
           frameBorder={0}
           scrolling="no"
-          className="brutal-border-thin"
+          className="mt-6 rounded-3xl border border-white/10"
           title="Malaysia Running Events Calendar"
         ></iframe>
       </div>
     );
   }
 
+  const filteredEvents = events
+    .filter((event) => {
+      if (filter === 'all') return true;
+      const eventDate = new Date(event.start);
+      const now = new Date();
+      const diffInDays = (eventDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24);
+
+      if (filter === 'week') {
+        return diffInDays >= 0 && diffInDays <= 7;
+      }
+
+      if (filter === 'month') {
+        return diffInDays >= 0 && diffInDays <= 30;
+      }
+
+      return true;
+    })
+    .sort((a, b) => new Date(a.start).getTime() - new Date(b.start).getTime());
+
   return (
-    <div className="space-y-4">
-      <div className="flex justify-between items-center mb-6">
-        <h3 className="font-bebas text-xl uppercase">Upcoming Events</h3>
-        <Barcode label="EVENTS" width={1} height={25} />
-      </div>
-      
-      {events.slice(0, 6).map((event, index) => (
-        <div key={index} className="brutal-border-thin bg-white p-4 hover:bg-gray-50 transition-colors">
-          <div className="flex justify-between items-start">
-            <div className="flex-1">
-              <h4 className="font-medium mb-1">{event.title}</h4>
-              <p className="font-mono text-sm text-gray-600 mb-1">
-                {format(new Date(event.start), 'MMM dd, yyyy • HH:mm')}
-              </p>
-              {event.location && (
-                <p className="text-sm text-gray-500">{event.location}</p>
+    <div className="grid gap-4">
+      {filteredEvents.slice(0, 6).map((event, index) => {
+        const descriptor = format(new Date(event.start), 'MMM dd, yyyy • HH:mm');
+
+        return (
+          <div
+            key={index}
+            className="surface-panel border border-white/12 p-5 transition duration-300 hover:translate-y-[-4px] hover:border-white/25"
+          >
+            <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+              <div className="space-y-2">
+                <p className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/55">
+                  {descriptor}
+                </p>
+                <h4 className="text-lg font-semibold leading-tight text-[hsl(var(--foreground))] md:text-xl">
+                  {event.title}
+                </h4>
+                {event.location && (
+                  <p className="font-mono text-[10px] uppercase tracking-[0.25em] text-[hsl(var(--foreground))]/45">
+                    {event.location}
+                  </p>
+                )}
+              </div>
+
+              {event.url && (
+                <a
+                  href={event.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-framer px-6 py-3 text-[8px]"
+                >
+                  <span>Details</span>
+                </a>
               )}
             </div>
-            {event.url && (
-              <a 
-                href={event.url} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="font-mono text-xs uppercase tracking-wider hover:underline focus-brutal"
-              >
-                Details
-              </a>
-            )}
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

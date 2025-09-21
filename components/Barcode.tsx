@@ -22,12 +22,14 @@ export function Barcode({ label, width = 2, height = 60, className = '' }: Barco
           height: height,
           displayValue: false,
           background: "transparent",
-          lineColor: "#000000",
+          lineColor: "#f5f5f5",
           margin: 0
         });
       } catch (error) {
-        // Fallback for invalid barcode data
-        console.warn('Invalid barcode data:', label);
+        // Swallow invalid barcode data in production builds
+        if (process.env.NODE_ENV !== 'production') {
+          /* noop */
+        }
       }
     }
   }, [label, width, height]);
@@ -35,7 +37,7 @@ export function Barcode({ label, width = 2, height = 60, className = '' }: Barco
   return (
     <div className={`flex flex-col items-center ${className}`}>
       <svg ref={svgRef} className="block"></svg>
-      <span className="font-mono text-xs uppercase tracking-wider mt-1 text-gray-600">
+      <span className="mt-1 font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/55">
         {label}
       </span>
     </div>

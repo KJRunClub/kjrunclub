@@ -5,9 +5,9 @@ export function RetryButton() {
     <button
       type="button"
       onClick={() => window.location.reload()}
-      className="btn-brutal"
+      className="btn-framer"
     >
-      Try Again
+      <span>Try Again</span>
     </button>
   );
 }

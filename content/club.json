@@ -23,44 +23,176 @@
       "name": "Speedwork DVSN",
       "description": "Weekly curated sessions to build speed, strength, and help runners reach their next PR. Beginners to intermediates welcome.",
       "people": [
-        { "name": "Syafiq"},
-        { "name": "Ijal" }
+        {
+          "name": "Rafiq Blaze",
+          "role": "Track Captain",
+          "slug": "rafiq-blaze",
+          "avatar": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80",
+          "instagram": "rafiqblaze",
+          "tiktok": "rafiqruns"
+        },
+        {
+          "name": "Mira Pace",
+          "role": "Interval Strategist",
+          "slug": "mira-pace",
+          "avatar": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80",
+          "instagram": "mirapace",
+          "tiktok": "mirapaceruns"
+        }
       ]
     },
     {
       "name": "Trail DVSN",
-      "description": "Beginner-friendly off-road runs guided by experienced trail runners. Fitness + adventure, muddy shoes, stronger legs."
+      "description": "Beginner-friendly off-road runs guided by experienced trail runners. Fitness + adventure, muddy shoes, stronger legs.",
+      "people": [
+        {
+          "name": "Liyana Ridge",
+          "role": "Trail Navigator",
+          "slug": "liyana-ridge",
+          "avatar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80",
+          "instagram": "liyanaridge",
+          "tiktok": "ridgeguides"
+        },
+        {
+          "name": "Ken Moss",
+          "role": "Elevation Coach",
+          "slug": "ken-moss",
+          "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+          "instagram": "kenmoss.trails",
+          "tiktok": "kenclimbs"
+        }
+      ]
     },
     {
       "name": "Coaching DVSN",
-      "description": "Workshops, weekly runs, HIIT, running technique, and strength training to move smarter and recover better."
+      "description": "Workshops, weekly runs, HIIT, running technique, and strength training to move smarter and recover better.",
+      "people": [
+        {
+          "name": "Haris Volt",
+          "role": "Performance Coach",
+          "slug": "haris-volt",
+          "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
+          "instagram": "harisvolt",
+          "tiktok": "coachvolt"
+        },
+        {
+          "name": "Aida Form",
+          "role": "Recovery Specialist",
+          "slug": "aida-form",
+          "avatar": "https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80",
+          "instagram": "aidacoach",
+          "tiktok": "aidamobility"
+        }
+      ]
     },
     {
       "name": "City DVSN",
-      "description": "Guided group city runs that blend fitness with friendship. Shared stories, laughs, and joy through KL & PJ."
+      "description": "Guided group city runs that blend fitness with friendship. Shared stories, laughs, and joy through KL & PJ.",
+      "people": [
+        {
+          "name": "Nadia Circuit",
+          "role": "Route Curator",
+          "slug": "nadia-circuit",
+          "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80",
+          "instagram": "nadiacircuit",
+          "tiktok": "cityloops"
+        },
+        {
+          "name": "Johan Pulse",
+          "role": "Pace Lead",
+          "slug": "johan-pulse",
+          "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
+          "instagram": "johanpulse",
+          "tiktok": "pulsepace"
+        }
+      ]
     },
     {
       "name": "LSD DVSN",
-      "description": "Long Slow Distance runs to build endurance at conversational pace. Includes LSDT (looping runs)."
+      "description": "Long Slow Distance runs to build endurance at conversational pace. Includes LSDT (looping runs).",
+      "people": [
+        {
+          "name": "Farid Miles",
+          "role": "Endurance Lead",
+          "slug": "farid-miles",
+          "avatar": "https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80",
+          "instagram": "faridmiles",
+          "tiktok": "milessteady"
+        },
+        {
+          "name": "Salma Drift",
+          "role": "Fuel Coach",
+          "slug": "salma-drift",
+          "avatar": "https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80",
+          "instagram": "salma.drift",
+          "tiktok": "salmarunslong"
+        }
+      ]
     },
     {
       "name": "Hiking DVSN",
-      "description": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together."
+      "description": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together.",
+      "people": [
+        {
+          "name": "Amir Summit",
+          "role": "Trail Steward",
+          "slug": "amir-summit",
+          "avatar": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80",
+          "instagram": "amirsummit",
+          "tiktok": "summitsteps"
+        },
+        {
+          "name": "Hana Grove",
+          "role": "Nature Guide",
+          "slug": "hana-grove",
+          "avatar": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80",
+          "instagram": "hanagrove",
+          "tiktok": "grovetrails"
+        }
+      ]
     },
     {
       "name": "Ultra DVSN",
-      "description": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness."
+      "description": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness.",
+      "people": [
+        {
+          "name": "Suri Ember",
+          "role": "Ultra Strategist",
+          "slug": "suri-ember",
+          "avatar": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80",
+          "instagram": "suriember",
+          "tiktok": "emberultra"
+        },
+        {
+          "name": "Malik Steel",
+          "role": "Elevation Analyst",
+          "slug": "malik-steel",
+          "avatar": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80",
+          "instagram": "maliksteel",
+          "tiktok": "steelultra"
+        }
+      ]
     },
     {
       "name": "Media DVSN",
       "description": "Captures spirit of every session via photos, videos, and reels. Celebrates each runner's journey.",
       "people": [
-        { "name": "Nisa Othman" },
-        { 
+        {
+          "name": "Nisa Othman",
+          "role": "Content Director",
+          "slug": "nisa-othman",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+          "instagram": "nisa.othman",
+          "tiktok": "nisa.live"
+        },
+        {
           "name": "Afiq Xilantra",
+          "role": "Storyteller",
+          "slug": "afiq-xilantra",
+          "avatar": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80",
           "instagram": "xilantra",
           "tiktok": "xilantra"
-      }
+        }
       ]
     }
   ],

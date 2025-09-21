@@ -1,8 +1,6 @@
-'use client';
+"use client";
 
 import { useEffect, useState } from 'react';
-import { AngledPanel } from './AngledPanel';
-import { Barcode } from './Barcode';
 
 interface Session {
   id: string;
@@ -55,38 +53,49 @@ export function SessionStrip() {
   }, []);
 
   return (
-    <AngledPanel className="p-8 md:p-12">
-      <div className="mb-8">
-        <h2 className="font-bebas text-4xl md:text-6xl uppercase mb-2">Weekly Sessions</h2>
-        <Barcode label="TRAINING-SCHEDULE" className="mb-6" />
-      </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {sessions.map((session) => (
-          <div key={session.id} className="brutal-border-thin bg-gray-50 p-6">
-            <div className="flex justify-between items-start mb-4">
-              <div>
-                <h3 className="font-bebas text-2xl uppercase">{session.day}</h3>
-                <p className="font-mono text-lg font-medium">{session.time}</p>
-              </div>
-              <Barcode label={session.id.toUpperCase()} width={1} height={30} />
+    <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+      {sessions.map((session) => (
+        <div key={session.id} className="surface-panel p-6 md:p-7">
+          <div className="flex items-start justify-between">
+            <div>
+              <p className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60">
+                {session.day}
+              </p>
+              <p className="font-bebas text-3xl uppercase tracking-wide text-[hsl(var(--foreground))]">
+                {session.name}
+              </p>
             </div>
-            
-            <h4 className="font-bebas text-xl uppercase mb-2">{session.name}</h4>
-            <p className="text-gray-700 mb-2">{session.description}</p>
-            <p className="font-mono text-sm text-gray-600 mb-4">{session.location}</p>
-            
-            {session.skillOfTheWeek && (
-              <div className="brutal-border-thin bg-white p-3 mt-4">
-                <p className="font-mono text-xs uppercase tracking-wider text-gray-500 mb-1">
-                  Skill of the Week
-                </p>
-                <p className="font-medium">{session.skillOfTheWeek}</p>
-              </div>
-            )}
+            <span className="badge-frosted text-[8px] uppercase tracking-[0.4em]">
+              {session.time}
+            </span>
           </div>
-        ))}
-      </div>
-    </AngledPanel>
+
+          <p className="mt-5 text-sm leading-relaxed text-[hsl(var(--foreground))]/75">
+            {session.description}
+          </p>
+
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <div className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/50">
+              {session.location}
+            </div>
+            <div className="h-px flex-1 bg-[hsl(var(--foreground))]/15" />
+            <span className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/40">
+              #{session.id}
+            </span>
+          </div>
+
+          {session.skillOfTheWeek && (
+            <div className="mt-6 rounded-xl border border-white/10 bg-white/4 p-4">
+              <p className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60">
+                Skill Of The Week
+              </p>
+              <p className="mt-2 font-bebas text-2xl uppercase tracking-wide text-[hsl(var(--foreground))]">
+                {session.skillOfTheWeek}
+              </p>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
   );
 }
