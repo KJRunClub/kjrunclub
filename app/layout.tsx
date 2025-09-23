@@ -70,7 +70,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${bebasNeue.variable} ${inter.variable} ${ibmPlexMono.variable}`}>
-      <body className="font-inter text-[hsl(var(--foreground))] antialiased">
+      <body className="font-inter text-neutral-100 antialiased">
         <div className="relative flex min-h-screen flex-col">
           <SiteNav />
           <main className="flex-1">{children}</main>

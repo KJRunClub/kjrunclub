@@ -3,56 +3,50 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import clsx from 'clsx';
 import { Menu, X } from 'lucide-react';
-import clubData from '@/content/club.json';
+import clsx from 'clsx';
+import { navigation, brand } from '@/lib/siteContent';
 import { usePathname } from 'next/navigation';
 
-const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/schedule', label: 'Schedule' },
-  { href: '/team', label: 'Team' },
-  { href: '/merch', label: 'Merch' },
-  { href: '/contact', label: 'Contact' },
-];
-
-const linkClass =
-  'relative font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60 transition hover:text-[hsl(var(--foreground))] focus-brutal';
+const linkBase =
+  'relative font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400 transition hover:text-neutral-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-300 focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-950';
 
 export function SiteNav() {
-  const { club } = clubData;
-  const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
 
-  const toggleMobile = () => setMobileOpen((prev) => !prev);
-  const closeMobile = () => setMobileOpen(false);
+  const toggle = () => setOpen((prev) => !prev);
+  const close = () => setOpen(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="relative mt-6 flex h-16 items-center justify-between rounded-3xl border border-white/10 bg-black/40 px-5 backdrop-blur-xl">
-          <Link href="/" className="group flex items-center gap-3" onClick={closeMobile}>
-          <div className="relative h-12 w-12 overflow-hidden rounded-2xl border border-white/10 bg-black/60">
-              <Image src="/logo-kjrc.png" alt={`${club.name} logo`} fill sizes="48px" className="object-contain p-1" priority />
-            </div>
-            <span className="font-bebas text-3xl uppercase tracking-[0.28em] text-[hsl(var(--foreground))]">
-              KJRC
+    <header className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-6 sm:px-6 lg:px-12">
+      <div className="w-full max-w-6xl rounded-full border border-neutral-800 bg-neutral-950/85 px-4 shadow-[0_16px_60px_rgba(0,0,0,0.45)] backdrop-blur">
+        <div className="flex h-16 items-center justify-between gap-6">
+          <Link href="/" className="flex items-center gap-3" onClick={close}>
+            <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/80">
+              <Image
+                src="/logo-kjrc.png"
+                alt={`${brand.shortName} logo`}
+                fill
+                sizes="48px"
+                className="object-contain p-1 grayscale"
+                priority
+              />
+            </span>
+            <span className="hidden font-bebas text-3xl uppercase tracking-[0.28em] text-neutral-100 sm:block">
+              {brand.shortName}
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-8 md:flex">
-            {navLinks.map(({ href, label }) => {
-              const isActive = pathname === href || (href !== '/' && pathname.startsWith(href));
+          <nav className="hidden items-center gap-6 md:flex">
+            {navigation.map(({ href, label }) => {
+              const active = pathname === href || (href !== '/' && pathname?.startsWith(href));
               return (
                 <Link
                   key={href}
                   href={href}
-                  className={clsx(
-                    linkClass,
-                    isActive &&
-                      "text-[hsl(var(--foreground))] after:absolute after:left-0 after:bottom-[-6px] after:h-[2px] after:w-full after:bg-[hsl(var(--foreground))] after:content-['']"
-                  )}
+                  className={clsx(linkBase, active && 'text-neutral-50')}
+                  onClick={close}
                 >
                   {label}
                 </Link>
@@ -60,49 +54,47 @@ export function SiteNav() {
             })}
           </nav>
 
-          <div className="flex items-center gap-3">
-            <button
-              type="button"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-[hsl(var(--foreground))] md:hidden"
-              onClick={toggleMobile}
-              aria-expanded={mobileOpen}
-              aria-controls="mobile-nav"
-            >
-              <span className="sr-only">Toggle navigation</span>
-              {mobileOpen ? <X size={18} /> : <Menu size={18} />}
-            </button>
-          </div>
+          <button
+            type="button"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-800 bg-neutral-900/70 text-neutral-200 md:hidden"
+            onClick={toggle}
+            aria-expanded={open}
+            aria-controls="mobile-nav"
+          >
+            <span className="sr-only">Toggle navigation</span>
+            {open ? <X size={18} /> : <Menu size={18} />}
+          </button>
         </div>
-      </div>
 
-      <div
-        id="mobile-nav"
-        className={clsx(
-          'mx-auto max-w-7xl px-4 sm:px-6 md:hidden',
-          mobileOpen ? 'pointer-events-auto' : 'pointer-events-none'
-        )}
-      >
         <div
+          id="mobile-nav"
           className={clsx(
-            'mt-3 overflow-hidden rounded-3xl border border-white/10 bg-black/70 backdrop-blur-xl transition-all duration-300',
-            mobileOpen ? 'max-h-[24rem] opacity-100' : 'max-h-0 opacity-0'
+            'md:hidden',
+            open ? 'max-h-[24rem] opacity-100' : 'max-h-0 opacity-0'
           )}
         >
-          <nav className="flex flex-col gap-1 px-6 py-6">
-            {navLinks.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                onClick={closeMobile}
-                className={clsx(
-                  'rounded-2xl px-4 py-3 font-mono text-[11px] uppercase tracking-[0.38em] text-[hsl(var(--foreground))]/70 transition hover:bg-white/8',
-                  (pathname === href || (href !== '/' && pathname.startsWith(href))) && 'bg-white/10 text-[hsl(var(--foreground))]'
-                )}
-              >
-                {label}
-              </Link>
-            ))}
-          </nav>
+          <div className="overflow-hidden pt-2">
+            <nav className="flex flex-col gap-2 rounded-3xl bg-neutral-900/85 px-4 py-4">
+              {navigation.map(({ href, label }) => {
+                const active = pathname === href || (href !== '/' && pathname?.startsWith(href));
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={close}
+                    className={clsx(
+                      'rounded-2xl px-4 py-3 font-mono text-[0.65rem] uppercase tracking-[0.35em] transition',
+                      active
+                        ? 'border border-neutral-100 bg-neutral-100 text-neutral-900'
+                        : 'border border-transparent text-neutral-300 hover:border-neutral-700 hover:text-neutral-50'
+                    )}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
+            </nav>
+          </div>
         </div>
       </div>
     </header>

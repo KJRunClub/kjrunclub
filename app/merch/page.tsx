@@ -1,12 +1,22 @@
-import { AnimatedHeadline } from '@/components/AnimatedHeadline';
-import { AngledPanel } from '@/components/AngledPanel';
-import { Barcode } from '@/components/Barcode';
+import type { Metadata } from 'next';
 import Image from 'next/image';
-import { Metadata } from 'next';
+import type { Slide } from '@/lib/siteContent';
+import { SlideSection } from '@/components/SlideSection';
+import { brand } from '@/lib/siteContent';
 
 export const metadata: Metadata = {
-  title: 'Merch - KJ Run Club',
-  description: 'Official KJ Run Club merchandise. Represent the club with premium running gear.',
+  title: `Merch — ${brand.extendedName}`,
+  description: 'Official KJRC pieces for training days and podium nights.',
+};
+
+const heroSlide: Slide = {
+  id: 'merch-hero',
+  eyebrow: 'Crew Uniform',
+  title: 'Utility Pieces Built For Miles',
+  body: 'Monochrome staples to layer over any session—tested on track, trails, and city streets.',
+  image: 'https://images.unsplash.com/photo-1511749278358-412b4690ee26?auto=format&fit=crop&w=1600&q=80',
+  layout: 'image-left',
+  ctaPrimary: { label: 'Join The Crew', href: '/contact' },
 };
 
 const products = [
@@ -15,7 +25,7 @@ const products = [
     name: 'Training Tee',
     price: 'RM 85',
     image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80',
-    description: 'Moisture-wicking performance tee with club logo.',
+    description: 'Moisture-wicking performance tee with tonal club mark.',
     buyUrl: '#',
   },
   {
@@ -70,101 +80,112 @@ const sizeRows = [
 
 export default function Merch() {
   return (
-    <main className="pt-32 pb-24">
-      <section className="mx-auto max-w-7xl px-6">
-        <AngledPanel className="p-10 md:p-14">
-          <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-            <div className="space-y-6">
-              <Barcode label="Merch Store" className="mb-2" />
-              <AnimatedHeadline text="Official Gear" className="text-[hsl(var(--foreground))]" />
-              <p className="max-w-2xl text-lg leading-relaxed text-[hsl(var(--foreground))]/80">
-                Represent the crew with performance pieces stress-tested on track, trail, and city streets. Built for
-                runners who want to move loud.
+    <main className="snap-y snap-mandatory">
+      <SlideSection slide={heroSlide} index={0} />
+
+      <section className="relative flex min-h-screen snap-start flex-col justify-center bg-neutral-950 px-4 py-24 text-neutral-100 sm:px-6 lg:px-12">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.06),_transparent_60%)]" />
+        <div className="relative z-10 mx-auto w-full max-w-6xl">
+          <div className="mb-12 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p className="font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">Drop</p>
+              <h2 className="font-bebas text-5xl uppercase tracking-[0.18em] text-neutral-50 md:text-6xl">
+                Current Essentials
+              </h2>
+              <p className="mt-4 max-w-xl text-base leading-relaxed text-neutral-300">
+                Monochrome palette, reflective hits, and lightweight fabrics built for humid miles.
               </p>
             </div>
-            <div className="badge-frosted w-fit">Limited Drops</div>
+            <span className="rounded-full border border-neutral-800 bg-neutral-900/70 px-6 py-2 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">
+              Limited Run
+            </span>
           </div>
-        </AngledPanel>
-      </section>
 
-      <section className="mx-auto mt-14 max-w-7xl px-6">
-        <AngledPanel className="p-10 md:p-14" angle="both">
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
             {products.map((product) => (
-              <div key={product.id} className="surface-panel border border-white/12">
-                <div className="relative overflow-hidden">
-                  <div className="grainy-image relative aspect-square">
-                    <Image src={product.image} alt={product.name} fill className="object-cover" />
-                  </div>
-                  <div className="absolute left-4 top-4">
-                    <Barcode label={product.id} width={1} height={22} />
-                  </div>
+              <article
+                key={product.id}
+                className="group flex flex-col overflow-hidden rounded-3xl border border-neutral-800 bg-neutral-900/80 shadow-[0_24px_80px_rgba(0,0,0,0.45)]"
+              >
+                <div className="relative aspect-square overflow-hidden">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    sizes="(min-width: 1280px) 25vw, (min-width: 768px) 40vw, 90vw"
+                    className="object-cover transition duration-700 ease-out group-hover:scale-[1.04] grayscale"
+                  />
+                  <div className="absolute inset-0 border border-white/5 mix-blend-overlay" />
+                  <span className="absolute left-4 top-4 rounded-full border border-neutral-200/60 bg-neutral-200/70 px-3 py-1 font-mono text-[0.6rem] uppercase tracking-[0.4em] text-neutral-900">
+                    {product.id}
+                  </span>
                 </div>
 
-                <div className="p-6">
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <h3 className="font-bebas text-2xl uppercase tracking-wide text-[hsl(var(--foreground))]">
-                        {product.name}
-                      </h3>
-                      <p className="font-mono text-sm uppercase tracking-[0.3em] text-[hsl(var(--foreground))]/55">
-                        {product.price}
-                      </p>
-                    </div>
+                <div className="flex flex-1 flex-col gap-5 p-6">
+                  <div className="space-y-2">
+                    <h3 className="font-bebas text-3xl uppercase tracking-[0.18em] text-neutral-50">
+                      {product.name}
+                    </h3>
+                    <p className="font-mono text-xs uppercase tracking-[0.4em] text-neutral-400">{product.price}</p>
+                    <p className="text-sm leading-relaxed text-neutral-300">{product.description}</p>
                   </div>
-                  <p className="mt-4 text-sm leading-relaxed text-[hsl(var(--foreground))]/70">
-                    {product.description}
-                  </p>
+
                   <a
                     href={product.buyUrl}
-                    className="btn-framer mt-6 block text-center"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-full border border-neutral-100 bg-neutral-100 px-6 py-3 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-900 transition hover:bg-neutral-300"
                   >
-                    <span>Buy Now</span>
+                    Buy Now
                   </a>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
-        </AngledPanel>
+        </div>
       </section>
 
-      <section className="mx-auto mt-14 max-w-7xl px-6">
-        <AngledPanel className="p-10 md:p-14" angle="tl">
-          <h2 className="font-bebas text-4xl uppercase tracking-[0.18em] text-[hsl(var(--foreground))] md:text-5xl text-center headline-wrap">
-            Size Guide
-          </h2>
+      <section className="relative flex min-h-screen snap-start flex-col justify-center bg-neutral-950 px-4 py-24 text-neutral-100 sm:px-6 lg:px-12">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.06),_transparent_65%)]" />
+        <div className="relative z-10 mx-auto w-full max-w-4xl">
+          <div className="rounded-3xl border border-neutral-800 bg-neutral-900/85 p-10 text-neutral-100 shadow-[0_24px_80px_rgba(0,0,0,0.45)]">
+            <p className="font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">Fit</p>
+            <h2 className="mt-3 text-center font-bebas text-5xl uppercase tracking-[0.18em] text-neutral-50 md:text-6xl">
+              Size Guide
+            </h2>
 
-          <div className="mt-10 overflow-hidden rounded-3xl border border-white/12">
-            <table className="min-w-full divide-y divide-white/10 text-left">
-              <thead>
-                <tr className="bg-white/10 text-[hsl(var(--foreground))]">
-                  <th className="px-6 py-4 font-mono text-[10px] uppercase tracking-[0.35em]">Size</th>
-                  <th className="px-6 py-4 font-mono text-[10px] uppercase tracking-[0.35em]">Chest</th>
-                  <th className="px-6 py-4 font-mono text-[10px] uppercase tracking-[0.35em]">Waist</th>
-                  <th className="px-6 py-4 font-mono text-[10px] uppercase tracking-[0.35em]">Length</th>
-                </tr>
-              </thead>
-              <tbody>
-                {sizeRows.map((row, index) => (
-                  <tr key={row.size} className={index % 2 === 0 ? 'bg-white/5' : 'bg-white/2'}>
-                    <td className="px-6 py-4 font-bebas text-lg uppercase tracking-wide text-[hsl(var(--foreground))]">
-                      {row.size}
-                    </td>
-                    <td className="px-6 py-4 font-mono text-sm text-[hsl(var(--foreground))]/70">{row.chest}</td>
-                    <td className="px-6 py-4 font-mono text-sm text-[hsl(var(--foreground))]/70">{row.waist}</td>
-                    <td className="px-6 py-4 font-mono text-sm text-[hsl(var(--foreground))]/70">{row.length}</td>
+            <div className="mt-10 overflow-hidden rounded-3xl border border-neutral-800">
+              <table className="min-w-full divide-y divide-neutral-800 text-left text-neutral-200">
+                <thead className="bg-neutral-900/80 text-neutral-200">
+                  <tr>
+                    <th className="px-6 py-4 font-mono text-[0.65rem] uppercase tracking-[0.35em]">Size</th>
+                    <th className="px-6 py-4 font-mono text-[0.65rem] uppercase tracking-[0.35em]">Chest</th>
+                    <th className="px-6 py-4 font-mono text-[0.65rem] uppercase tracking-[0.35em]">Waist</th>
+                    <th className="px-6 py-4 font-mono text-[0.65rem] uppercase tracking-[0.35em]">Length</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {sizeRows.map((row, index) => (
+                    <tr key={row.size} className={index % 2 === 0 ? 'bg-neutral-950/80' : 'bg-neutral-900/70'}>
+                      <td className="px-6 py-4 font-bebas text-2xl uppercase tracking-[0.18em] text-neutral-50">
+                        {row.size}
+                      </td>
+                      <td className="px-6 py-4 font-mono text-sm text-neutral-300">{row.chest}</td>
+                      <td className="px-6 py-4 font-mono text-sm text-neutral-300">{row.waist}</td>
+                      <td className="px-6 py-4 font-mono text-sm text-neutral-300">{row.length}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
 
-          <div className="mt-10 text-center">
-            <Barcode label="Size Guide" />
+            <div className="mt-10 flex justify-center">
+              <span className="rounded-full border border-neutral-800 bg-neutral-900/70 px-6 py-2 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">
+                Measurements In CM
+              </span>
+            </div>
           </div>
-        </AngledPanel>
+        </div>
       </section>
     </main>
   );

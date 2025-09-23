@@ -16,12 +16,10 @@ export function SessionStrip() {
   const [sessions, setSessions] = useState<Session[]>([]);
 
   useEffect(() => {
-    // Load sessions data
     fetch('/content/sessions.json')
-      .then(res => res.json())
+      .then((res) => res.json())
       .then(setSessions)
       .catch(() => {
-        // Fallback data
         setSessions([
           {
             id: 'tue-speedwork',
@@ -29,7 +27,7 @@ export function SessionStrip() {
             name: 'Speedwork',
             time: '06:00',
             location: 'KLCC Park',
-            description: 'Intervals and tempo runs'
+            description: 'Intervals and tempo runs',
           },
           {
             id: 'sun-lsd',
@@ -37,7 +35,7 @@ export function SessionStrip() {
             name: 'Long Slow Distance',
             time: '06:00',
             location: 'Bukit Jalil',
-            description: 'Endurance building runs'
+            description: 'Endurance building runs',
           },
           {
             id: 'fri-strength',
@@ -46,55 +44,48 @@ export function SessionStrip() {
             time: '19:00',
             location: 'Taman Tun',
             description: 'Strength training and running skills',
-            skillOfTheWeek: 'Single-leg hops'
-          }
+            skillOfTheWeek: 'Single-leg hops',
+          },
         ]);
       });
   }, []);
 
   return (
-    <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid gap-6 lg:grid-cols-3">
       {sessions.map((session) => (
-        <div key={session.id} className="surface-panel p-6 md:p-7">
-          <div className="flex items-start justify-between">
+        <article
+          key={session.id}
+          className="flex h-full flex-col gap-6 rounded-3xl border border-neutral-800 bg-neutral-900/80 p-6 text-neutral-100 shadow-[0_16px_60px_rgba(0,0,0,0.4)]"
+        >
+          <header className="flex items-start justify-between">
             <div>
-              <p className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60">
-                {session.day}
-              </p>
-              <p className="font-bebas text-3xl uppercase tracking-wide text-[hsl(var(--foreground))]">
-                {session.name}
-              </p>
+              <p className="font-mono text-[0.65rem] uppercase tracking-[0.35em] text-neutral-500">{session.day}</p>
+              <h3 className="mt-2 font-bebas text-3xl uppercase tracking-[0.18em] text-neutral-50">{session.name}</h3>
             </div>
-            <span className="badge-frosted text-[8px] uppercase tracking-[0.4em]">
+            <span className="rounded-full border border-neutral-100 bg-neutral-100 px-4 py-2 font-mono text-[0.6rem] uppercase tracking-[0.35em] text-neutral-900">
               {session.time}
             </span>
-          </div>
+          </header>
 
-          <p className="mt-5 text-sm leading-relaxed text-[hsl(var(--foreground))]/75">
-            {session.description}
-          </p>
+          <p className="text-sm leading-relaxed text-neutral-300">{session.description}</p>
 
-          <div className="mt-6 flex flex-wrap items-center gap-3">
-            <div className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/50">
-              {session.location}
+          <div className="mt-auto space-y-4">
+            <div className="flex flex-wrap items-center gap-3 text-neutral-400">
+              <span className="font-mono text-[0.6rem] uppercase tracking-[0.35em]">{session.location}</span>
+              <span className="h-px flex-1 bg-neutral-800" />
+              <span className="font-mono text-[0.6rem] uppercase tracking-[0.35em] text-neutral-500">#{session.id}</span>
             </div>
-            <div className="h-px flex-1 bg-[hsl(var(--foreground))]/15" />
-            <span className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/40">
-              #{session.id}
-            </span>
-          </div>
 
-          {session.skillOfTheWeek && (
-            <div className="mt-6 rounded-xl border border-white/10 bg-white/4 p-4">
-              <p className="font-mono text-[10px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60">
-                Skill Of The Week
-              </p>
-              <p className="mt-2 font-bebas text-2xl uppercase tracking-wide text-[hsl(var(--foreground))]">
-                {session.skillOfTheWeek}
-              </p>
-            </div>
-          )}
-        </div>
+            {session.skillOfTheWeek && (
+              <div className="rounded-2xl border border-neutral-800 bg-neutral-950/60 px-5 py-4">
+                <p className="font-mono text-[0.6rem] uppercase tracking-[0.35em] text-neutral-500">Skill Of The Week</p>
+                <p className="mt-2 font-bebas text-2xl uppercase tracking-[0.18em] text-neutral-50">
+                  {session.skillOfTheWeek}
+                </p>
+              </div>
+            )}
+          </div>
+        </article>
       ))}
     </div>
   );

@@ -2,8 +2,6 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-
-import { AngledPanel } from '@/components/AngledPanel';
 import profiles from '@/content/teamProfiles.json';
 
 interface TeamProfile {
@@ -30,13 +28,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const profile = getProfile(params.slug);
   if (!profile) {
     return {
-      title: 'Crew Member - KJ Run Club',
+      title: 'Crew Member — KJ Run Club',
       description: 'KJ Run Club crew profile.',
     };
   }
 
   return {
-    title: `${profile.name} - ${profile.division}`,
+    title: `${profile.name} — ${profile.division}`,
     description: profile.bio,
   };
 }
@@ -49,90 +47,98 @@ export default function TeamMemberPage({ params }: { params: { slug: string } })
   }
 
   return (
-    <main className="pt-32 pb-24">
-      <section className="mx-auto max-w-5xl px-6">
-        <AngledPanel className="p-10 md:p-14" angle="tl">
-          <div className="flex flex-col gap-10 lg:flex-row">
-            <div className="w-full max-w-xs">
-              <div className="grainy-image relative aspect-[4/5] overflow-hidden">
+    <main className="snap-y snap-mandatory">
+      <section className="relative flex min-h-screen snap-start flex-col justify-center bg-neutral-950 px-4 py-24 text-neutral-100 sm:px-6 lg:px-12">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.08),_transparent_65%)]" />
+        <div className="relative z-10 mx-auto w-full max-w-5xl">
+          <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:gap-14">
+            <div className="flex justify-center md:justify-start">
+              <figure className="relative h-[520px] w-full max-w-sm overflow-hidden rounded-3xl border border-neutral-800 bg-neutral-900/85 shadow-[0_24px_80px_rgba(0,0,0,0.45)]">
                 <Image
                   src={profile.avatar}
                   alt={profile.name}
                   fill
-                  className="object-cover"
+                  sizes="(min-width: 768px) 40vw, 80vw"
+                  className="object-cover grayscale"
                   priority
                 />
-              </div>
+                <div className="absolute inset-0 border border-white/5 mix-blend-overlay" />
+              </figure>
             </div>
 
-            <div className="flex-1 space-y-6">
-              <div className="headline-accent w-fit">{profile.division}</div>
-              <div>
-                <h1 className="font-bebas text-5xl uppercase tracking-[0.18em] text-[hsl(var(--foreground))] md:text-6xl headline-wrap">
+            <div className="flex flex-col justify-center">
+              <div className="rounded-3xl border border-neutral-800 bg-neutral-900/85 p-8 text-neutral-100 shadow-[0_24px_80px_rgba(0,0,0,0.45)] md:p-10">
+                <p className="font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">
+                  {profile.division}
+                </p>
+                <h1 className="mt-3 font-bebas text-5xl uppercase tracking-[0.18em] text-neutral-50 md:text-6xl">
                   {profile.name}
                 </h1>
-                <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60">
-                  {profile.role}
-                </p>
-              </div>
+                <p className="mt-2 font-mono text-xs uppercase tracking-[0.35em] text-neutral-500">{profile.role}</p>
 
-              <p className="text-base leading-relaxed text-[hsl(var(--foreground))]/75">
-                {profile.bio}
-              </p>
+                <p className="mt-6 text-base leading-relaxed text-neutral-300">{profile.bio}</p>
 
-              {profile.highlights?.length ? (
-                <div>
-                  <h2 className="font-mono text-[11px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/55">
-                    Highlights
-                  </h2>
-                  <ul className="mt-3 space-y-2 text-sm text-[hsl(var(--foreground))]/70">
-                    {profile.highlights.map((item) => (
-                      <li key={item} className="flex items-start gap-2">
-                        <span className="mt-[6px] block h-[6px] w-[6px] rounded-full bg-[hsl(var(--foreground))]/40" aria-hidden />
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
+                {profile.highlights?.length ? (
+                  <div className="mt-6 space-y-3">
+                    <h2 className="font-mono text-[0.65rem] uppercase tracking-[0.35em] text-neutral-400">Highlights</h2>
+                    <ul className="space-y-2 text-sm text-neutral-300">
+                      {profile.highlights.map((item) => (
+                        <li key={item} className="flex items-start gap-3">
+                          <span className="mt-[0.4rem] block h-2 w-2 rounded-full bg-neutral-500" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <Link
+                    href="/team"
+                    className="inline-flex items-center justify-center rounded-full border border-neutral-100 bg-neutral-100 px-8 py-3 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-900 transition hover:bg-neutral-300"
+                  >
+                    Back To Team
+                  </Link>
+                  <Link
+                    href="/schedule"
+                    className="inline-flex items-center justify-center rounded-full border border-neutral-700 px-8 py-3 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-300 transition hover:border-neutral-500 hover:text-neutral-100"
+                  >
+                    Join A Session
+                  </Link>
                 </div>
-              ) : null}
 
-              <div className="flex flex-wrap gap-4">
-                {profile.instagram && (
-                  <Link
-                    href={`https://instagram.com/${profile.instagram}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="badge-frosted"
-                  >
-                    IG @{profile.instagram}
-                  </Link>
-                )}
-                {profile.tiktok && (
-                  <Link
-                    href={`https://tiktok.com/@${profile.tiktok}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="badge-frosted"
-                  >
-                    TT @{profile.tiktok}
-                  </Link>
-                )}
+                <div className="mt-8 flex flex-wrap gap-4">
+                  {profile.instagram && (
+                    <Link
+                      href={`https://instagram.com/${profile.instagram}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-full border border-neutral-800 px-5 py-3 font-mono text-[0.65rem] uppercase tracking-[0.35em] text-neutral-300 transition hover:border-neutral-500 hover:text-neutral-100"
+                    >
+                      IG @{profile.instagram}
+                    </Link>
+                  )}
+                  {profile.tiktok && (
+                    <Link
+                      href={`https://tiktok.com/@${profile.tiktok}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-full border border-neutral-800 px-5 py-3 font-mono text-[0.65rem] uppercase tracking-[0.35em] text-neutral-300 transition hover:border-neutral-500 hover:text-neutral-100"
+                    >
+                      TT @{profile.tiktok}
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="mt-10 flex flex-wrap items-center justify-between gap-4">
-            <Link href="/team" className="btn-framer">
-              <span>Back to Team</span>
-            </Link>
-            <Link
-              href="/schedule"
-              className="font-mono text-[11px] uppercase tracking-[0.35em] text-[hsl(var(--foreground))]/60 hover:text-[hsl(var(--foreground))]"
-            >
-              Join a session →
-            </Link>
-          </div>
-        </AngledPanel>
+        <div className="pointer-events-none absolute inset-x-0 bottom-8 flex justify-center">
+          <span className="rounded-full border border-neutral-800 bg-neutral-900/70 px-4 py-1 font-mono text-[0.6rem] uppercase tracking-[0.4em] text-neutral-500">
+            Crew Profile
+          </span>
+        </div>
       </section>
     </main>
   );

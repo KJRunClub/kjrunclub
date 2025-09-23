@@ -1,218 +1,495 @@
 {
-  "club": {
-    "name": "Kelana Jaya Run Club (KJRC)",
-    "tagline": "We're more than just runners - we're a movement",
-    "vision": [
-      "Create an inclusive, welcoming space where runners of all levels grow, connect, and thrive.",
-      "Be the go-to running club that empowers through the joy of running, community, and purposeful strides."
+  "global": {
+    "brand": {
+      "name": "Kelana Jaya Run Club",
+      "extendedName": "Kelana Jaya Run Club (KJRC)",
+      "shortName": "KJRC",
+      "tagline": "We're more than just runners - we're a movement",
+      "mission": "Community, growth, knowledge, and heart at every step.",
+      "keyMessage": "KJRC is more than a club - it's family. Every finish line is a celebration. All runners, all levels, one crew.",
+      "vision": [
+        "Create an inclusive, welcoming space where runners of all levels grow, connect, and thrive.",
+        "Be the go-to running club that empowers through the joy of running, community, and purposeful strides."
+      ],
+      "values": [
+        "Crew Over Clock",
+        "Show Up Consistently",
+        "Share The Knowledge",
+        "Hold Space For Growth"
+      ]
+    },
+    "navigation": [
+      {
+        "href": "/",
+        "label": "Home"
+      },
+      {
+        "href": "/about",
+        "label": "About"
+      },
+      {
+        "href": "/schedule",
+        "label": "Schedule"
+      },
+      {
+        "href": "/divisions",
+        "label": "Divisions"
+      },
+      {
+        "href": "/gallery",
+        "label": "Gallery"
+      },
+      {
+        "href": "/merch",
+        "label": "Merch"
+      },
+      {
+        "href": "/contact",
+        "label": "Contact"
+      }
     ],
-    "mission": "Community, growth, knowledge, and heart at every step."
-  },
-  "leadership": {
-    "captain": {
-      "name": "Syed",
-      "role": "Heart of the crew, motivator"
+    "identity": {
+      "registeredName": "Kelab Larian Kelana Jaya (KJRC)",
+      "regNo": "PPM-018-10-23102024",
+      "roles": [
+        "President",
+        "Vice President",
+        "Secretary",
+        "Vice Secretary",
+        "Treasurer"
+      ],
+      "contactEmail": "kjrunclub19@gmail.com"
     },
-    "coCaptain": {
-      "name": "Amin",
-      "role": "Strategist, pacer"
-    }
-  },
-  "divisions": [
-    {
-      "name": "Speedwork DVSN",
-      "description": "Weekly curated sessions to build speed, strength, and help runners reach their next PR. Beginners to intermediates welcome.",
-      "people": [
+    "impact": {
+      "programmes": "Weekly programmes",
+      "eventsHosted": "50+",
+      "runnersEngaged": "1,000+",
+      "collaborations": "Cross-collabs with brands & venues"
+    },
+    "leadership": {
+      "captain": {
+        "name": "Syed",
+        "role": "Heart of the crew, motivator"
+      },
+      "coCaptain": {
+        "name": "Amin",
+        "role": "Strategist, pacer"
+      }
+    },
+    "contact": {
+      "email": "kjrunclub19@gmail.com",
+      "social": [
         {
-          "name": "Rafiq Blaze",
-          "role": "Track Captain",
-          "slug": "rafiq-blaze",
-          "avatar": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80",
-          "instagram": "rafiqblaze",
-          "tiktok": "rafiqruns"
+          "platform": "Instagram",
+          "handle": "@kjrunclub",
+          "url": "https://instagram.com/kjrunclub"
         },
         {
-          "name": "Mira Pace",
-          "role": "Interval Strategist",
-          "slug": "mira-pace",
-          "avatar": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80",
-          "instagram": "mirapace",
-          "tiktok": "mirapaceruns"
-        }
-      ]
-    },
-    {
-      "name": "Trail DVSN",
-      "description": "Beginner-friendly off-road runs guided by experienced trail runners. Fitness + adventure, muddy shoes, stronger legs.",
-      "people": [
-        {
-          "name": "Liyana Ridge",
-          "role": "Trail Navigator",
-          "slug": "liyana-ridge",
-          "avatar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80",
-          "instagram": "liyanaridge",
-          "tiktok": "ridgeguides"
+          "platform": "TikTok",
+          "handle": "@kjrunclub_",
+          "url": "https://tiktok.com/@kjrunclub_"
         },
         {
-          "name": "Ken Moss",
-          "role": "Elevation Coach",
-          "slug": "ken-moss",
-          "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
-          "instagram": "kenmoss.trails",
-          "tiktok": "kenclimbs"
-        }
-      ]
-    },
-    {
-      "name": "Coaching DVSN",
-      "description": "Workshops, weekly runs, HIIT, running technique, and strength training to move smarter and recover better.",
-      "people": [
-        {
-          "name": "Haris Volt",
-          "role": "Performance Coach",
-          "slug": "haris-volt",
-          "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
-          "instagram": "harisvolt",
-          "tiktok": "coachvolt"
-        },
-        {
-          "name": "Aida Form",
-          "role": "Recovery Specialist",
-          "slug": "aida-form",
-          "avatar": "https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80",
-          "instagram": "aidacoach",
-          "tiktok": "aidamobility"
-        }
-      ]
-    },
-    {
-      "name": "City DVSN",
-      "description": "Guided group city runs that blend fitness with friendship. Shared stories, laughs, and joy through KL & PJ.",
-      "people": [
-        {
-          "name": "Nadia Circuit",
-          "role": "Route Curator",
-          "slug": "nadia-circuit",
-          "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80",
-          "instagram": "nadiacircuit",
-          "tiktok": "cityloops"
-        },
-        {
-          "name": "Johan Pulse",
-          "role": "Pace Lead",
-          "slug": "johan-pulse",
-          "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
-          "instagram": "johanpulse",
-          "tiktok": "pulsepace"
-        }
-      ]
-    },
-    {
-      "name": "LSD DVSN",
-      "description": "Long Slow Distance runs to build endurance at conversational pace. Includes LSDT (looping runs).",
-      "people": [
-        {
-          "name": "Farid Miles",
-          "role": "Endurance Lead",
-          "slug": "farid-miles",
-          "avatar": "https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80",
-          "instagram": "faridmiles",
-          "tiktok": "milessteady"
-        },
-        {
-          "name": "Salma Drift",
-          "role": "Fuel Coach",
-          "slug": "salma-drift",
-          "avatar": "https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80",
-          "instagram": "salma.drift",
-          "tiktok": "salmarunslong"
-        }
-      ]
-    },
-    {
-      "name": "Hiking DVSN",
-      "description": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together.",
-      "people": [
-        {
-          "name": "Amir Summit",
-          "role": "Trail Steward",
-          "slug": "amir-summit",
-          "avatar": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80",
-          "instagram": "amirsummit",
-          "tiktok": "summitsteps"
-        },
-        {
-          "name": "Hana Grove",
-          "role": "Nature Guide",
-          "slug": "hana-grove",
-          "avatar": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80",
-          "instagram": "hanagrove",
-          "tiktok": "grovetrails"
-        }
-      ]
-    },
-    {
-      "name": "Ultra DVSN",
-      "description": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness.",
-      "people": [
-        {
-          "name": "Suri Ember",
-          "role": "Ultra Strategist",
-          "slug": "suri-ember",
-          "avatar": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80",
-          "instagram": "suriember",
-          "tiktok": "emberultra"
-        },
-        {
-          "name": "Malik Steel",
-          "role": "Elevation Analyst",
-          "slug": "malik-steel",
-          "avatar": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80",
-          "instagram": "maliksteel",
-          "tiktok": "steelultra"
-        }
-      ]
-    },
-    {
-      "name": "Media DVSN",
-      "description": "Captures spirit of every session via photos, videos, and reels. Celebrates each runner's journey.",
-      "people": [
-        {
-          "name": "Nisa Othman",
-          "role": "Content Director",
-          "slug": "nisa-othman",
-          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
-          "instagram": "nisa.othman",
-          "tiktok": "nisa.live"
-        },
-        {
-          "name": "Afiq Xilantra",
-          "role": "Storyteller",
-          "slug": "afiq-xilantra",
-          "avatar": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80",
-          "instagram": "xilantra",
-          "tiktok": "xilantra"
+          "platform": "Facebook",
+          "handle": "KJ Run Club KL",
+          "url": "https://facebook.com/kjrunclub"
         }
       ]
     }
-  ],
-  "impact": {
-    "programmes": "Weekly programmes",
-    "eventsHosted": "50+",
-    "runnersEngaged": "1,000+",
-    "collaborations": "Cross-collabs with brands & venues"
   },
-  "identity": {
-    "registeredName": "Kelab Larian Kelana Jaya (KJRC)",
-    "regNo": "PPM-018-10-23102024",
-    "roles": [
-      "President",
-      "Vice President",
-      "Secretary",
-      "Vice Secretary",
-      "Treasurer"
+  "collections": {
+    "divisions": [
+      {
+        "name": "Speedwork Division",
+        "nickname": "Speedwork DVSN",
+        "focus": "Weekly curated sessions to build speed, strength, and help runners reach their next PR.",
+        "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Rafiq Blaze",
+            "role": "Track Captain",
+            "slug": "rafiq-blaze",
+            "avatar": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80",
+            "instagram": "rafiqblaze",
+            "tiktok": "rafiqruns"
+          },
+          {
+            "name": "Mira Pace",
+            "role": "Interval Strategist",
+            "slug": "mira-pace",
+            "avatar": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80",
+            "instagram": "mirapace",
+            "tiktok": "mirapaceruns"
+          }
+        ]
+      },
+      {
+        "name": "Trail Division",
+        "nickname": "Trail DVSN",
+        "focus": "Beginner-friendly off-road runs guided by experienced trail runners.",
+        "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Liyana Ridge",
+            "role": "Trail Navigator",
+            "slug": "liyana-ridge",
+            "avatar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80",
+            "instagram": "liyanaridge",
+            "tiktok": "ridgeguides"
+          },
+          {
+            "name": "Ken Moss",
+            "role": "Elevation Coach",
+            "slug": "ken-moss",
+            "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+            "instagram": "kenmoss.trails",
+            "tiktok": "kenclimbs"
+          }
+        ]
+      },
+      {
+        "name": "Coaching Division",
+        "nickname": "Coaching DVSN",
+        "focus": "Workshops, weekly runs, HIIT, running technique, and strength training.",
+        "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Haris Volt",
+            "role": "Performance Coach",
+            "slug": "haris-volt",
+            "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
+            "instagram": "harisvolt",
+            "tiktok": "coachvolt"
+          },
+          {
+            "name": "Aida Form",
+            "role": "Recovery Specialist",
+            "slug": "aida-form",
+            "avatar": "https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80",
+            "instagram": "aidacoach",
+            "tiktok": "aidamobility"
+          }
+        ]
+      },
+      {
+        "name": "City Division",
+        "nickname": "City DVSN",
+        "focus": "Guided group city runs that blend fitness with friendship across KL & PJ.",
+        "image": "https://images.unsplash.com/photo-1544572571-ab94fd872ce4?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Nadia Circuit",
+            "role": "Route Curator",
+            "slug": "nadia-circuit",
+            "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80",
+            "instagram": "nadiacircuit",
+            "tiktok": "cityloops"
+          },
+          {
+            "name": "Johan Pulse",
+            "role": "Pace Lead",
+            "slug": "johan-pulse",
+            "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
+            "instagram": "johanpulse",
+            "tiktok": "pulsepace"
+          }
+        ]
+      },
+      {
+        "name": "LSD Division",
+        "nickname": "LSD DVSN",
+        "focus": "Long Slow Distance runs to build endurance at conversational pace.",
+        "image": "https://images.unsplash.com/photo-1468645547353-56d325bb57ff?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Farid Miles",
+            "role": "Endurance Lead",
+            "slug": "farid-miles",
+            "avatar": "https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80",
+            "instagram": "faridmiles",
+            "tiktok": "milessteady"
+          },
+          {
+            "name": "Salma Drift",
+            "role": "Fuel Coach",
+            "slug": "salma-drift",
+            "avatar": "https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80",
+            "instagram": "salma.drift",
+            "tiktok": "salmarunslong"
+          }
+        ]
+      },
+      {
+        "name": "Hiking Division",
+        "nickname": "Hiking DVSN",
+        "focus": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together.",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Amir Summit",
+            "role": "Trail Steward",
+            "slug": "amir-summit",
+            "avatar": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80",
+            "instagram": "amirsummit",
+            "tiktok": "summitsteps"
+          },
+          {
+            "name": "Hana Grove",
+            "role": "Nature Guide",
+            "slug": "hana-grove",
+            "avatar": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80",
+            "instagram": "hanagrove",
+            "tiktok": "grovetrails"
+          }
+        ]
+      },
+      {
+        "name": "Ultra Division",
+        "nickname": "Ultra DVSN",
+        "focus": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness.",
+        "image": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Suri Ember",
+            "role": "Ultra Strategist",
+            "slug": "suri-ember",
+            "avatar": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80",
+            "instagram": "suriember",
+            "tiktok": "emberultra"
+          },
+          {
+            "name": "Malik Steel",
+            "role": "Elevation Analyst",
+            "slug": "malik-steel",
+            "avatar": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80",
+            "instagram": "maliksteel",
+            "tiktok": "steelultra"
+          }
+        ]
+      },
+      {
+        "name": "Media Division",
+        "nickname": "Media DVSN",
+        "focus": "Captures spirit of every session via photos, videos, and reels.",
+        "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1600&q=80",
+        "people": [
+          {
+            "name": "Nisa Othman",
+            "role": "Content Director",
+            "slug": "nisa-othman",
+            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+            "instagram": "nisa.othman",
+            "tiktok": "nisa.live"
+          },
+          {
+            "name": "Afiq Xilantra",
+            "role": "Storyteller",
+            "slug": "afiq-xilantra",
+            "avatar": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80",
+            "instagram": "xilantra",
+            "tiktok": "xilantra"
+          }
+        ]
+      }
     ],
-    "contact": "kjrunclub19@gmail.com"
+    "gallery": [
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1542204165-19b33620e321?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1600&q=80"
+    ]
   },
-  "keyMessage": "KJRC is more than a club - it's family. Every finish line is a celebration. All runners, all levels, one crew."
+  "pages": {
+    "home": {
+      "slides": [
+        {
+          "id": "hero",
+          "eyebrow": "Registered Crew",
+          "title": "Movement Over Medal",
+          "subtitle": "Kelana Jaya Run Club",
+          "body": "Crew-built sessions for speed, endurance, and community. Every rep is paced together.",
+          "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80",
+          "layout": "text-left",
+          "ctaPrimary": {
+            "label": "Join The Crew",
+            "href": "/contact"
+          },
+          "ctaSecondary": {
+            "label": "View Schedule",
+            "href": "/schedule"
+          },
+          "stats": [
+            {
+              "label": "Events Hosted",
+              "value": "50+"
+            },
+            {
+              "label": "Runners",
+              "value": "1,000+"
+            },
+            {
+              "label": "Collaborations",
+              "value": "Multi-city"
+            }
+          ]
+        },
+        {
+          "id": "partners",
+          "eyebrow": "Crew Partners",
+          "title": "Brands That Run With Us",
+          "body": "Collaborations that keep the crew geared up and city sessions loud.",
+          "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-left",
+          "partners": [
+            {
+              "name": "Nike",
+              "image": "https://via.placeholder.com/320x160?text=Nike"
+            },
+            {
+              "name": "Adidas",
+              "image": "https://via.placeholder.com/320x160?text=Adidas"
+            },
+            {
+              "name": "Hoka",
+              "image": "https://via.placeholder.com/320x160?text=Hoka"
+            },
+            {
+              "name": "Garmin",
+              "image": "https://via.placeholder.com/320x160?text=Garmin"
+            }
+          ]
+        },
+        {
+          "id": "impact",
+          "eyebrow": "Impact",
+          "title": "Built By Community",
+          "body": "From crew-led programming to collaborative city takeovers, KJRC keeps the city on pace.",
+          "image": "https://images.unsplash.com/photo-1508675801607-06851f8b8eb5?auto=format&fit=crop&w=1600&q=80",
+          "layout": "text-center",
+          "stats": [
+            {
+              "label": "Programmes",
+              "value": "Weekly"
+            },
+            {
+              "label": "Identity",
+              "value": "PPM-018-10-23102024"
+            },
+            {
+              "label": "Contact",
+              "value": "kjrunclub19@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "gallery",
+          "eyebrow": "Crew Energy",
+          "title": "Scenes From The Pack",
+          "body": "Night runs, sunrise LSDs, trackside cheers\u2014frames that capture the grind and the grin.",
+          "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-right"
+        }
+      ]
+    },
+    "about": {
+      "slides": [
+        {
+          "id": "origin",
+          "eyebrow": "Why KJRC Exists",
+          "title": "Inclusive By Design",
+          "body": "What began as neighbourhood loops evolved into a registered crew that shares knowledge and holds space for growth.",
+          "image": "https://images.unsplash.com/photo-1526403227023-8eba3be78d2c?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-right"
+        },
+        {
+          "id": "vision",
+          "eyebrow": "Vision",
+          "title": "Where We're Headed",
+          "body": "Create inclusive spaces for runners of all levels and celebrate progress over podiums.",
+          "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-left",
+          "bullets": [
+            "Community-first programming",
+            "Purpose-driven collaborations",
+            "Crew accountability and support"
+          ]
+        },
+        {
+          "id": "identity",
+          "eyebrow": "Identity",
+          "title": "Registered & Recognised",
+          "body": "Kelab Larian Kelana Jaya (KJRC) \u2022 Reg No: PPM-018-10-23102024",
+          "image": "https://images.unsplash.com/photo-1445384763658-0400939829cd?auto=format&fit=crop&w=1600&q=80",
+          "layout": "text-center",
+          "bullets": [
+            "President",
+            "Vice President",
+            "Secretary",
+            "Vice Secretary",
+            "Treasurer"
+          ]
+        }
+      ]
+    },
+    "divisions": {
+      "slides": [
+        {
+          "id": "divisions-intro",
+          "eyebrow": "Crew Divisions",
+          "title": "Pick Your Pace",
+          "body": "Eight divisions cover track, trail, city loops, ultras, hikes, and media. Each led by captains who keep the pulse steady.",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-right"
+        }
+      ]
+    },
+    "gallery": {
+      "slides": [
+        {
+          "id": "gallery-intro",
+          "eyebrow": "Media Vault",
+          "title": "Crew Moments In Monochrome",
+          "body": "Tap into the shared Google Drive to relive race days, sunrise LSDs, and night loops under the city glow.",
+          "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-left",
+          "ctaPrimary": {
+            "label": "Open Gallery",
+            "href": "https://drive.google.com/drive/folders/kjrunclub-gallery"
+          }
+        }
+      ],
+      "cards": [
+        {
+          "title": "Race Day Energy",
+          "description": "Finish-line roars, post-run hugs, and podium snapshots.",
+          "href": "https://drive.google.com/drive/folders/kjrunclub-gallery",
+          "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "City Loops",
+          "description": "KL night runs, morning skyline stretches, and street portraits.",
+          "href": "https://drive.google.com/drive/folders/kjrunclub-gallery",
+          "image": "https://images.unsplash.com/photo-1468645547353-56d325bb57ff?auto=format&fit=crop&w=1200&q=80"
+        },
+        {
+          "title": "Trail & Ultra",
+          "description": "Mud, ridgelines, and relentless elevation with the crew.",
+          "href": "https://drive.google.com/drive/folders/kjrunclub-gallery",
+          "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80"
+        }
+      ]
+    },
+    "contact": {
+      "slides": [
+        {
+          "id": "connect",
+          "eyebrow": "Join Us",
+          "title": "Take The First Step",
+          "body": "Share your pace, goals, and story. We will plug you into the right crew session.",
+          "image": "https://images.unsplash.com/photo-1508604173470-fe70dced7837?auto=format&fit=crop&w=1600&q=80",
+          "layout": "image-right"
+        }
+      ]
+    }
+  }
 }
