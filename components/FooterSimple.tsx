@@ -5,12 +5,14 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { brand, contact, navigation } from '@/lib/siteContent';
 
+const easeOutExpo = [0.16, 1, 0.3, 1] as const;
+
 const containerVariants = {
   hidden: { opacity: 0, y: 32 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
+    transition: { duration: 0.6, ease: easeOutExpo },
   },
 };
 
@@ -26,7 +28,7 @@ const staggerItem = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.45, ease: 'easeOut' },
+    transition: { duration: 0.45, ease: easeOutExpo },
   },
 };
 
