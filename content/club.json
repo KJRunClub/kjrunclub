@@ -194,6 +194,21 @@
           "nisa-othman",
           "afiq-xilantra"
         ]
+      },
+      {
+        "id": "leadership",
+        "name": "Leadership Council",
+        "nickname": "Core Team",
+        "focus": "Registered committee guiding governance, partnerships, and long-term direction for the crew.",
+        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/logo-kjrc.png",
+        "people": [
+          "syed-president",
+          "amin-vice-president",
+          "debb-secretary",
+          "marni-vice-secretary",
+          "arbee-treasurer"
+        ]
       }
     ],
     "gallery": [

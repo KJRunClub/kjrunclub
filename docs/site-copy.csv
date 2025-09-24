@@ -9,14 +9,14 @@ app/gallery/page.tsx,download.body,"Each card opens the shared Google Drive fold
 app/gallery/page.tsx,download.heading,Google Drive Collections
 app/gallery/page.tsx,download.primaryCta,Open Folder
 app/gallery/page.tsx,metadata.title,Gallery — ${brand.extendedName}
-app/layout.tsx,metadata.description,Elite running club in Selangor. Join our brutal training sessions and push your limits.
+app/layout.tsx,metadata.description,Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.
 app/layout.tsx,metadata.keywords,"running club, KL, Malaysia, training, marathon, speedwork, long runs"
-app/layout.tsx,metadata.openGraph.description,Elite running club in Selangor. Join our brutal training sessions and push your limits.
+app/layout.tsx,metadata.openGraph.description,Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.
 app/layout.tsx,metadata.openGraph.images[0].alt,KJ Run Club
 app/layout.tsx,metadata.openGraph.siteName,KJ Run Club
 app/layout.tsx,metadata.openGraph.title,"KJ Run Club - Brutal Training, Real Results"
 app/layout.tsx,metadata.title,"KJ Run Club - Brutal Training, Real Results"
-app/layout.tsx,metadata.twitter.description,Elite running club in Selangor. Join our brutal training sessions and push your limits.
+app/layout.tsx,metadata.twitter.description,Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.
 app/layout.tsx,metadata.twitter.title,"KJ Run Club - Brutal Training, Real Results"
 app/merch/page.tsx,collection.badge,Drop
 app/merch/page.tsx,collection.body,"Monochrome palette, reflective hits, and lightweight fabrics built for humid miles."
@@ -117,7 +117,7 @@ components/EventList.tsx,emptyState.iframeTitle,Malaysia Running Events Calendar
 components/FooterSimple.tsx,badge.label,Crew
 components/FooterSimple.tsx,connect.heading,Connect
 components/FooterSimple.tsx,footer.copyright,© {year} {brand.extendedName}
-components/FooterSimple.tsx,footer.location,Selangor • Malaysia
+components/FooterSimple.tsx,footer.location,Kuala Lumpur • Malaysia
 components/FooterSimple.tsx,navigate.heading,Navigate
 components/ScheduleSections.tsx,filters.all,All
 components/ScheduleSections.tsx,filters.month,This Month
@@ -195,6 +195,17 @@ content/club.json,collections.divisions[7].name,Media Division
 content/club.json,collections.divisions[7].nickname,Media DVSN
 content/club.json,collections.divisions[7].people[0],nisa-othman
 content/club.json,collections.divisions[7].people[1],afiq-xilantra
+content/club.json,collections.divisions[8].focus,"Registered committee guiding governance, partnerships, and long-term direction for the crew."
+content/club.json,collections.divisions[8].id,leadership
+content/club.json,collections.divisions[8].image,https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[8].logo,/logo-kjrc.png
+content/club.json,collections.divisions[8].name,Leadership Council
+content/club.json,collections.divisions[8].nickname,Core Team
+content/club.json,collections.divisions[8].people[0],syed-president
+content/club.json,collections.divisions[8].people[1],amin-vice-president
+content/club.json,collections.divisions[8].people[2],debb-secretary
+content/club.json,collections.divisions[8].people[3],marni-vice-secretary
+content/club.json,collections.divisions[8].people[4],arbee-treasurer
 content/club.json,collections.gallery[0],https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80
 content/club.json,collections.gallery[1],https://images.unsplash.com/photo-1542204165-19b33620e321?auto=format&fit=crop&w=1600&q=80
 content/club.json,collections.gallery[2],https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80
@@ -360,7 +371,7 @@ content/club.json,pages.home.slides[3].layout,image-right
 content/club.json,pages.home.slides[3].title,Scenes From The Pack
 content/hero.json,headline,KJ RUN CLUB
 content/hero.json,heroImage,https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080
-content/hero.json,subcopy,Elite training sessions in Selangor. Join Malaysia's most dedicated runners and push beyond your limits.
+content/hero.json,subcopy,Elite training sessions in Kuala Lumpur. Join Malaysia's most dedicated runners and push beyond your limits.
 content/sessions.json,[0].day,Tuesday
 content/sessions.json,[0].description,High-intensity intervals and tempo runs to build speed and lactate threshold.
 content/sessions.json,[0].id,tue-speedwork
@@ -398,6 +409,15 @@ content/team-members.json,aida-form.instagram,aidacoach
 content/team-members.json,aida-form.name,Aida Form
 content/team-members.json,aida-form.role,Recovery Specialist
 content/team-members.json,aida-form.tiktok,aidamobility
+content/team-members.json,amin-vice-president.avatar,https://images.unsplash.com/photo-1517365830460-955ce3ccd263?auto=format&fit=crop&w=400&q=80
+content/team-members.json,amin-vice-president.bio,"Amin pairs data with fieldwork, shaping programming, risk management, and partnerships so every session hits strategic goals without losing its pulse."
+content/team-members.json,amin-vice-president.highlights[0],Certified athletics event director
+content/team-members.json,amin-vice-president.highlights[1],Leads KJRC partner negotiations
+content/team-members.json,amin-vice-president.highlights[2],Builds operational dashboards for every block
+content/team-members.json,amin-vice-president.instagram,amin.moves
+content/team-members.json,amin-vice-president.name,Amin
+content/team-members.json,amin-vice-president.role,Vice President & Strategist
+content/team-members.json,amin-vice-president.tiktok,amin.moves
 content/team-members.json,amir-summit.avatar,https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80
 content/team-members.json,amir-summit.bio,Amir maps out weekend hikings with leave-no-trace lessons and beginner-friendly pacing on the climbs.
 content/team-members.json,amir-summit.highlights[0],Mountain guide (Level 2)
@@ -407,6 +427,15 @@ content/team-members.json,amir-summit.instagram,amirsummit
 content/team-members.json,amir-summit.name,Amir Summit
 content/team-members.json,amir-summit.role,Trail Steward
 content/team-members.json,amir-summit.tiktok,summitsteps
+content/team-members.json,arbee-treasurer.avatar,https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=400&q=80
+content/team-members.json,arbee-treasurer.bio,"Arbee keeps the club fiscals in stride, managing budgets, sponsorship flows, and transparent reporting so every ringgit fuels runners and community."
+content/team-members.json,arbee-treasurer.highlights[0],Certified public accountant
+content/team-members.json,arbee-treasurer.highlights[1],Designs seasonal budget frameworks
+content/team-members.json,arbee-treasurer.highlights[2],Leads sponsor fulfilment and reporting
+content/team-members.json,arbee-treasurer.instagram,arbee.accounts
+content/team-members.json,arbee-treasurer.name,Arbee
+content/team-members.json,arbee-treasurer.role,Treasurer
+content/team-members.json,arbee-treasurer.tiktok,arbee.accounts
 content/team-members.json,burhan-lsdt.avatar,https://images.unsplash.com/photo-1485451456034-3f9391c6b87e?auto=format&fit=crop&w=400&q=80
 content/team-members.json,burhan-lsdt.bio,"Burhan leads back-to-back looped trail LSDs, stacking vert, fueling cues, and crew accountability on every climb."
 content/team-members.json,burhan-lsdt.highlights[0],Ultra trail finisher
@@ -425,6 +454,15 @@ content/team-members.json,debb-coach.instagram,debb.moves
 content/team-members.json,debb-coach.name,Debb
 content/team-members.json,debb-coach.role,Technique Lead
 content/team-members.json,debb-coach.tiktok,debbdrills
+content/team-members.json,debb-secretary.avatar,https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80
+content/team-members.json,debb-secretary.bio,"Debb documents every decision, turns ideas into processes, and keeps the crew compliant—from registrations and permits to session briefs and media releases."
+content/team-members.json,debb-secretary.highlights[0],Certified governance & compliance officer
+content/team-members.json,debb-secretary.highlights[1],Authors KJRC’s session playbooks
+content/team-members.json,debb-secretary.highlights[2],Leads the club’s archival and content pipeline
+content/team-members.json,debb-secretary.instagram,debb.writes
+content/team-members.json,debb-secretary.name,Debb
+content/team-members.json,debb-secretary.role,Secretary
+content/team-members.json,debb-secretary.tiktok,debb.writes
 content/team-members.json,farid-miles.avatar,https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80
 content/team-members.json,farid-miles.bio,"Farid scripts long run progressions, balancing nutrition stops and conversation pace to keep everyone stacking volume."
 content/team-members.json,farid-miles.highlights[0],Comrades qualifier
@@ -533,6 +571,15 @@ content/team-members.json,malik-steel.instagram,maliksteel
 content/team-members.json,malik-steel.name,Malik Steel
 content/team-members.json,malik-steel.role,Elevation Analyst
 content/team-members.json,malik-steel.tiktok,steelultra
+content/team-members.json,marni-vice-secretary.avatar,https://images.unsplash.com/photo-1531256456869-ce942a665e80?auto=format&fit=crop&w=400&q=80
+content/team-members.json,marni-vice-secretary.bio,"Marni powers logistics—from permits to hydration tables—ensuring every division has the checklists, comms, and volunteers it needs to execute."
+content/team-members.json,marni-vice-secretary.highlights[0],Event logistics specialist
+content/team-members.json,marni-vice-secretary.highlights[1],Builds volunteer & marshal rosters
+content/team-members.json,marni-vice-secretary.highlights[2],Coordinates inter-division communications
+content/team-members.json,marni-vice-secretary.instagram,marni.ops
+content/team-members.json,marni-vice-secretary.name,Marni
+content/team-members.json,marni-vice-secretary.role,Vice Secretary
+content/team-members.json,marni-vice-secretary.tiktok,marni.ops
 content/team-members.json,nadia-circuit.avatar,https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80
 content/team-members.json,nadia-circuit.bio,"Nadia choreographs city loops that stitch KL landmarks with safe crossings, keeping night runs smooth and cinematic."
 content/team-members.json,nadia-circuit.highlights[0],Run tourism consultant
@@ -587,6 +634,15 @@ content/team-members.json,syamil-city.instagram,syamil.city
 content/team-members.json,syamil-city.name,Syamil
 content/team-members.json,syamil-city.role,City Captain
 content/team-members.json,syamil-city.tiktok,syamilruns
+content/team-members.json,syed-president.avatar,https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=400&q=80
+content/team-members.json,syed-president.bio,"Syed launched KJ Run Club from neighbourhood loops and now steers the crew’s direction, governance, and partnerships while keeping the culture grounded in community."
+content/team-members.json,syed-president.highlights[0],Co-founded KJRC and led its 2024 registration
+content/team-members.json,syed-president.highlights[1],Licensed Athletics Malaysia club administrator
+content/team-members.json,syed-president.highlights[2],Designs the annual crew roadmap
+content/team-members.json,syed-president.instagram,syedkjrc
+content/team-members.json,syed-president.name,Syed
+content/team-members.json,syed-president.role,Club President
+content/team-members.json,syed-president.tiktok,syedkjrc
 content/team-members.json,yan-lsd.avatar,https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80
 content/team-members.json,yan-lsd.bio,Yan programs Sunday LSD loops with layered mileage and reset segments so the crew keeps stacking aerobic strength without burnout.
 content/team-members.json,yan-lsd.highlights[0],Certified long run pacer
@@ -596,7 +652,7 @@ content/team-members.json,yan-lsd.instagram,yan.lsd
 content/team-members.json,yan-lsd.name,Yan
 content/team-members.json,yan-lsd.role,LSD Captain
 content/team-members.json,yan-lsd.tiktok,yanruns
-public/manifest.json,description,Elite running club in Selangor
+public/manifest.json,description,Elite running club in Kuala Lumpur
 public/manifest.json,name,KJ Run Club
 public/manifest.json,short_name,KJRC
 public/robots.txt,directive[0],User-agent: *
