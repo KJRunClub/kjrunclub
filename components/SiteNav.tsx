@@ -21,7 +21,7 @@ export function SiteNav() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 flex justify-center">
       <div className="w-full rounded-full border border-neutral-800 bg-neutral-950/85 px-4 shadow-[0_16px_60px_rgba(0,0,0,0.45)] backdrop-blur">
-        <div className="flex h-16 max-w-7xl items-center justify-center gap-6">
+        <div className="flex m-auto h-16 max-w-7xl items-center justify-between gap-6">
           <Link href="/" className="flex items-center gap-3" onClick={close}>
             <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden ">
               <Image
