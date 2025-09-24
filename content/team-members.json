@@ -272,19 +272,6 @@
     "instagram": "coachhatib",
     "tiktok": "hatibcoaches"
   },
-  "debb-coach": {
-    "name": "Debb",
-    "role": "Technique Lead",
-    "avatar": "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=400&q=80",
-    "bio": "Debb drills posture, footstrike, and breathing mechanics, delivering micro feedback that refines every runner’s form.",
-    "highlights": [
-      "Run clinic facilitator",
-      "Mobility lab architect",
-      "Certified breathwork coach"
-    ],
-    "instagram": "debb.moves",
-    "tiktok": "debbdrills"
-  },
   "burhan-lsdt": {
     "name": "Burhan",
     "role": "LSDT Trail Captain",
@@ -337,19 +324,6 @@
     "instagram": "amin.moves",
     "tiktok": "amin.moves"
   },
-  "debb-secretary": {
-    "name": "Debb",
-    "role": "Secretary",
-    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
-    "bio": "Debb documents every decision, turns ideas into processes, and keeps the crew compliant—from registrations and permits to session briefs and media releases.",
-    "highlights": [
-      "Certified governance & compliance officer",
-      "Authors KJRC’s session playbooks",
-      "Leads the club’s archival and content pipeline"
-    ],
-    "instagram": "debb.writes",
-    "tiktok": "debb.writes"
-  },
   "marni-vice-secretary": {
     "name": "Marni",
     "role": "Vice Secretary",
@@ -375,5 +349,21 @@
     ],
     "instagram": "arbee.accounts",
     "tiktok": "arbee.accounts"
+  },
+  "debb": {
+    "name": "Debb",
+    "role": "Technique Lead & Secretary",
+    "avatar": "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=400&q=80",
+    "bio": "Debb drills posture, footstrike, and breathing mechanics, delivering micro feedback that refines every runner’s form. Debb documents every decision, turns ideas into processes, and keeps the crew compliant—from registrations and permits to session briefs and media releases.",
+    "highlights": [
+      "Authors KJRC’s session playbooks",
+      "Certified breathwork coach",
+      "Certified governance & compliance officer",
+      "Leads the club’s archival and content pipeline",
+      "Mobility lab architect",
+      "Run clinic facilitator"
+    ],
+    "instagram": "debb.moves",
+    "tiktok": "debbdrills"
   }
 }
