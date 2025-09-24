@@ -63,7 +63,7 @@ export function SlideSection({ slide, index }: SlideSectionProps) {
               centered ? 'items-center text-center' : imageFirst ? 'md:pl-4' : 'md:pr-4'
             )}
           >
-            <div className="w-full max-w-xl rounded-3xl border border-neutral-800 bg-neutral-900/85 p-8 shadow-[0_24px_80px_rgba(0,0,0,0.45)] md:p-10">
+            <div className="w-full max-w-2xl rounded-3xl border border-neutral-800 bg-neutral-900/85 p-8 shadow-[0_24px_80px_rgba(0,0,0,0.45)] md:p-10">
               {slide.eyebrow && (
                 <p className="mb-4 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">
                   {slide.eyebrow}
@@ -88,7 +88,7 @@ export function SlideSection({ slide, index }: SlideSectionProps) {
                   {slide.stats.map((stat) => (
                     <div
                       key={stat.label}
-                      className="rounded-2xl border border-neutral-800 bg-neutral-950/60 px-5 py-4 text-center"
+                      className="rounded-2xl border border-neutral-800 bg-neutral-950/60 px-5 py-4 text-center text-ellipsis overflow-hidden"
                     >
                       <p className="font-bebas text-3xl uppercase tracking-[0.18em] text-neutral-50">
                         {stat.value}

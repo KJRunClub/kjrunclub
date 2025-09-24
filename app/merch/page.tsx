@@ -136,7 +136,7 @@ export default function Merch() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-full border border-neutral-100 bg-neutral-100 px-6 py-3 font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-900 transition hover:bg-neutral-300"
                   >
-                    Buy Now
+                    WhatsApp Now
                   </a>
                 </div>
               </article>
