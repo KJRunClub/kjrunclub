@@ -1,109 +1,65 @@
 Source,Key,Text
-app/about/page.tsx,hero.image.alt,KJ Run Club training session
-app/about/page.tsx,identity.badge,Identity
-app/about/page.tsx,identity.barcode,Vision
-app/about/page.tsx,identity.coreRolesHeading,Key Positions
-app/about/page.tsx,identity.coreRolesLabel,Core Roles
-app/about/page.tsx,identity.heading,What We Envision
-app/about/page.tsx,identity.registrationLabel,Registration
-app/about/page.tsx,impact.cards[0].label,Programmes
-app/about/page.tsx,impact.cards[0].value,Every Week
-app/about/page.tsx,impact.cards[1].label,Events
-app/about/page.tsx,impact.cards[1].title,Events Hosted
-app/about/page.tsx,impact.cards[2].label,Runners
-app/about/page.tsx,impact.cards[2].title,Runners Engaged
-app/about/page.tsx,impact.cards[3].label,Collabs
-app/about/page.tsx,impact.cards[3].title,Collaborations
-app/about/page.tsx,leadership.heading,Leadership & Identity
-app/about/page.tsx,leadership.labels[0],Captain
-app/about/page.tsx,leadership.labels[1],Co-Captain
-app/about/page.tsx,metadata.title,About ${clubInfo.name}
-app/contact/page.tsx,alert.success,Thanks for your interest! We'll get back to you soon.
-app/contact/page.tsx,contactPanel.contactInfoLabel,Contact Info
-app/contact/page.tsx,contactPanel.emailLabel,Email
-app/contact/page.tsx,contactPanel.heading,Get In Touch
-app/contact/page.tsx,contactPanel.registeredNameLabel,Registered Name
-app/contact/page.tsx,contactPanel.regNoLabel,Reg No:
-app/contact/page.tsx,form.emailLabel,Email Address *
-app/contact/page.tsx,form.emailPlaceholder,your.email@example.com
-app/contact/page.tsx,form.experienceLabel,Running Experience *
-app/contact/page.tsx,form.experienceOptions[0],Beginner (0-1 years)
-app/contact/page.tsx,form.experienceOptions[1],Intermediate (1-3 years)
-app/contact/page.tsx,form.experienceOptions[2],Advanced (3+ years)
-app/contact/page.tsx,form.experienceOptions[3],Competitive runner
-app/contact/page.tsx,form.experiencePlaceholder,Select your level
-app/contact/page.tsx,form.heading,Application Form
-app/contact/page.tsx,form.messageLabel,Why KJ Run Club? *
-app/contact/page.tsx,form.messagePlaceholder,Tell us about your goals and what you hope to achieve...
-app/contact/page.tsx,form.nameLabel,Full Name *
-app/contact/page.tsx,form.namePlaceholder,Enter your full name
-app/contact/page.tsx,form.submitCta,Submit Application
-app/contact/page.tsx,hero.badge,Crew intake
-app/contact/page.tsx,hero.headline,Join Us
-app/contact/page.tsx,socialPanel.heading,Follow Us
-app/contact/page.tsx,socialPanel.links[0].handle,@kjrunclub
-app/contact/page.tsx,socialPanel.links[0].platform,Instagram
-app/contact/page.tsx,socialPanel.links[1].handle,KJ Run Club
-app/contact/page.tsx,socialPanel.links[1].platform,Strava
-app/contact/page.tsx,socialPanel.links[2].handle,KJ Run Club KL
-app/contact/page.tsx,socialPanel.links[2].platform,Facebook
-app/contact/page.tsx,trainingPanel.heading,Training Hours
-app/contact/page.tsx,trainingPanel.sessions[0].day,Tuesday
-app/contact/page.tsx,trainingPanel.sessions[0].time,06:00 - 07:30
-app/contact/page.tsx,trainingPanel.sessions[0].type,Speedwork
-app/contact/page.tsx,trainingPanel.sessions[1].day,Friday
-app/contact/page.tsx,trainingPanel.sessions[1].time,19:00 - 20:30
-app/contact/page.tsx,trainingPanel.sessions[1].type,Strength & Skills
-app/contact/page.tsx,trainingPanel.sessions[2].day,Sunday
-app/contact/page.tsx,trainingPanel.sessions[2].time,06:00 - 09:00
-app/contact/page.tsx,trainingPanel.sessions[2].type,Long Run
-app/divisions/page.tsx,division.cardLabel,Division
-app/divisions/page.tsx,division.emptyState,Crew leads will be announced soon. Stay tuned!
-app/divisions/page.tsx,division.viewLink,View
-app/divisions/page.tsx,hero.badge,Crew Divisions
-app/divisions/page.tsx,hero.body,"Every division keeps the KJRC rhythm alive—from track to trail, city streets to long hauls. Tap into the sessions that match your energy and connect with the leads guiding each crew."
-app/divisions/page.tsx,hero.headline,Division Directory
-app/divisions/page.tsx,metadata.description,Explore every division within KJ Run Club and meet the crew captains keeping the sessions moving.
-app/divisions/page.tsx,metadata.title,Divisions - ${club.name}
-app/layout.tsx,metadata.description,Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.
+app/about/page.tsx,metadata.title,About ${brand.extendedName}
+app/contact/page.tsx,metadata.title,Contact — ${brand.extendedName}
+app/divisions/page.tsx,metadata.description,Explore every division within KJRC and meet the captains guiding each session.
+app/divisions/page.tsx,metadata.title,Divisions — ${brand.extendedName}
+app/gallery/page.tsx,card.cta,View Folder
+app/gallery/page.tsx,download.badge,Download
+app/gallery/page.tsx,download.body,"Each card opens the shared Google Drive folder so you can grab full-resolution shots for social, press, or personal keepsakes."
+app/gallery/page.tsx,download.heading,Google Drive Collections
+app/gallery/page.tsx,download.primaryCta,Open Folder
+app/gallery/page.tsx,metadata.title,Gallery — ${brand.extendedName}
+app/layout.tsx,metadata.description,Elite running club in Selangor. Join our brutal training sessions and push your limits.
 app/layout.tsx,metadata.keywords,"running club, KL, Malaysia, training, marathon, speedwork, long runs"
-app/layout.tsx,metadata.openGraph.description,Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.
+app/layout.tsx,metadata.openGraph.description,Elite running club in Selangor. Join our brutal training sessions and push your limits.
 app/layout.tsx,metadata.openGraph.images[0].alt,KJ Run Club
 app/layout.tsx,metadata.openGraph.siteName,KJ Run Club
 app/layout.tsx,metadata.openGraph.title,"KJ Run Club - Brutal Training, Real Results"
 app/layout.tsx,metadata.title,"KJ Run Club - Brutal Training, Real Results"
-app/layout.tsx,metadata.twitter.description,Elite running club in Kuala Lumpur. Join our brutal training sessions and push your limits.
+app/layout.tsx,metadata.twitter.description,Elite running club in Selangor. Join our brutal training sessions and push your limits.
 app/layout.tsx,metadata.twitter.title,"KJ Run Club - Brutal Training, Real Results"
-app/merch/page.tsx,hero.badge,Merch Store
-app/merch/page.tsx,hero.badgeSide,Limited Drops
-app/merch/page.tsx,hero.body,"Represent the crew with performance pieces stress-tested on track, trail, and city streets. Built for runners who want to move loud."
-app/merch/page.tsx,hero.headline,Official Gear
-app/merch/page.tsx,metadata.description,Official KJ Run Club merchandise. Represent the club with premium running gear.
-app/merch/page.tsx,metadata.title,Merch - KJ Run Club
-app/merch/page.tsx,products.callToAction,Buy Now
-app/merch/page.tsx,products[0].description,Moisture-wicking performance tee with club logo.
+app/merch/page.tsx,collection.badge,Drop
+app/merch/page.tsx,collection.body,"Monochrome palette, reflective hits, and lightweight fabrics built for humid miles."
+app/merch/page.tsx,collection.heading,Current Essentials
+app/merch/page.tsx,collection.pill,Limited Run
+app/merch/page.tsx,hero.body,"Monochrome staples to layer over any session—tested on track, trails, and city streets."
+app/merch/page.tsx,hero.ctaPrimary,Join The Crew
+app/merch/page.tsx,hero.eyebrow,Crew Uniform
+app/merch/page.tsx,hero.title,Utility Pieces Built For Miles
+app/merch/page.tsx,metadata.description,Official KJRC pieces for training days and podium nights.
+app/merch/page.tsx,metadata.title,Merch — ${brand.extendedName}
+app/merch/page.tsx,product.cta,WhatsApp Now
+app/merch/page.tsx,products[0].description,Moisture-wicking performance tee with tonal club mark.
+app/merch/page.tsx,products[0].id,KJRC-TEE-001
 app/merch/page.tsx,products[0].name,Training Tee
 app/merch/page.tsx,products[0].price,RM 85
 app/merch/page.tsx,products[1].description,5-inch inseam with built-in compression liner.
+app/merch/page.tsx,products[1].id,KJRC-SHORTS-001
 app/merch/page.tsx,products[1].name,Racing Shorts
 app/merch/page.tsx,products[1].price,RM 65
 app/merch/page.tsx,products[2].description,Lightweight cap with reflective details.
+app/merch/page.tsx,products[2].id,KJRC-CAP-001
 app/merch/page.tsx,products[2].name,Training Cap
 app/merch/page.tsx,products[2].price,RM 45
 app/merch/page.tsx,products[3].description,Packable wind-resistant shell for all weather.
+app/merch/page.tsx,products[3].id,KJRC-JACKET-001
 app/merch/page.tsx,products[3].name,Wind Jacket
 app/merch/page.tsx,products[3].price,RM 145
 app/merch/page.tsx,products[4].description,750ml insulated stainless steel bottle.
+app/merch/page.tsx,products[4].id,KJRC-BOTTLE-001
 app/merch/page.tsx,products[4].name,Water Bottle
 app/merch/page.tsx,products[4].price,RM 25
 app/merch/page.tsx,products[5].description,Merino blend with cushioned sole for race days.
+app/merch/page.tsx,products[5].id,KJRC-SOCKS-001
 app/merch/page.tsx,products[5].name,Racing Socks
 app/merch/page.tsx,products[5].price,RM 35
-app/merch/page.tsx,sizeGuide.columns[0],Size
-app/merch/page.tsx,sizeGuide.columns[1],Chest
-app/merch/page.tsx,sizeGuide.columns[2],Waist
-app/merch/page.tsx,sizeGuide.columns[3],Length
+app/merch/page.tsx,sizeGuide.badge,Fit
+app/merch/page.tsx,sizeGuide.columns.chest,Chest
+app/merch/page.tsx,sizeGuide.columns.length,Length
+app/merch/page.tsx,sizeGuide.columns.size,Size
+app/merch/page.tsx,sizeGuide.columns.waist,Waist
 app/merch/page.tsx,sizeGuide.heading,Size Guide
+app/merch/page.tsx,sizeGuide.note,Measurements In CM
 app/merch/page.tsx,sizeGuide.rows[0].chest,86-89cm
 app/merch/page.tsx,sizeGuide.rows[0].length,66cm
 app/merch/page.tsx,sizeGuide.rows[0].size,XS
@@ -124,105 +80,57 @@ app/merch/page.tsx,sizeGuide.rows[4].chest,112-115cm
 app/merch/page.tsx,sizeGuide.rows[4].length,74cm
 app/merch/page.tsx,sizeGuide.rows[4].size,XL
 app/merch/page.tsx,sizeGuide.rows[4].waist,97-100cm
-app/offline/page.tsx,body,Connection lost. Even champions need to reconnect sometimes.
-app/offline/page.tsx,heading,Offline
 app/offline/page.tsx,metadata.description,You are currently offline. Please check your connection.
 app/offline/page.tsx,metadata.title,Offline - KJ Run Club
-app/offline/retry-button.tsx,cta,Try Again
-app/page.tsx,events.body,"Our {impact.programmes.toLowerCase()} fuel the culture, and our collaborations keep the city buzzing."
-app/page.tsx,events.heading,Upcoming Events & Collaborations
-app/page.tsx,events.sectionLabel,Next Up
-app/page.tsx,events.sidebarStats[0].label,Weekly Programmes
-app/page.tsx,events.sidebarStats[1].label,Identity
-app/page.tsx,events.sidebarStats[2].label,Contact
-app/page.tsx,events.sidebarTitle,Impact Pulse
-app/page.tsx,hero.badge,Club Reg: {identity.regNo}
-app/page.tsx,hero.galleryHeader.left,Weekly divisions
-app/page.tsx,hero.galleryHeader.right,Train harder
-app/page.tsx,hero.image.alt,Sprinter exploding from the starting line
-app/page.tsx,hero.primaryCta,Join The Crew
-app/page.tsx,hero.secondaryCta,See sessions →
-app/page.tsx,hero.stats[0].label,Events Hosted
-app/page.tsx,hero.stats[1].label,Runners Engaged
-app/page.tsx,hero.stats[2].label,Collabs
-app/page.tsx,hero.taglineGrid[0],speed
-app/page.tsx,hero.taglineGrid[1],community
-app/page.tsx,hero.taglineGrid[2],consistency
-app/page.tsx,instagram.body,"Night runs, sunrise LSDs, trackside cheers. Each frame is a pulse from the KJRC collective."
-app/page.tsx,instagram.heading,In Action
-app/page.tsx,instagram.sectionLabel,Crew Energy
-app/page.tsx,sessions.body,"Structured training built for pace, endurance, recovery, and grit. Slide into a session that matches your fire."
-app/page.tsx,sessions.heading,Sessions That Keep You Moving
-app/page.tsx,sessions.sectionLabel,Weekly Rhythm
-app/schedule/page.tsx,filterPanel.barcode,Event Filter
-app/schedule/page.tsx,filterPanel.body,Tune the feed to spotlight the races and sessions that matter most right now.
-app/schedule/page.tsx,filterPanel.heading,Filter Events
-app/schedule/page.tsx,filters[0],This Week
-app/schedule/page.tsx,filters[1],This Month
-app/schedule/page.tsx,filters[2],All Events
-app/schedule/page.tsx,hero.badge,Schedule
-app/schedule/page.tsx,hero.badgeSide,Stay moving
-app/schedule/page.tsx,hero.body,"Consistency builds champions. Structured speedwork, endurance builders, and strength sessions keep the crew in motion while upcoming races and collabs stay on your radar."
-app/schedule/page.tsx,hero.headline,Training Schedule
-app/schedule/page.tsx,philosophy.heading,Training Philosophy
-app/schedule/page.tsx,philosophy.sessions[0].code,SPEED-WORK
-app/schedule/page.tsx,philosophy.sessions[0].description,"High-intensity intervals to prime threshold, top-end speed, and reaction."
-app/schedule/page.tsx,philosophy.sessions[0].focus,Speed & Power
-app/schedule/page.tsx,philosophy.sessions[1].code,STRENGTH
-app/schedule/page.tsx,philosophy.sessions[1].description,"Mobility, drills, and strength blocks engineered to keep runners iron-clad."
-app/schedule/page.tsx,philosophy.sessions[1].focus,Strength & Skills
-app/schedule/page.tsx,philosophy.sessions[2].code,ENDURANCE
-app/schedule/page.tsx,philosophy.sessions[2].description,"Long runs that layer endurance, grit, and crew cohesion at conversational pace."
-app/schedule/page.tsx,philosophy.sessions[2].focus,Aerobic Base
+app/offline/page.tsx,page.heading,Offline
+app/offline/page.tsx,page.message,Connection lost. Even champions need to reconnect sometimes.
+app/offline/retry-button.tsx,button.label,Try Again
+app/schedule/page.tsx,hero.body,"Speedwork, long runs, recovery blocks, and hikes—each week is programmed so every runner finds their tempo."
+app/schedule/page.tsx,hero.ctaPrimary,Join a session
+app/schedule/page.tsx,hero.eyebrow,Weekly Rhythm
+app/schedule/page.tsx,hero.title,Structure That Scales
+app/schedule/page.tsx,metadata.title,Schedule — ${brand.extendedName}
 app/team/[slug]/page.tsx,metadata.fallbackDescription,KJ Run Club crew profile.
-app/team/[slug]/page.tsx,metadata.fallbackTitle,Crew Member - KJ Run Club
-app/team/[slug]/page.tsx,profile.backLink,Back to Team
+app/team/[slug]/page.tsx,metadata.fallbackTitle,Crew Member — KJ Run Club
+app/team/[slug]/page.tsx,profile.backCta,Back To Team
+app/team/[slug]/page.tsx,profile.cardFooter,Crew Profile
 app/team/[slug]/page.tsx,profile.highlightsHeading,Highlights
-app/team/[slug]/page.tsx,profile.scheduleLink,Join a session →
-app/team/page.tsx,hero.badge,The Crew
-app/team/page.tsx,hero.headline,Crew Roster
-app/team/page.tsx,leadership.body,"The pulse behind every session, relentlessly building routes, paces, and culture."
-app/team/page.tsx,leadership.heading,Captains In Motion
-app/team/page.tsx,leadership.labels[0],Captain
-app/team/page.tsx,leadership.labels[1],Co-Captain
-app/team/page.tsx,leadership.sectionLabel,Leadership
-app/team/page.tsx,metadata.title,Team - ${clubInfo.name}
+app/team/[slug]/page.tsx,profile.instagramPrefix,IG @
+app/team/[slug]/page.tsx,profile.joinCta,Join A Session
+app/team/[slug]/page.tsx,profile.tiktokPrefix,TT @
+app/team/page.tsx,metadata.title,Team — ${brand.extendedName}
+components/ContactFormSlide.tsx,contact.emailPrefix,Email:
+components/ContactFormSlide.tsx,contact.heading,Contact
+components/ContactFormSlide.tsx,contact.regPrefix,Reg No:
+components/ContactFormSlide.tsx,follow.heading,Follow
+components/ContactFormSlide.tsx,footer.pill,Form
+components/ContactFormSlide.tsx,form.badge,Lets Collaborate
+components/ContactFormSlide.tsx,form.body,"Share campaign ideas, partnership requests, or media enquiries and we will respond quickly."
+components/ContactFormSlide.tsx,form.heading,Contact Form
+components/DivisionSlide.tsx,badge.label,Division
+components/DivisionSlide.tsx,link.view,View
+components/DivisionSlide.tsx,pill.sequencePrefix,• Division 
+components/EventList.tsx,card.cta,Details
+components/EventList.tsx,emptyState.body,Live calendar unavailable. View the Malaysia public calendar below.
+components/EventList.tsx,emptyState.heading,Running Events
 components/EventList.tsx,emptyState.iframeTitle,Malaysia Running Events Calendar
-components/EventList.tsx,emptyState.title,Running Events
-components/EventList.tsx,event.cta,Details
-components/FooterSimple.tsx,brand.alt,KJ Run Club logo
-components/FooterSimple.tsx,brand.tagline,Sporty. Raw. Unapologetic. Sessions engineered for runners who want to move with grit.
-components/FooterSimple.tsx,brand.title,KJ Run Club
+components/FooterSimple.tsx,badge.label,Crew
 components/FooterSimple.tsx,connect.heading,Connect
-components/FooterSimple.tsx,connect.links[0],Instagram
-components/FooterSimple.tsx,connect.links[1],Strava
-components/FooterSimple.tsx,connect.links[2],Email
-components/FooterSimple.tsx,footer.copyright,© {year} KJ Run Club. Built for motion.
-components/FooterSimple.tsx,footer.location,Kuala Lumpur • Malaysia
-components/FooterSimple.tsx,navigation.heading,Navigate
-components/FooterSimple.tsx,navigation.links[0],Home
-components/FooterSimple.tsx,navigation.links[1],About
-components/FooterSimple.tsx,navigation.links[2],Schedule
-components/FooterSimple.tsx,navigation.links[3],Team
-components/FooterSimple.tsx,navigation.links[4],Merch
-components/FooterSimple.tsx,navigation.links[5],Contact
-components/InstagramFeed.tsx,error.handle,@kjrunclub
-components/InstagramFeed.tsx,error.messagePrefix,Unable to load the Instagram feed right now. Check out
-components/InstagramFeed.tsx,post.fallbackAlt,Instagram post
-components/SessionStrip.tsx,fallbackSessions[0].description,Intervals and tempo runs
-components/SessionStrip.tsx,fallbackSessions[1].description,Endurance building runs
-components/SessionStrip.tsx,fallbackSessions[2].description,Strength training and running skills
-components/SessionStrip.tsx,fallbackSessions[2].skill,Single-leg hops
+components/FooterSimple.tsx,footer.copyright,© {year} {brand.extendedName}
+components/FooterSimple.tsx,footer.location,Selangor • Malaysia
+components/FooterSimple.tsx,navigate.heading,Navigate
+components/ScheduleSections.tsx,filters.all,All
+components/ScheduleSections.tsx,filters.month,This Month
+components/ScheduleSections.tsx,filters.week,This Week
+components/ScheduleSections.tsx,intro.badge,Events
+components/ScheduleSections.tsx,intro.body,"Filter the upcoming events feed to plan your next race, shakeout, or crew collab."
+components/ScheduleSections.tsx,intro.heading,Race Calendar
+components/SessionStrip.tsx,fallback[0].description,Intervals and tempo runs
+components/SessionStrip.tsx,fallback[1].description,Endurance building runs
+components/SessionStrip.tsx,fallback[2].description,Strength training and running skills
+components/SessionStrip.tsx,fallback[2].skill,Single-leg hops
 components/SessionStrip.tsx,skillOfTheWeek.label,Skill Of The Week
-components/SiteNav.tsx,brand.altTemplate,${club.name} logo
-components/SiteNav.tsx,brand.mark,KJRC
 components/SiteNav.tsx,mobile.toggleLabel,Toggle navigation
-components/SiteNav.tsx,navLinks[0],Home
-components/SiteNav.tsx,navLinks[1],About
-components/SiteNav.tsx,navLinks[2],Schedule
-components/SiteNav.tsx,navLinks[3],Team
-components/SiteNav.tsx,navLinks[4],Merch
-components/SiteNav.tsx,navLinks[5],Contact
 content/club.json,collections.divisions[0].focus,"Weekly curated sessions to build speed, strength, and help runners reach their next PR."
 content/club.json,collections.divisions[0].id,speedwork
 content/club.json,collections.divisions[0].image,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80
@@ -452,7 +360,7 @@ content/club.json,pages.home.slides[3].layout,image-right
 content/club.json,pages.home.slides[3].title,Scenes From The Pack
 content/hero.json,headline,KJ RUN CLUB
 content/hero.json,heroImage,https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080
-content/hero.json,subcopy,Elite training sessions in Kuala Lumpur. Join Malaysia's most dedicated runners and push beyond your limits.
+content/hero.json,subcopy,Elite training sessions in Selangor. Join Malaysia's most dedicated runners and push beyond your limits.
 content/sessions.json,[0].day,Tuesday
 content/sessions.json,[0].description,High-intensity intervals and tempo runs to build speed and lactate threshold.
 content/sessions.json,[0].id,tue-speedwork
@@ -688,7 +596,7 @@ content/team-members.json,yan-lsd.instagram,yan.lsd
 content/team-members.json,yan-lsd.name,Yan
 content/team-members.json,yan-lsd.role,LSD Captain
 content/team-members.json,yan-lsd.tiktok,yanruns
-public/manifest.json,description,Elite running club in Kuala Lumpur
+public/manifest.json,description,Elite running club in Selangor
 public/manifest.json,name,KJ Run Club
 public/manifest.json,short_name,KJRC
 public/robots.txt,directive[0],User-agent: *
