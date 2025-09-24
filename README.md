@@ -5,7 +5,7 @@ A cinematic, grayscale single-page experience for the Kelana Jaya Run Club (KJRC
 ## ✨ Highlights
 - **Slide-by-slide storytelling** – Every primary page is a snap-scrolling slideshow fed from `content/club.json`, making updates quick and layout-safe.
 - **Grayscale, boxy aesthetic** – The UI intentionally avoids rounded corners and color noise, leaning on typography, contrast, and full-width photography.
-- **Division-first structure** – Divisions, leadership, and people profiles share a single data source in `content/club.json` for effortless reuse.
+- **Division-first structure** – Divisions defined in `content/club.json` reference reusable crew profiles maintained in `content/team-members.json`, keeping roles and bios in one place.
 - **Contact ready for brands** – The contact flow pushes visitors straight into an email composer while exposing key identity details and social handles.
 - **Gallery to Drive** – A dedicated gallery page links to Google Drive collections, ideal for sharing campaign assets and press imagery.
 
@@ -37,6 +37,7 @@ Most of the site copy, navigation, partner logos, and division details live in [
 - Change global branding, contact details, or navigation links
 - Add/remove home page slides (including partner brands)
 - Adjust division teams, leadership, or gallery cards
+- Edit crew bios, roles, and social handles in [`content/team-members.json`](content/team-members.json)
 - Control per-page slide sequencing
 
 Whenever you edit `club.json`, TypeScript helpers from [`lib/siteContent.ts`](lib/siteContent.ts) keep imports strongly typed across the app.

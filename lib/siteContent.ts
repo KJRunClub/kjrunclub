@@ -1,4 +1,5 @@
 import siteContent from '@/content/club.json';
+import teamMemberContent from '@/content/team-members.json';
 
 export type SlideLayout = 'text-left' | 'text-center' | 'image-left' | 'image-right';
 
@@ -19,21 +20,36 @@ export interface Slide {
   partners?: Array<{ name: string; image: string }>;
 }
 
-export interface Person {
+export interface TeamMemberContent {
   name: string;
-  role?: string;
-  slug?: string;
-  avatar?: string;
+  role: string;
+  avatar: string;
+  bio: string;
+  highlights?: string[];
   instagram?: string;
   tiktok?: string;
 }
 
-export interface Division {
+export interface TeamMember extends TeamMemberContent {
+  slug: string;
+}
+
+interface RawDivision {
+  id: string;
   name: string;
   nickname: string;
   focus: string;
   image: string;
-  people: Person[];
+  people: string[];
+}
+
+export interface Division {
+  id: string;
+  name: string;
+  nickname: string;
+  focus: string;
+  image: string;
+  people: TeamMember[];
 }
 
 export interface GalleryCard {
@@ -42,6 +58,20 @@ export interface GalleryCard {
   href: string;
   image: string;
 }
+
+type TeamMemberRecord = Record<string, TeamMemberContent>;
+
+const teamMemberRecord = teamMemberContent as TeamMemberRecord;
+
+const rawDivisions = siteContent.collections.divisions as RawDivision[];
+
+const getMember = (slug: string): TeamMember => {
+  const member = teamMemberRecord[slug];
+  if (!member) {
+    throw new Error(`Missing team member data for slug "${slug}" referenced in club.json`);
+  }
+  return { slug, ...member };
+};
 
 export const site = siteContent;
 
@@ -52,7 +82,16 @@ export const impact = site.global.impact;
 export const leadership = site.global.leadership;
 export const contact = site.global.contact;
 
-export const divisions = site.collections.divisions as Division[];
+export const divisions = rawDivisions.map((division) => ({
+  ...division,
+  people: division.people.map(getMember),
+})) as Division[];
+
+export const teamMemberMap = teamMemberRecord;
+export const teamMembers = Object.entries(teamMemberRecord).map(([slug, member]) => ({
+  slug,
+  ...member,
+}));
 export const gallery = site.collections.gallery as string[];
 
 export const homeSlides = site.pages.home.slides as Slide[];

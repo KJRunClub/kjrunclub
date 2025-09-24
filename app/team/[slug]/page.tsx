@@ -2,23 +2,39 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import profiles from '@/content/teamProfiles.json';
+import { divisions, teamMemberMap, teamMembers, type TeamMember } from '@/lib/siteContent';
 
-interface TeamProfile {
-  slug: string;
-  name: string;
-  division: string;
-  role: string;
-  avatar: string;
-  bio: string;
-  highlights?: string[];
-  instagram?: string;
-  tiktok?: string;
-}
+type TeamProfile = TeamMember & { division: string };
 
-const teamProfiles = profiles as TeamProfile[];
+const divisionLookup = divisions.reduce<Record<string, { name: string; nickname: string }>>((lookup, division) => {
+  division.people.forEach((person) => {
+    lookup[person.slug] = { name: division.name, nickname: division.nickname };
+  });
+  return lookup;
+}, {});
 
-const getProfile = (slug: string) => teamProfiles.find((profile) => profile.slug === slug);
+const getDivisionLabel = (slug: string) => {
+  const division = divisionLookup[slug];
+  return division?.nickname ?? division?.name ?? 'Crew Division';
+};
+
+const teamProfiles: TeamProfile[] = teamMembers.map((member) => ({
+  ...member,
+  division: getDivisionLabel(member.slug),
+}));
+
+const getProfile = (slug: string): TeamProfile | undefined => {
+  const member = teamMemberMap[slug];
+  if (!member) {
+    return undefined;
+  }
+
+  return {
+    slug,
+    division: getDivisionLabel(slug),
+    ...member,
+  };
+};
 
 export function generateStaticParams() {
   return teamProfiles.map((profile) => ({ slug: profile.slug }));

@@ -100,195 +100,91 @@
   "collections": {
     "divisions": [
       {
+        "id": "speedwork",
         "name": "Speedwork Division",
         "nickname": "Speedwork DVSN",
         "focus": "Weekly curated sessions to build speed, strength, and help runners reach their next PR.",
         "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Rafiq Blaze",
-            "role": "Track Captain",
-            "slug": "rafiq-blaze",
-            "avatar": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80",
-            "instagram": "rafiqblaze",
-            "tiktok": "rafiqruns"
-          },
-          {
-            "name": "Mira Pace",
-            "role": "Interval Strategist",
-            "slug": "mira-pace",
-            "avatar": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80",
-            "instagram": "mirapace",
-            "tiktok": "mirapaceruns"
-          }
+          "syafiq-jay",
+          "ijlal-zul"
         ]
       },
       {
+        "id": "trail",
         "name": "Trail Division",
         "nickname": "Trail DVSN",
         "focus": "Beginner-friendly off-road runs guided by experienced trail runners.",
         "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Liyana Ridge",
-            "role": "Trail Navigator",
-            "slug": "liyana-ridge",
-            "avatar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80",
-            "instagram": "liyanaridge",
-            "tiktok": "ridgeguides"
-          },
-          {
-            "name": "Ken Moss",
-            "role": "Elevation Coach",
-            "slug": "ken-moss",
-            "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
-            "instagram": "kenmoss.trails",
-            "tiktok": "kenclimbs"
-          }
+          "liyana-ridge",
+          "ken-moss"
         ]
       },
       {
+        "id": "coaching",
         "name": "Coaching Division",
         "nickname": "Coaching DVSN",
         "focus": "Workshops, weekly runs, HIIT, running technique, and strength training.",
         "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Haris Volt",
-            "role": "Performance Coach",
-            "slug": "haris-volt",
-            "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
-            "instagram": "harisvolt",
-            "tiktok": "coachvolt"
-          },
-          {
-            "name": "Aida Form",
-            "role": "Recovery Specialist",
-            "slug": "aida-form",
-            "avatar": "https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80",
-            "instagram": "aidacoach",
-            "tiktok": "aidamobility"
-          }
+          "haris-volt",
+          "aida-form"
         ]
       },
       {
+        "id": "city",
         "name": "City Division",
         "nickname": "City DVSN",
         "focus": "Guided group city runs that blend fitness with friendship across KL & PJ.",
         "image": "https://images.unsplash.com/photo-1544572571-ab94fd872ce4?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Nadia Circuit",
-            "role": "Route Curator",
-            "slug": "nadia-circuit",
-            "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80",
-            "instagram": "nadiacircuit",
-            "tiktok": "cityloops"
-          },
-          {
-            "name": "Johan Pulse",
-            "role": "Pace Lead",
-            "slug": "johan-pulse",
-            "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
-            "instagram": "johanpulse",
-            "tiktok": "pulsepace"
-          }
+          "nadia-circuit",
+          "johan-pulse"
         ]
       },
       {
+        "id": "lsd",
         "name": "LSD Division",
         "nickname": "LSD DVSN",
         "focus": "Long Slow Distance runs to build endurance at conversational pace.",
         "image": "https://images.unsplash.com/photo-1468645547353-56d325bb57ff?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Farid Miles",
-            "role": "Endurance Lead",
-            "slug": "farid-miles",
-            "avatar": "https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80",
-            "instagram": "faridmiles",
-            "tiktok": "milessteady"
-          },
-          {
-            "name": "Salma Drift",
-            "role": "Fuel Coach",
-            "slug": "salma-drift",
-            "avatar": "https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80",
-            "instagram": "salma.drift",
-            "tiktok": "salmarunslong"
-          }
+          "farid-miles",
+          "salma-drift"
         ]
       },
       {
+        "id": "hiking",
         "name": "Hiking Division",
         "nickname": "Hiking DVSN",
         "focus": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together.",
         "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Amir Summit",
-            "role": "Trail Steward",
-            "slug": "amir-summit",
-            "avatar": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80",
-            "instagram": "amirsummit",
-            "tiktok": "summitsteps"
-          },
-          {
-            "name": "Hana Grove",
-            "role": "Nature Guide",
-            "slug": "hana-grove",
-            "avatar": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80",
-            "instagram": "hanagrove",
-            "tiktok": "grovetrails"
-          }
+          "amir-summit",
+          "hana-grove"
         ]
       },
       {
+        "id": "ultra",
         "name": "Ultra Division",
         "nickname": "Ultra DVSN",
         "focus": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness.",
         "image": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Suri Ember",
-            "role": "Ultra Strategist",
-            "slug": "suri-ember",
-            "avatar": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80",
-            "instagram": "suriember",
-            "tiktok": "emberultra"
-          },
-          {
-            "name": "Malik Steel",
-            "role": "Elevation Analyst",
-            "slug": "malik-steel",
-            "avatar": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80",
-            "instagram": "maliksteel",
-            "tiktok": "steelultra"
-          }
+          "suri-ember",
+          "malik-steel"
         ]
       },
       {
+        "id": "media",
         "name": "Media Division",
         "nickname": "Media DVSN",
         "focus": "Captures spirit of every session via photos, videos, and reels.",
         "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1600&q=80",
         "people": [
-          {
-            "name": "Nisa Othman",
-            "role": "Content Director",
-            "slug": "nisa-othman",
-            "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
-            "instagram": "nisa.othman",
-            "tiktok": "nisa.live"
-          },
-          {
-            "name": "Afiq Xilantra",
-            "role": "Storyteller",
-            "slug": "afiq-xilantra",
-            "avatar": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80",
-            "instagram": "xilantra",
-            "tiktok": "xilantra"
-          }
+          "nisa-othman",
+          "afiq-xilantra"
         ]
       }
     ],
@@ -385,7 +281,7 @@
           "id": "gallery",
           "eyebrow": "Crew Energy",
           "title": "Scenes From The Pack",
-          "body": "Night runs, sunrise LSDs, trackside cheers\u2014frames that capture the grind and the grin.",
+          "body": "Night runs, sunrise LSDs, trackside cheers—frames that capture the grind and the grin.",
           "image": "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80",
           "layout": "image-right"
         }
@@ -418,7 +314,7 @@
           "id": "identity",
           "eyebrow": "Identity",
           "title": "Registered & Recognised",
-          "body": "Kelab Larian Kelana Jaya (KJRC) \u2022 Reg No: PPM-018-10-23102024",
+          "body": "Kelab Larian Kelana Jaya (KJRC) • Reg No: PPM-018-10-23102024",
           "image": "https://images.unsplash.com/photo-1445384763658-0400939829cd?auto=format&fit=crop&w=1600&q=80",
           "layout": "text-center",
           "bullets": [

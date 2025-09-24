@@ -19,11 +19,11 @@ export function SiteNav() {
   const close = () => setOpen(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-6 sm:px-6 lg:px-12">
-      <div className="w-full max-w-6xl rounded-full border border-neutral-800 bg-neutral-950/85 px-4 shadow-[0_16px_60px_rgba(0,0,0,0.45)] backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 flex justify-center">
+      <div className="w-full rounded-full border border-neutral-800 bg-neutral-950/85 px-4 shadow-[0_16px_60px_rgba(0,0,0,0.45)] backdrop-blur">
         <div className="flex h-16 items-center justify-between gap-6">
           <Link href="/" className="flex items-center gap-3" onClick={close}>
-            <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/80">
+            <span className="relative flex h-12 w-12 items-center justify-center overflow-hidden ">
               <Image
                 src="/logo-kjrc.png"
                 alt={`${brand.shortName} logo`}

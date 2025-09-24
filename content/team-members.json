@@ -1,38 +1,32 @@
-[
-  {
-    "slug": "rafiq-blaze",
-    "name": "Rafiq Blaze",
-    "division": "Speedwork DVSN",
+{
+  "syafiq-jay": {
+    "name": "Syafiq J",
     "role": "Track Captain",
-    "avatar": "https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80",
-    "bio": "Rafiq engineers every Tuesday track session, dialing in paces and recoveries so the crew can stack quick turnover without burning out.",
+    "avatar": "/dvsn/syafiqjay.jpg",
+    "bio": "Syafiq engineers every Tuesday Speed Work session, dialing in paces and recoveries so the crew can stack quick turnover without burning out.",
     "highlights": [
       "1500m PR: 4:12",
       "Certified World Athletics Level 1 Coach",
       "Founder, Section 13 speed lab"
     ],
-    "instagram": "rafiqblaze",
-    "tiktok": "rafiqruns"
+    "instagram": "syafiqjay.9",
+    "tiktok": "syafiqjay.9"
   },
-  {
-    "slug": "mira-pace",
-    "name": "Mira Pace",
-    "division": "Speedwork DVSN",
+  "ijlal-zul": {
+    "name": "Ijlal Zul",
     "role": "Interval Strategist",
     "avatar": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80",
-    "bio": "Mira translates performance data into punchy interval blocks, keeping runners activated with smart drills and tempo finishes.",
+    "bio": "Ijlal translates performance data into punchy interval blocks, keeping runners activated with smart drills and tempo finishes.",
     "highlights": [
       "10K PR: 39:55",
       "Sports Scientist, UiTM",
       "Co-host, Sprint Sessions podcast"
     ],
-    "instagram": "mirapace",
-    "tiktok": "mirapaceruns"
+    "instagram": "ijlalzul",
+    "tiktok": "ijlalzul"
   },
-  {
-    "slug": "liyana-ridge",
+  "liyana-ridge": {
     "name": "Liyana Ridge",
-    "division": "Trail DVSN",
     "role": "Trail Navigator",
     "avatar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80",
     "bio": "Liyana scouts new routes around Selangor weekly, blending runnable climbs with teachable moments on footwork and safety.",
@@ -44,10 +38,8 @@
     "instagram": "liyanaridge",
     "tiktok": "ridgeguides"
   },
-  {
-    "slug": "ken-moss",
+  "ken-moss": {
     "name": "Ken Moss",
-    "division": "Trail DVSN",
     "role": "Elevation Coach",
     "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
     "bio": "Ken handles gradient prep, layering strength cues with downhill control so the crew stays quick and injury-free.",
@@ -59,10 +51,8 @@
     "instagram": "kenmoss.trails",
     "tiktok": "kenclimbs"
   },
-  {
-    "slug": "haris-volt",
+  "haris-volt": {
     "name": "Haris Volt",
-    "division": "Coaching DVSN",
     "role": "Performance Coach",
     "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80",
     "bio": "Haris stitches strength blocks into the weekly calendar, anchoring runners with cues on muscle activation and mobility.",
@@ -74,10 +64,8 @@
     "instagram": "harisvolt",
     "tiktok": "coachvolt"
   },
-  {
-    "slug": "aida-form",
+  "aida-form": {
     "name": "Aida Form",
-    "division": "Coaching DVSN",
     "role": "Recovery Specialist",
     "avatar": "https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80",
     "bio": "Aida fronts mobility labs and helps runners decode recovery metrics so they can stand at the line fresh and confident.",
@@ -89,10 +77,8 @@
     "instagram": "aidacoach",
     "tiktok": "aidamobility"
   },
-  {
-    "slug": "nadia-circuit",
+  "nadia-circuit": {
     "name": "Nadia Circuit",
-    "division": "City DVSN",
     "role": "Route Curator",
     "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80",
     "bio": "Nadia choreographs city loops that stitch KL landmarks with safe crossings, keeping night runs smooth and cinematic.",
@@ -104,10 +90,8 @@
     "instagram": "nadiacircuit",
     "tiktok": "cityloops"
   },
-  {
-    "slug": "johan-pulse",
+  "johan-pulse": {
     "name": "Johan Pulse",
-    "division": "City DVSN",
     "role": "Pace Lead",
     "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80",
     "bio": "Johan keeps the peloton tidy, calling out pace cues, traffic alerts, and energy checks every kilometer.",
@@ -119,10 +103,8 @@
     "instagram": "johanpulse",
     "tiktok": "pulsepace"
   },
-  {
-    "slug": "farid-miles",
+  "farid-miles": {
     "name": "Farid Miles",
-    "division": "LSD DVSN",
     "role": "Endurance Lead",
     "avatar": "https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80",
     "bio": "Farid scripts long run progressions, balancing nutrition stops and conversation pace to keep everyone stacking volume.",
@@ -134,10 +116,8 @@
     "instagram": "faridmiles",
     "tiktok": "milessteady"
   },
-  {
-    "slug": "salma-drift",
+  "salma-drift": {
     "name": "Salma Drift",
-    "division": "LSD DVSN",
     "role": "Fuel Coach",
     "avatar": "https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80",
     "bio": "Salma dials hydration plans and teaches micro-interval cues so runners learn how to finish strong on patient miles.",
@@ -149,10 +129,8 @@
     "instagram": "salma.drift",
     "tiktok": "salmarunslong"
   },
-  {
-    "slug": "amir-summit",
+  "amir-summit": {
     "name": "Amir Summit",
-    "division": "Hiking DVSN",
     "role": "Trail Steward",
     "avatar": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80",
     "bio": "Amir maps out weekend hikings with leave-no-trace lessons and beginner-friendly pacing on the climbs.",
@@ -164,10 +142,8 @@
     "instagram": "amirsummit",
     "tiktok": "summitsteps"
   },
-  {
-    "slug": "hana-grove",
+  "hana-grove": {
     "name": "Hana Grove",
-    "division": "Hiking DVSN",
     "role": "Nature Guide",
     "avatar": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80",
     "bio": "Hana introduces flora facts and breathing drills, making every hike a reset for runners and their families.",
@@ -179,10 +155,8 @@
     "instagram": "hanagrove",
     "tiktok": "grovetrails"
   },
-  {
-    "slug": "suri-ember",
+  "suri-ember": {
     "name": "Suri Ember",
-    "division": "Ultra DVSN",
     "role": "Ultra Strategist",
     "avatar": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80",
     "bio": "Suri plans brutal back-to-back mileage weekends and coaches mental reps for long solo efforts.",
@@ -194,10 +168,8 @@
     "instagram": "suriember",
     "tiktok": "emberultra"
   },
-  {
-    "slug": "malik-steel",
+  "malik-steel": {
     "name": "Malik Steel",
-    "division": "Ultra DVSN",
     "role": "Elevation Analyst",
     "avatar": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80",
     "bio": "Malik handles strength blocks, hill repeats, and gear checks so the ultra crew stays ready for huge vert weeks.",
@@ -209,10 +181,8 @@
     "instagram": "maliksteel",
     "tiktok": "steelultra"
   },
-  {
-    "slug": "nisa-othman",
+  "nisa-othman": {
     "name": "Nisa Othman",
-    "division": "Media DVSN",
     "role": "Content Director",
     "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
     "bio": "Nisa captures the club heartbeat, directing photo stories and powering launch reels for every big block.",
@@ -224,10 +194,8 @@
     "instagram": "nisa.othman",
     "tiktok": "nisa.othman"
   },
-  {
-    "slug": "afiq-xilantra",
+  "afiq-xilantra": {
     "name": "Afiq Xilantra",
-    "division": "Media DVSN",
     "role": "Storyteller",
     "avatar": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80",
     "bio": "Afiq scripts the copy, edits highlight reels, and keeps the crew’s tone sharp across newsletters and socials.",
@@ -239,4 +207,4 @@
     "instagram": "xilantra",
     "tiktok": "xilantra"
   }
-]
+}
