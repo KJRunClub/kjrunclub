@@ -52,11 +52,11 @@
       "registeredName": "Kelab Larian Kelana Jaya (KJRC)",
       "regNo": "PPM-018-10-23102024",
       "roles": [
-        "President",
-        "Vice President",
-        "Secretary",
-        "Vice Secretary",
-        "Treasurer"
+        "President: Syed",
+        "Vice President: Amin",
+        "Secretary: Debb",
+        "Vice Secretary: Marni",
+        "Treasurer: Arbee"
       ],
       "contactEmail": "kjrunclub19@gmail.com"
     },
@@ -105,6 +105,7 @@
         "nickname": "Speedwork DVSN",
         "focus": "Weekly curated sessions to build speed, strength, and help runners reach their next PR.",
         "image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/speedwork.svg",
         "people": [
           "syafiq-jay",
           "ijlal-zul"
@@ -116,6 +117,7 @@
         "nickname": "Trail DVSN",
         "focus": "Beginner-friendly off-road runs guided by experienced trail runners.",
         "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/trail.svg",
         "people": [
           "liyana-ridge",
           "ken-moss"
@@ -127,9 +129,10 @@
         "nickname": "Coaching DVSN",
         "focus": "Workshops, weekly runs, HIIT, running technique, and strength training.",
         "image": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/coaching.svg",
         "people": [
-          "haris-volt",
-          "aida-form"
+          "hatib-coach",
+          "debb-coach"
         ]
       },
       {
@@ -138,9 +141,10 @@
         "nickname": "City DVSN",
         "focus": "Guided group city runs that blend fitness with friendship across KL & PJ.",
         "image": "https://images.unsplash.com/photo-1544572571-ab94fd872ce4?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/city.svg",
         "people": [
-          "nadia-circuit",
-          "johan-pulse"
+          "syamil-city",
+          "izzat-city"
         ]
       },
       {
@@ -149,20 +153,22 @@
         "nickname": "LSD DVSN",
         "focus": "Long Slow Distance runs to build endurance at conversational pace.",
         "image": "https://images.unsplash.com/photo-1468645547353-56d325bb57ff?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/lsd.svg",
         "people": [
-          "farid-miles",
-          "salma-drift"
+          "yan-lsd",
+          "jo-lsd"
         ]
       },
       {
-        "id": "hiking",
-        "name": "Hiking Division",
-        "nickname": "Hiking DVSN",
-        "focus": "Chill-paced hikes for all ages. Connection, calm, and discovery of nature together.",
+        "id": "lsdt",
+        "name": "LSDT Division",
+        "nickname": "LSDT DVSN",
+        "focus": "Looped LSD trail sessions layering endurance, terrain work, and community pacing.",
         "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/lsdt.svg",
         "people": [
-          "amir-summit",
-          "hana-grove"
+          "burhan-lsdt",
+          "haneem-lsdt"
         ]
       },
       {
@@ -171,6 +177,7 @@
         "nickname": "Ultra DVSN",
         "focus": "Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness.",
         "image": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/ultra.svg",
         "people": [
           "suri-ember",
           "malik-steel"
@@ -182,6 +189,7 @@
         "nickname": "Media DVSN",
         "focus": "Captures spirit of every session via photos, videos, and reels.",
         "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1600&q=80",
+        "logo": "/divisions/media.svg",
         "people": [
           "nisa-othman",
           "afiq-xilantra"
@@ -318,11 +326,11 @@
           "image": "https://images.unsplash.com/photo-1445384763658-0400939829cd?auto=format&fit=crop&w=1600&q=80",
           "layout": "text-center",
           "bullets": [
-            "President",
-            "Vice President",
-            "Secretary",
-            "Vice Secretary",
-            "Treasurer"
+            "President: Syed",
+            "Vice President: Amin",
+            "Secretary: Debb",
+            "Vice Secretary: Marni",
+            "Treasurer: Arbee"
           ]
         }
       ]

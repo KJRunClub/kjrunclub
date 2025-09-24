@@ -223,140 +223,233 @@ components/SiteNav.tsx,navLinks[2],Schedule
 components/SiteNav.tsx,navLinks[3],Team
 components/SiteNav.tsx,navLinks[4],Merch
 components/SiteNav.tsx,navLinks[5],Contact
-content/club.json,club.mission,"Community, growth, knowledge, and heart at every step."
-content/club.json,club.name,Kelana Jaya Run Club (KJRC)
-content/club.json,club.tagline,We're more than just runners - we're a movement
-content/club.json,club.vision[0],"Create an inclusive, welcoming space where runners of all levels grow, connect, and thrive."
-content/club.json,club.vision[1],"Be the go-to running club that empowers through the joy of running, community, and purposeful strides."
-content/club.json,divisions[0].description,"Weekly curated sessions to build speed, strength, and help runners reach their next PR. Beginners to intermediates welcome."
-content/club.json,divisions[0].name,Speedwork DVSN
-content/club.json,divisions[0].people[0].avatar,https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[0].people[0].instagram,rafiqblaze
-content/club.json,divisions[0].people[0].name,Rafiq Blaze
-content/club.json,divisions[0].people[0].role,Track Captain
-content/club.json,divisions[0].people[0].slug,rafiq-blaze
-content/club.json,divisions[0].people[0].tiktok,rafiqruns
-content/club.json,divisions[0].people[1].avatar,https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[0].people[1].instagram,mirapace
-content/club.json,divisions[0].people[1].name,Mira Pace
-content/club.json,divisions[0].people[1].role,Interval Strategist
-content/club.json,divisions[0].people[1].slug,mira-pace
-content/club.json,divisions[0].people[1].tiktok,mirapaceruns
-content/club.json,divisions[1].description,"Beginner-friendly off-road runs guided by experienced trail runners. Fitness + adventure, muddy shoes, stronger legs."
-content/club.json,divisions[1].name,Trail DVSN
-content/club.json,divisions[1].people[0].avatar,https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[1].people[0].instagram,liyanaridge
-content/club.json,divisions[1].people[0].name,Liyana Ridge
-content/club.json,divisions[1].people[0].role,Trail Navigator
-content/club.json,divisions[1].people[0].slug,liyana-ridge
-content/club.json,divisions[1].people[0].tiktok,ridgeguides
-content/club.json,divisions[1].people[1].avatar,https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[1].people[1].instagram,kenmoss.trails
-content/club.json,divisions[1].people[1].name,Ken Moss
-content/club.json,divisions[1].people[1].role,Elevation Coach
-content/club.json,divisions[1].people[1].slug,ken-moss
-content/club.json,divisions[1].people[1].tiktok,kenclimbs
-content/club.json,divisions[2].description,"Workshops, weekly runs, HIIT, running technique, and strength training to move smarter and recover better."
-content/club.json,divisions[2].name,Coaching DVSN
-content/club.json,divisions[2].people[0].avatar,https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[2].people[0].instagram,harisvolt
-content/club.json,divisions[2].people[0].name,Haris Volt
-content/club.json,divisions[2].people[0].role,Performance Coach
-content/club.json,divisions[2].people[0].slug,haris-volt
-content/club.json,divisions[2].people[0].tiktok,coachvolt
-content/club.json,divisions[2].people[1].avatar,https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[2].people[1].instagram,aidacoach
-content/club.json,divisions[2].people[1].name,Aida Form
-content/club.json,divisions[2].people[1].role,Recovery Specialist
-content/club.json,divisions[2].people[1].slug,aida-form
-content/club.json,divisions[2].people[1].tiktok,aidamobility
-content/club.json,divisions[3].description,"Guided group city runs that blend fitness with friendship. Shared stories, laughs, and joy through KL & PJ."
-content/club.json,divisions[3].name,City DVSN
-content/club.json,divisions[3].people[0].avatar,https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[3].people[0].instagram,nadiacircuit
-content/club.json,divisions[3].people[0].name,Nadia Circuit
-content/club.json,divisions[3].people[0].role,Route Curator
-content/club.json,divisions[3].people[0].slug,nadia-circuit
-content/club.json,divisions[3].people[0].tiktok,cityloops
-content/club.json,divisions[3].people[1].avatar,https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[3].people[1].instagram,johanpulse
-content/club.json,divisions[3].people[1].name,Johan Pulse
-content/club.json,divisions[3].people[1].role,Pace Lead
-content/club.json,divisions[3].people[1].slug,johan-pulse
-content/club.json,divisions[3].people[1].tiktok,pulsepace
-content/club.json,divisions[4].description,Long Slow Distance runs to build endurance at conversational pace. Includes LSDT (looping runs).
-content/club.json,divisions[4].name,LSD DVSN
-content/club.json,divisions[4].people[0].avatar,https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[4].people[0].instagram,faridmiles
-content/club.json,divisions[4].people[0].name,Farid Miles
-content/club.json,divisions[4].people[0].role,Endurance Lead
-content/club.json,divisions[4].people[0].slug,farid-miles
-content/club.json,divisions[4].people[0].tiktok,milessteady
-content/club.json,divisions[4].people[1].avatar,https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[4].people[1].instagram,salma.drift
-content/club.json,divisions[4].people[1].name,Salma Drift
-content/club.json,divisions[4].people[1].role,Fuel Coach
-content/club.json,divisions[4].people[1].slug,salma-drift
-content/club.json,divisions[4].people[1].tiktok,salmarunslong
-content/club.json,divisions[5].description,"Chill-paced hikes for all ages. Connection, calm, and discovery of nature together."
-content/club.json,divisions[5].name,Hiking DVSN
-content/club.json,divisions[5].people[0].avatar,https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[5].people[0].instagram,amirsummit
-content/club.json,divisions[5].people[0].name,Amir Summit
-content/club.json,divisions[5].people[0].role,Trail Steward
-content/club.json,divisions[5].people[0].slug,amir-summit
-content/club.json,divisions[5].people[0].tiktok,summitsteps
-content/club.json,divisions[5].people[1].avatar,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[5].people[1].instagram,hanagrove
-content/club.json,divisions[5].people[1].name,Hana Grove
-content/club.json,divisions[5].people[1].role,Nature Guide
-content/club.json,divisions[5].people[1].slug,hana-grove
-content/club.json,divisions[5].people[1].tiktok,grovetrails
-content/club.json,divisions[6].description,"Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness."
-content/club.json,divisions[6].name,Ultra DVSN
-content/club.json,divisions[6].people[0].avatar,https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[6].people[0].instagram,suriember
-content/club.json,divisions[6].people[0].name,Suri Ember
-content/club.json,divisions[6].people[0].role,Ultra Strategist
-content/club.json,divisions[6].people[0].slug,suri-ember
-content/club.json,divisions[6].people[0].tiktok,emberultra
-content/club.json,divisions[6].people[1].avatar,https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[6].people[1].instagram,maliksteel
-content/club.json,divisions[6].people[1].name,Malik Steel
-content/club.json,divisions[6].people[1].role,Elevation Analyst
-content/club.json,divisions[6].people[1].slug,malik-steel
-content/club.json,divisions[6].people[1].tiktok,steelultra
-content/club.json,divisions[7].description,"Captures spirit of every session via photos, videos, and reels. Celebrates each runner's journey."
-content/club.json,divisions[7].name,Media DVSN
-content/club.json,divisions[7].people[0].avatar,https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[7].people[0].instagram,nisa.othman
-content/club.json,divisions[7].people[0].name,Nisa Othman
-content/club.json,divisions[7].people[0].role,Content Director
-content/club.json,divisions[7].people[0].slug,nisa-othman
-content/club.json,divisions[7].people[0].tiktok,nisa.live
-content/club.json,divisions[7].people[1].avatar,https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80
-content/club.json,divisions[7].people[1].instagram,xilantra
-content/club.json,divisions[7].people[1].name,Afiq Xilantra
-content/club.json,divisions[7].people[1].role,Storyteller
-content/club.json,divisions[7].people[1].slug,afiq-xilantra
-content/club.json,divisions[7].people[1].tiktok,xilantra
-content/club.json,identity.contact,kjrunclub19@gmail.com
-content/club.json,identity.registeredName,Kelab Larian Kelana Jaya (KJRC)
-content/club.json,identity.regNo,PPM-018-10-23102024
-content/club.json,identity.roles[0],President
-content/club.json,identity.roles[1],Vice President
-content/club.json,identity.roles[2],Secretary
-content/club.json,identity.roles[3],Vice Secretary
-content/club.json,identity.roles[4],Treasurer
-content/club.json,impact.collaborations,Cross-collabs with brands & venues
-content/club.json,impact.eventsHosted,50+
-content/club.json,impact.programmes,Weekly programmes
-content/club.json,impact.runnersEngaged,"1,000+"
-content/club.json,keyMessage,"KJRC is more than a club - it's family. Every finish line is a celebration. All runners, all levels, one crew."
-content/club.json,leadership.captain.name,Syed
-content/club.json,leadership.captain.role,"Heart of the crew, motivator"
-content/club.json,leadership.coCaptain.name,Amin
-content/club.json,leadership.coCaptain.role,"Strategist, pacer"
+content/club.json,collections.divisions[0].focus,"Weekly curated sessions to build speed, strength, and help runners reach their next PR."
+content/club.json,collections.divisions[0].id,speedwork
+content/club.json,collections.divisions[0].image,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[0].logo,/divisions/speedwork.svg
+content/club.json,collections.divisions[0].name,Speedwork Division
+content/club.json,collections.divisions[0].nickname,Speedwork DVSN
+content/club.json,collections.divisions[0].people[0],syafiq-jay
+content/club.json,collections.divisions[0].people[1],ijlal-zul
+content/club.json,collections.divisions[1].focus,Beginner-friendly off-road runs guided by experienced trail runners.
+content/club.json,collections.divisions[1].id,trail
+content/club.json,collections.divisions[1].image,https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[1].logo,/divisions/trail.svg
+content/club.json,collections.divisions[1].name,Trail Division
+content/club.json,collections.divisions[1].nickname,Trail DVSN
+content/club.json,collections.divisions[1].people[0],liyana-ridge
+content/club.json,collections.divisions[1].people[1],ken-moss
+content/club.json,collections.divisions[2].focus,"Workshops, weekly runs, HIIT, running technique, and strength training."
+content/club.json,collections.divisions[2].id,coaching
+content/club.json,collections.divisions[2].image,https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[2].logo,/divisions/coaching.svg
+content/club.json,collections.divisions[2].name,Coaching Division
+content/club.json,collections.divisions[2].nickname,Coaching DVSN
+content/club.json,collections.divisions[2].people[0],hatib-coach
+content/club.json,collections.divisions[2].people[1],debb-coach
+content/club.json,collections.divisions[3].focus,Guided group city runs that blend fitness with friendship across KL & PJ.
+content/club.json,collections.divisions[3].id,city
+content/club.json,collections.divisions[3].image,https://images.unsplash.com/photo-1544572571-ab94fd872ce4?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[3].logo,/divisions/city.svg
+content/club.json,collections.divisions[3].name,City Division
+content/club.json,collections.divisions[3].nickname,City DVSN
+content/club.json,collections.divisions[3].people[0],syamil-city
+content/club.json,collections.divisions[3].people[1],izzat-city
+content/club.json,collections.divisions[4].focus,Long Slow Distance runs to build endurance at conversational pace.
+content/club.json,collections.divisions[4].id,lsd
+content/club.json,collections.divisions[4].image,https://images.unsplash.com/photo-1468645547353-56d325bb57ff?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[4].logo,/divisions/lsd.svg
+content/club.json,collections.divisions[4].name,LSD Division
+content/club.json,collections.divisions[4].nickname,LSD DVSN
+content/club.json,collections.divisions[4].people[0],yan-lsd
+content/club.json,collections.divisions[4].people[1],jo-lsd
+content/club.json,collections.divisions[5].focus,"Looped LSD trail sessions layering endurance, terrain work, and community pacing."
+content/club.json,collections.divisions[5].id,lsdt
+content/club.json,collections.divisions[5].image,https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[5].logo,/divisions/lsdt.svg
+content/club.json,collections.divisions[5].name,LSDT Division
+content/club.json,collections.divisions[5].nickname,LSDT DVSN
+content/club.json,collections.divisions[5].people[0],burhan-lsdt
+content/club.json,collections.divisions[5].people[1],haneem-lsdt
+content/club.json,collections.divisions[6].focus,"Beyond-marathon training: grit, discipline, brutal mileage, elevation, and mental toughness."
+content/club.json,collections.divisions[6].id,ultra
+content/club.json,collections.divisions[6].image,https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[6].logo,/divisions/ultra.svg
+content/club.json,collections.divisions[6].name,Ultra Division
+content/club.json,collections.divisions[6].nickname,Ultra DVSN
+content/club.json,collections.divisions[6].people[0],suri-ember
+content/club.json,collections.divisions[6].people[1],malik-steel
+content/club.json,collections.divisions[7].focus,"Captures spirit of every session via photos, videos, and reels."
+content/club.json,collections.divisions[7].id,media
+content/club.json,collections.divisions[7].image,https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.divisions[7].logo,/divisions/media.svg
+content/club.json,collections.divisions[7].name,Media Division
+content/club.json,collections.divisions[7].nickname,Media DVSN
+content/club.json,collections.divisions[7].people[0],nisa-othman
+content/club.json,collections.divisions[7].people[1],afiq-xilantra
+content/club.json,collections.gallery[0],https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.gallery[1],https://images.unsplash.com/photo-1542204165-19b33620e321?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.gallery[2],https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80
+content/club.json,collections.gallery[3],https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1600&q=80
+content/club.json,global.brand.extendedName,Kelana Jaya Run Club (KJRC)
+content/club.json,global.brand.keyMessage,"KJRC is more than a club - it's family. Every finish line is a celebration. All runners, all levels, one crew."
+content/club.json,global.brand.mission,"Community, growth, knowledge, and heart at every step."
+content/club.json,global.brand.name,Kelana Jaya Run Club
+content/club.json,global.brand.shortName,KJRC
+content/club.json,global.brand.tagline,We're more than just runners - we're a movement
+content/club.json,global.brand.values[0],Crew Over Clock
+content/club.json,global.brand.values[1],Show Up Consistently
+content/club.json,global.brand.values[2],Share The Knowledge
+content/club.json,global.brand.values[3],Hold Space For Growth
+content/club.json,global.brand.vision[0],"Create an inclusive, welcoming space where runners of all levels grow, connect, and thrive."
+content/club.json,global.brand.vision[1],"Be the go-to running club that empowers through the joy of running, community, and purposeful strides."
+content/club.json,global.contact.email,kjrunclub19@gmail.com
+content/club.json,global.contact.social[0].handle,@kjrunclub
+content/club.json,global.contact.social[0].platform,Instagram
+content/club.json,global.contact.social[0].url,https://instagram.com/kjrunclub
+content/club.json,global.contact.social[1].handle,@kjrunclub_
+content/club.json,global.contact.social[1].platform,TikTok
+content/club.json,global.contact.social[1].url,https://tiktok.com/@kjrunclub_
+content/club.json,global.contact.social[2].handle,KJ Run Club KL
+content/club.json,global.contact.social[2].platform,Facebook
+content/club.json,global.contact.social[2].url,https://facebook.com/kjrunclub
+content/club.json,global.identity.contactEmail,kjrunclub19@gmail.com
+content/club.json,global.identity.registeredName,Kelab Larian Kelana Jaya (KJRC)
+content/club.json,global.identity.regNo,PPM-018-10-23102024
+content/club.json,global.identity.roles[0],President: Syed
+content/club.json,global.identity.roles[1],Vice President: Amin
+content/club.json,global.identity.roles[2],Secretary: Debb
+content/club.json,global.identity.roles[3],Vice Secretary: Marni
+content/club.json,global.identity.roles[4],Treasurer: Arbee
+content/club.json,global.impact.collaborations,Cross-collabs with brands & venues
+content/club.json,global.impact.eventsHosted,50+
+content/club.json,global.impact.programmes,Weekly programmes
+content/club.json,global.impact.runnersEngaged,"1,000+"
+content/club.json,global.leadership.captain.name,Syed
+content/club.json,global.leadership.captain.role,"Heart of the crew, motivator"
+content/club.json,global.leadership.coCaptain.name,Amin
+content/club.json,global.leadership.coCaptain.role,"Strategist, pacer"
+content/club.json,global.navigation[0].href,/
+content/club.json,global.navigation[0].label,Home
+content/club.json,global.navigation[1].href,/about
+content/club.json,global.navigation[1].label,About
+content/club.json,global.navigation[2].href,/schedule
+content/club.json,global.navigation[2].label,Schedule
+content/club.json,global.navigation[3].href,/divisions
+content/club.json,global.navigation[3].label,Divisions
+content/club.json,global.navigation[4].href,/gallery
+content/club.json,global.navigation[4].label,Gallery
+content/club.json,global.navigation[5].href,/merch
+content/club.json,global.navigation[5].label,Merch
+content/club.json,global.navigation[6].href,/contact
+content/club.json,global.navigation[6].label,Contact
+content/club.json,pages.about.slides[0].body,What began as neighbourhood loops evolved into a registered crew that shares knowledge and holds space for growth.
+content/club.json,pages.about.slides[0].eyebrow,Why KJRC Exists
+content/club.json,pages.about.slides[0].id,origin
+content/club.json,pages.about.slides[0].image,https://images.unsplash.com/photo-1526403227023-8eba3be78d2c?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.about.slides[0].layout,image-right
+content/club.json,pages.about.slides[0].title,Inclusive By Design
+content/club.json,pages.about.slides[1].body,Create inclusive spaces for runners of all levels and celebrate progress over podiums.
+content/club.json,pages.about.slides[1].bullets[0],Community-first programming
+content/club.json,pages.about.slides[1].bullets[1],Purpose-driven collaborations
+content/club.json,pages.about.slides[1].bullets[2],Crew accountability and support
+content/club.json,pages.about.slides[1].eyebrow,Vision
+content/club.json,pages.about.slides[1].id,vision
+content/club.json,pages.about.slides[1].image,https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.about.slides[1].layout,image-left
+content/club.json,pages.about.slides[1].title,Where We're Headed
+content/club.json,pages.about.slides[2].body,Kelab Larian Kelana Jaya (KJRC) • Reg No: PPM-018-10-23102024
+content/club.json,pages.about.slides[2].bullets[0],President: Syed
+content/club.json,pages.about.slides[2].bullets[1],Vice President: Amin
+content/club.json,pages.about.slides[2].bullets[2],Secretary: Debb
+content/club.json,pages.about.slides[2].bullets[3],Vice Secretary: Marni
+content/club.json,pages.about.slides[2].bullets[4],Treasurer: Arbee
+content/club.json,pages.about.slides[2].eyebrow,Identity
+content/club.json,pages.about.slides[2].id,identity
+content/club.json,pages.about.slides[2].image,https://images.unsplash.com/photo-1445384763658-0400939829cd?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.about.slides[2].layout,text-center
+content/club.json,pages.about.slides[2].title,Registered & Recognised
+content/club.json,pages.contact.slides[0].body,"Share your pace, goals, and story. We will plug you into the right crew session."
+content/club.json,pages.contact.slides[0].eyebrow,Join Us
+content/club.json,pages.contact.slides[0].id,connect
+content/club.json,pages.contact.slides[0].image,https://images.unsplash.com/photo-1508604173470-fe70dced7837?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.contact.slides[0].layout,image-right
+content/club.json,pages.contact.slides[0].title,Take The First Step
+content/club.json,pages.divisions.slides[0].body,"Eight divisions cover track, trail, city loops, ultras, hikes, and media. Each led by captains who keep the pulse steady."
+content/club.json,pages.divisions.slides[0].eyebrow,Crew Divisions
+content/club.json,pages.divisions.slides[0].id,divisions-intro
+content/club.json,pages.divisions.slides[0].image,https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.divisions.slides[0].layout,image-right
+content/club.json,pages.divisions.slides[0].title,Pick Your Pace
+content/club.json,pages.gallery.cards[0].description,"Finish-line roars, post-run hugs, and podium snapshots."
+content/club.json,pages.gallery.cards[0].href,https://drive.google.com/drive/folders/kjrunclub-gallery
+content/club.json,pages.gallery.cards[0].image,https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1200&q=80
+content/club.json,pages.gallery.cards[0].title,Race Day Energy
+content/club.json,pages.gallery.cards[1].description,"KL night runs, morning skyline stretches, and street portraits."
+content/club.json,pages.gallery.cards[1].href,https://drive.google.com/drive/folders/kjrunclub-gallery
+content/club.json,pages.gallery.cards[1].image,https://images.unsplash.com/photo-1468645547353-56d325bb57ff?auto=format&fit=crop&w=1200&q=80
+content/club.json,pages.gallery.cards[1].title,City Loops
+content/club.json,pages.gallery.cards[2].description,"Mud, ridgelines, and relentless elevation with the crew."
+content/club.json,pages.gallery.cards[2].href,https://drive.google.com/drive/folders/kjrunclub-gallery
+content/club.json,pages.gallery.cards[2].image,https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80
+content/club.json,pages.gallery.cards[2].title,Trail & Ultra
+content/club.json,pages.gallery.slides[0].body,"Tap into the shared Google Drive to relive race days, sunrise LSDs, and night loops under the city glow."
+content/club.json,pages.gallery.slides[0].ctaPrimary.href,https://drive.google.com/drive/folders/kjrunclub-gallery
+content/club.json,pages.gallery.slides[0].ctaPrimary.label,Open Gallery
+content/club.json,pages.gallery.slides[0].eyebrow,Media Vault
+content/club.json,pages.gallery.slides[0].id,gallery-intro
+content/club.json,pages.gallery.slides[0].image,https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.gallery.slides[0].layout,image-left
+content/club.json,pages.gallery.slides[0].title,Crew Moments In Monochrome
+content/club.json,pages.home.slides[0].body,"Crew-built sessions for speed, endurance, and community. Every rep is paced together."
+content/club.json,pages.home.slides[0].ctaPrimary.href,/contact
+content/club.json,pages.home.slides[0].ctaPrimary.label,Join The Crew
+content/club.json,pages.home.slides[0].ctaSecondary.href,/schedule
+content/club.json,pages.home.slides[0].ctaSecondary.label,View Schedule
+content/club.json,pages.home.slides[0].eyebrow,Registered Crew
+content/club.json,pages.home.slides[0].id,hero
+content/club.json,pages.home.slides[0].image,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.home.slides[0].layout,text-left
+content/club.json,pages.home.slides[0].stats[0].label,Events Hosted
+content/club.json,pages.home.slides[0].stats[0].value,50+
+content/club.json,pages.home.slides[0].stats[1].label,Runners
+content/club.json,pages.home.slides[0].stats[1].value,"1,000+"
+content/club.json,pages.home.slides[0].stats[2].label,Collaborations
+content/club.json,pages.home.slides[0].stats[2].value,Multi-city
+content/club.json,pages.home.slides[0].subtitle,Kelana Jaya Run Club
+content/club.json,pages.home.slides[0].title,Movement Over Medal
+content/club.json,pages.home.slides[1].body,Collaborations that keep the crew geared up and city sessions loud.
+content/club.json,pages.home.slides[1].eyebrow,Crew Partners
+content/club.json,pages.home.slides[1].id,partners
+content/club.json,pages.home.slides[1].image,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.home.slides[1].layout,image-left
+content/club.json,pages.home.slides[1].partners[0].image,https://via.placeholder.com/320x160?text=Nike
+content/club.json,pages.home.slides[1].partners[0].name,Nike
+content/club.json,pages.home.slides[1].partners[1].image,https://via.placeholder.com/320x160?text=Adidas
+content/club.json,pages.home.slides[1].partners[1].name,Adidas
+content/club.json,pages.home.slides[1].partners[2].image,https://via.placeholder.com/320x160?text=Hoka
+content/club.json,pages.home.slides[1].partners[2].name,Hoka
+content/club.json,pages.home.slides[1].partners[3].image,https://via.placeholder.com/320x160?text=Garmin
+content/club.json,pages.home.slides[1].partners[3].name,Garmin
+content/club.json,pages.home.slides[1].title,Brands That Run With Us
+content/club.json,pages.home.slides[2].body,"From crew-led programming to collaborative city takeovers, KJRC keeps the city on pace."
+content/club.json,pages.home.slides[2].eyebrow,Impact
+content/club.json,pages.home.slides[2].id,impact
+content/club.json,pages.home.slides[2].image,https://images.unsplash.com/photo-1508675801607-06851f8b8eb5?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.home.slides[2].layout,text-center
+content/club.json,pages.home.slides[2].stats[0].label,Programmes
+content/club.json,pages.home.slides[2].stats[0].value,Weekly
+content/club.json,pages.home.slides[2].stats[1].label,Identity
+content/club.json,pages.home.slides[2].stats[1].value,PPM-018-10-23102024
+content/club.json,pages.home.slides[2].stats[2].label,Contact
+content/club.json,pages.home.slides[2].stats[2].value,kjrunclub19@gmail.com
+content/club.json,pages.home.slides[2].title,Built By Community
+content/club.json,pages.home.slides[3].body,"Night runs, sunrise LSDs, trackside cheers—frames that capture the grind and the grin."
+content/club.json,pages.home.slides[3].eyebrow,Crew Energy
+content/club.json,pages.home.slides[3].id,gallery
+content/club.json,pages.home.slides[3].image,https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf?auto=format&fit=crop&w=1600&q=80
+content/club.json,pages.home.slides[3].layout,image-right
+content/club.json,pages.home.slides[3].title,Scenes From The Pack
 content/hero.json,headline,KJ RUN CLUB
 content/hero.json,heroImage,https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080
 content/hero.json,subcopy,Elite training sessions in Kuala Lumpur. Join Malaysia's most dedicated runners and push beyond your limits.
@@ -379,153 +472,225 @@ content/sessions.json,[2].location,Taman Tun Dr Ismail
 content/sessions.json,[2].name,Strength & Skills
 content/sessions.json,[2].skillOfTheWeek,Single-leg hops
 content/sessions.json,[2].time,19:00
-public/manifest.json,description,Elite running club in Kuala Lumpur
-public/manifest.json,name,KJ Run Club
-public/manifest.json,short_name,KJRC
-public/robots.txt,directive[0],User-agent: *
-public/robots.txt,directive[1],Allow: /
-public/robots.txt,directive[2],Sitemap: https://kjrunclub.com/sitemap.xml
-content/team-members.json,rafiq-blaze.name,Rafiq Blaze
-content/team-members.json,rafiq-blaze.role,Track Captain
-content/team-members.json,rafiq-blaze.avatar,https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=400&q=80
-content/team-members.json,rafiq-blaze.bio,"Rafiq engineers every Tuesday track session, dialing in paces and recoveries so the crew can stack quick turnover without burning out."
-content/team-members.json,rafiq-blaze.highlights[0],1500m PR: 4:12
-content/team-members.json,rafiq-blaze.highlights[1],Certified World Athletics Level 1 Coach
-content/team-members.json,rafiq-blaze.highlights[2],"Founder, Section 13 speed lab"
-content/team-members.json,rafiq-blaze.instagram,rafiqblaze
-content/team-members.json,rafiq-blaze.tiktok,rafiqruns
-content/team-members.json,mira-pace.name,Mira Pace
-content/team-members.json,mira-pace.role,Interval Strategist
-content/team-members.json,mira-pace.avatar,https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80
-content/team-members.json,mira-pace.bio,"Mira translates performance data into punchy interval blocks, keeping runners activated with smart drills and tempo finishes."
-content/team-members.json,mira-pace.highlights[0],10K PR: 39:55
-content/team-members.json,mira-pace.highlights[1],"Sports Scientist, UiTM"
-content/team-members.json,mira-pace.highlights[2],"Co-host, Sprint Sessions podcast"
-content/team-members.json,mira-pace.instagram,mirapace
-content/team-members.json,mira-pace.tiktok,mirapaceruns
-content/team-members.json,liyana-ridge.name,Liyana Ridge
-content/team-members.json,liyana-ridge.role,Trail Navigator
-content/team-members.json,liyana-ridge.avatar,https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80
-content/team-members.json,liyana-ridge.bio,"Liyana scouts new routes around Selangor weekly, blending runnable climbs with teachable moments on footwork and safety."
-content/team-members.json,liyana-ridge.highlights[0],Sky Running Asia finisher
-content/team-members.json,liyana-ridge.highlights[1],MapMyRun trail ambassador
-content/team-members.json,liyana-ridge.highlights[2],First aid & wilderness certified
-content/team-members.json,liyana-ridge.instagram,liyanaridge
-content/team-members.json,liyana-ridge.tiktok,ridgeguides
-content/team-members.json,ken-moss.name,Ken Moss
-content/team-members.json,ken-moss.role,Elevation Coach
-content/team-members.json,ken-moss.avatar,https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80
-content/team-members.json,ken-moss.bio,"Ken handles gradient prep, layering strength cues with downhill control so the crew stays quick and injury-free."
-content/team-members.json,ken-moss.highlights[0],Penang ECO 30K podium
-content/team-members.json,ken-moss.highlights[1],Spartan Beast Malaysia finisher
-content/team-members.json,ken-moss.highlights[2],Trail technique clinics lead
-content/team-members.json,ken-moss.instagram,kenmoss.trails
-content/team-members.json,ken-moss.tiktok,kenclimbs
-content/team-members.json,haris-volt.name,Haris Volt
-content/team-members.json,haris-volt.role,Performance Coach
-content/team-members.json,haris-volt.avatar,https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80
-content/team-members.json,haris-volt.bio,"Haris stitches strength blocks into the weekly calendar, anchoring runners with cues on muscle activation and mobility."
-content/team-members.json,haris-volt.highlights[0],ACE Certified Strength Coach
-content/team-members.json,haris-volt.highlights[1],"Creator, Volt Prep drills"
-content/team-members.json,haris-volt.highlights[2],Boston Marathon qualifier
-content/team-members.json,haris-volt.instagram,harisvolt
-content/team-members.json,haris-volt.tiktok,coachvolt
-content/team-members.json,aida-form.name,Aida Form
-content/team-members.json,aida-form.role,Recovery Specialist
-content/team-members.json,aida-form.avatar,https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80
-content/team-members.json,aida-form.bio,Aida fronts mobility labs and helps runners decode recovery metrics so they can stand at the line fresh and confident.
-content/team-members.json,aida-form.highlights[0],Physiotherapist & run gait analyst
-content/team-members.json,aida-form.highlights[1],Myofascial release instructor
-content/team-members.json,aida-form.highlights[2],"Creator, Reset & Roll workshops"
-content/team-members.json,aida-form.instagram,aidacoach
-content/team-members.json,aida-form.tiktok,aidamobility
-content/team-members.json,nadia-circuit.name,Nadia Circuit
-content/team-members.json,nadia-circuit.role,Route Curator
-content/team-members.json,nadia-circuit.avatar,https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80
-content/team-members.json,nadia-circuit.bio,"Nadia choreographs city loops that stitch KL landmarks with safe crossings, keeping night runs smooth and cinematic."
-content/team-members.json,nadia-circuit.highlights[0],Run tourism consultant
-content/team-members.json,nadia-circuit.highlights[1],Led 40+ heritage night runs
-content/team-members.json,nadia-circuit.highlights[2],Wahoo run leader
-content/team-members.json,nadia-circuit.instagram,nadiacircuit
-content/team-members.json,nadia-circuit.tiktok,cityloops
-content/team-members.json,johan-pulse.name,Johan Pulse
-content/team-members.json,johan-pulse.role,Pace Lead
-content/team-members.json,johan-pulse.avatar,https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80
-content/team-members.json,johan-pulse.bio,"Johan keeps the peloton tidy, calling out pace cues, traffic alerts, and energy checks every kilometer."
-content/team-members.json,johan-pulse.highlights[0],Standard Chartered Kuala Lumpur pacer
-content/team-members.json,johan-pulse.highlights[1],400+ pacing hours logged
-content/team-members.json,johan-pulse.highlights[2],Level 1 road marshal
-content/team-members.json,johan-pulse.instagram,johanpulse
-content/team-members.json,johan-pulse.tiktok,pulsepace
-content/team-members.json,farid-miles.name,Farid Miles
-content/team-members.json,farid-miles.role,Endurance Lead
-content/team-members.json,farid-miles.avatar,https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80
-content/team-members.json,farid-miles.bio,"Farid scripts long run progressions, balancing nutrition stops and conversation pace to keep everyone stacking volume."
-content/team-members.json,farid-miles.highlights[0],Comrades qualifier
-content/team-members.json,farid-miles.highlights[1],RRCA distance coach
-content/team-members.json,farid-miles.highlights[2],"Lead designer, Sunday LSD loops"
-content/team-members.json,farid-miles.instagram,faridmiles
-content/team-members.json,farid-miles.tiktok,milessteady
-content/team-members.json,salma-drift.name,Salma Drift
-content/team-members.json,salma-drift.role,Fuel Coach
-content/team-members.json,salma-drift.avatar,https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80
-content/team-members.json,salma-drift.bio,Salma dials hydration plans and teaches micro-interval cues so runners learn how to finish strong on patient miles.
-content/team-members.json,salma-drift.highlights[0],Sports nutritionist
-content/team-members.json,salma-drift.highlights[1],"Host, Fuel for Miles micro sessions"
-content/team-members.json,salma-drift.highlights[2],Penang Bridge Marathon finisher
-content/team-members.json,salma-drift.instagram,salma.drift
-content/team-members.json,salma-drift.tiktok,salmarunslong
-content/team-members.json,amir-summit.name,Amir Summit
-content/team-members.json,amir-summit.role,Trail Steward
-content/team-members.json,amir-summit.avatar,https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80
-content/team-members.json,amir-summit.bio,Amir maps out weekend hikings with leave-no-trace lessons and beginner-friendly pacing on the climbs.
-content/team-members.json,amir-summit.highlights[0],Mountain guide (Level 2)
-content/team-members.json,amir-summit.highlights[1],Gunung Tahan lead crew
-content/team-members.json,amir-summit.highlights[2],"Founder, Summit Saturday programme"
-content/team-members.json,amir-summit.instagram,amirsummit
-content/team-members.json,amir-summit.tiktok,summitsteps
-content/team-members.json,hana-grove.name,Hana Grove
-content/team-members.json,hana-grove.role,Nature Guide
-content/team-members.json,hana-grove.avatar,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80
-content/team-members.json,hana-grove.bio,"Hana introduces flora facts and breathing drills, making every hike a reset for runners and their families."
-content/team-members.json,hana-grove.highlights[0],Environmental educator
-content/team-members.json,hana-grove.highlights[1],Forest therapy guide
-content/team-members.json,hana-grove.highlights[2],"Leader, Basecamp Kids programme"
-content/team-members.json,hana-grove.instagram,hanagrove
-content/team-members.json,hana-grove.tiktok,grovetrails
-content/team-members.json,suri-ember.name,Suri Ember
-content/team-members.json,suri-ember.role,Ultra Strategist
-content/team-members.json,suri-ember.avatar,https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80
-content/team-members.json,suri-ember.bio,Suri plans brutal back-to-back mileage weekends and coaches mental reps for long solo efforts.
-content/team-members.json,suri-ember.highlights[0],UTMB finisher
-content/team-members.json,suri-ember.highlights[1],"Coach, 100 Miles to Go programme"
-content/team-members.json,suri-ember.highlights[2],Sports psych student
-content/team-members.json,suri-ember.instagram,suriember
-content/team-members.json,suri-ember.tiktok,emberultra
-content/team-members.json,malik-steel.name,Malik Steel
-content/team-members.json,malik-steel.role,Elevation Analyst
-content/team-members.json,malik-steel.avatar,https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80
-content/team-members.json,malik-steel.bio,"Malik handles strength blocks, hill repeats, and gear checks so the ultra crew stays ready for huge vert weeks."
-content/team-members.json,malik-steel.highlights[0],Backyard Ultra 4th place
-content/team-members.json,malik-steel.highlights[1],Strength coach L2
-content/team-members.json,malik-steel.highlights[2],"Builder, Elevation Lab spreadsheet"
-content/team-members.json,malik-steel.instagram,maliksteel
-content/team-members.json,malik-steel.tiktok,steelultra
-content/team-members.json,nisa-othman.name,Nisa Othman
-content/team-members.json,nisa-othman.role,Content Director
-content/team-members.json,nisa-othman.avatar,https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80
-content/team-members.json,nisa-othman.bio,"Nisa captures the club heartbeat, directing photo stories and powering launch reels for every big block."
-content/team-members.json,nisa-othman.highlights[0],"Lead creative, #KJRCFrames"
-content/team-members.json,nisa-othman.highlights[1],Sony Alpha Creator
-content/team-members.json,nisa-othman.highlights[2],"Speaker, Run & Shoot 2024"
-content/team-members.json,nisa-othman.instagram,nisa.othman
-content/team-members.json,nisa-othman.tiktok,nisa.othman
-content/team-members.json,afiq-xilantra.name,Afiq Xilantra
-content/team-members.json,afiq-xilantra.role,Storyteller
 content/team-members.json,afiq-xilantra.avatar,https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=400&q=80
 content/team-members.json,afiq-xilantra.bio,"Afiq scripts the copy, edits highlight reels, and keeps the crew’s tone sharp across newsletters and socials."
 content/team-members.json,afiq-xilantra.highlights[0],"Host, KJRC VO2 podcast"
 content/team-members.json,afiq-xilantra.highlights[1],"Writer, Roads & Trails column"
 content/team-members.json,afiq-xilantra.highlights[2],Drone pilot for the crew
 content/team-members.json,afiq-xilantra.instagram,xilantra
+content/team-members.json,afiq-xilantra.name,Afiq Xilantra
+content/team-members.json,afiq-xilantra.role,Storyteller
 content/team-members.json,afiq-xilantra.tiktok,xilantra
+content/team-members.json,aida-form.avatar,https://images.unsplash.com/photo-1531895861208-8504b98fe814?auto=format&fit=crop&w=400&q=80
+content/team-members.json,aida-form.bio,Aida fronts mobility labs and helps runners decode recovery metrics so they can stand at the line fresh and confident.
+content/team-members.json,aida-form.highlights[0],Physiotherapist & run gait analyst
+content/team-members.json,aida-form.highlights[1],Myofascial release instructor
+content/team-members.json,aida-form.highlights[2],"Creator, Reset & Roll workshops"
+content/team-members.json,aida-form.instagram,aidacoach
+content/team-members.json,aida-form.name,Aida Form
+content/team-members.json,aida-form.role,Recovery Specialist
+content/team-members.json,aida-form.tiktok,aidamobility
+content/team-members.json,amir-summit.avatar,https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=400&q=80
+content/team-members.json,amir-summit.bio,Amir maps out weekend hikings with leave-no-trace lessons and beginner-friendly pacing on the climbs.
+content/team-members.json,amir-summit.highlights[0],Mountain guide (Level 2)
+content/team-members.json,amir-summit.highlights[1],Gunung Tahan lead crew
+content/team-members.json,amir-summit.highlights[2],"Founder, Summit Saturday programme"
+content/team-members.json,amir-summit.instagram,amirsummit
+content/team-members.json,amir-summit.name,Amir Summit
+content/team-members.json,amir-summit.role,Trail Steward
+content/team-members.json,amir-summit.tiktok,summitsteps
+content/team-members.json,burhan-lsdt.avatar,https://images.unsplash.com/photo-1485451456034-3f9391c6b87e?auto=format&fit=crop&w=400&q=80
+content/team-members.json,burhan-lsdt.bio,"Burhan leads back-to-back looped trail LSDs, stacking vert, fueling cues, and crew accountability on every climb."
+content/team-members.json,burhan-lsdt.highlights[0],Ultra trail finisher
+content/team-members.json,burhan-lsdt.highlights[1],Trail safety trainer
+content/team-members.json,burhan-lsdt.highlights[2],"Creator, LSDT loop system"
+content/team-members.json,burhan-lsdt.instagram,burhan.lsdt
+content/team-members.json,burhan-lsdt.name,Burhan
+content/team-members.json,burhan-lsdt.role,LSDT Trail Captain
+content/team-members.json,burhan-lsdt.tiktok,lsdtwithburhan
+content/team-members.json,debb-coach.avatar,https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=400&q=80
+content/team-members.json,debb-coach.bio,"Debb drills posture, footstrike, and breathing mechanics, delivering micro feedback that refines every runner’s form."
+content/team-members.json,debb-coach.highlights[0],Run clinic facilitator
+content/team-members.json,debb-coach.highlights[1],Mobility lab architect
+content/team-members.json,debb-coach.highlights[2],Certified breathwork coach
+content/team-members.json,debb-coach.instagram,debb.moves
+content/team-members.json,debb-coach.name,Debb
+content/team-members.json,debb-coach.role,Technique Lead
+content/team-members.json,debb-coach.tiktok,debbdrills
+content/team-members.json,farid-miles.avatar,https://images.unsplash.com/photo-1524502397800-151ce331bd66?auto=format&fit=crop&w=400&q=80
+content/team-members.json,farid-miles.bio,"Farid scripts long run progressions, balancing nutrition stops and conversation pace to keep everyone stacking volume."
+content/team-members.json,farid-miles.highlights[0],Comrades qualifier
+content/team-members.json,farid-miles.highlights[1],RRCA distance coach
+content/team-members.json,farid-miles.highlights[2],"Lead designer, Sunday LSD loops"
+content/team-members.json,farid-miles.instagram,faridmiles
+content/team-members.json,farid-miles.name,Farid Miles
+content/team-members.json,farid-miles.role,Endurance Lead
+content/team-members.json,farid-miles.tiktok,milessteady
+content/team-members.json,hana-grove.avatar,https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=400&q=80
+content/team-members.json,hana-grove.bio,"Hana introduces flora facts and breathing drills, making every hike a reset for runners and their families."
+content/team-members.json,hana-grove.highlights[0],Environmental educator
+content/team-members.json,hana-grove.highlights[1],Forest therapy guide
+content/team-members.json,hana-grove.highlights[2],"Leader, Basecamp Kids programme"
+content/team-members.json,hana-grove.instagram,hanagrove
+content/team-members.json,hana-grove.name,Hana Grove
+content/team-members.json,hana-grove.role,Nature Guide
+content/team-members.json,hana-grove.tiktok,grovetrails
+content/team-members.json,haneem-lsdt.avatar,https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=400&q=80
+content/team-members.json,haneem-lsdt.bio,"Haneem manages trail sweeps, effort checks, and mental reps so the pack stays locked through technical terrain."
+content/team-members.json,haneem-lsdt.highlights[0],Endurance trail sweeper
+content/team-members.json,haneem-lsdt.highlights[1],Crew safety liaison
+content/team-members.json,haneem-lsdt.highlights[2],Recovery protocol specialist
+content/team-members.json,haneem-lsdt.instagram,haneem.lsdt
+content/team-members.json,haneem-lsdt.name,Haneem
+content/team-members.json,haneem-lsdt.role,LSDT Support Lead
+content/team-members.json,haneem-lsdt.tiktok,haneemtrail
+content/team-members.json,haris-volt.avatar,https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80
+content/team-members.json,haris-volt.bio,"Haris stitches strength blocks into the weekly calendar, anchoring runners with cues on muscle activation and mobility."
+content/team-members.json,haris-volt.highlights[0],ACE Certified Strength Coach
+content/team-members.json,haris-volt.highlights[1],"Creator, Volt Prep drills"
+content/team-members.json,haris-volt.highlights[2],Boston Marathon qualifier
+content/team-members.json,haris-volt.instagram,harisvolt
+content/team-members.json,haris-volt.name,Haris Volt
+content/team-members.json,haris-volt.role,Performance Coach
+content/team-members.json,haris-volt.tiktok,coachvolt
+content/team-members.json,hatib-coach.avatar,https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=400&q=80
+content/team-members.json,hatib-coach.bio,"Hatib architects periodised training blocks, balancing strength, tempo, and recovery so the crew hits racing form on schedule."
+content/team-members.json,hatib-coach.highlights[0],World Athletics Level 2 coach
+content/team-members.json,hatib-coach.highlights[1],12-week peak block designer
+content/team-members.json,hatib-coach.highlights[2],Strength & conditioning specialist
+content/team-members.json,hatib-coach.instagram,coachhatib
+content/team-members.json,hatib-coach.name,Hatib
+content/team-members.json,hatib-coach.role,Head Coach
+content/team-members.json,hatib-coach.tiktok,hatibcoaches
+content/team-members.json,ijlal-zul.avatar,https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&q=80
+content/team-members.json,ijlal-zul.bio,"Ijlal translates performance data into punchy interval blocks, keeping runners activated with smart drills and tempo finishes."
+content/team-members.json,ijlal-zul.highlights[0],10K PR: 39:55
+content/team-members.json,ijlal-zul.highlights[1],"Sports Scientist, UiTM"
+content/team-members.json,ijlal-zul.highlights[2],"Co-host, Sprint Sessions podcast"
+content/team-members.json,ijlal-zul.instagram,ijlalzul
+content/team-members.json,ijlal-zul.name,Ijlal Zul
+content/team-members.json,ijlal-zul.role,Interval Strategist
+content/team-members.json,ijlal-zul.tiktok,ijlalzul
+content/team-members.json,izzat-city.avatar,https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80
+content/team-members.json,izzat-city.bio,"Izzat manages the mid-pack, reading traffic flow and pace checks so the crew glides through KL nights with confidence."
+content/team-members.json,izzat-city.highlights[0],Standard Chartered KL pacer
+content/team-members.json,izzat-city.highlights[1],Night run safety lead
+content/team-members.json,izzat-city.highlights[2],Crew radio comms coordinator
+content/team-members.json,izzat-city.instagram,izzat.city
+content/team-members.json,izzat-city.name,Izzat
+content/team-members.json,izzat-city.role,City Route Marshal
+content/team-members.json,izzat-city.tiktok,izzatloops
+content/team-members.json,jo-lsd.avatar,https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80
+content/team-members.json,jo-lsd.bio,"Jo anchors hydration support and cadence cues mid-run, keeping every pack locked into conversational pace and prepared for progression blocks."
+content/team-members.json,jo-lsd.highlights[0],Crew tempo pacer
+content/team-members.json,jo-lsd.highlights[1],On-route logistics planner
+content/team-members.json,jo-lsd.highlights[2],RRCA run leader
+content/team-members.json,jo-lsd.instagram,jorunssteady
+content/team-members.json,jo-lsd.name,Jo
+content/team-members.json,jo-lsd.role,LSD Support Lead
+content/team-members.json,jo-lsd.tiktok,steadywithjo
+content/team-members.json,johan-pulse.avatar,https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&q=80
+content/team-members.json,johan-pulse.bio,"Johan keeps the peloton tidy, calling out pace cues, traffic alerts, and energy checks every kilometer."
+content/team-members.json,johan-pulse.highlights[0],Standard Chartered Kuala Lumpur pacer
+content/team-members.json,johan-pulse.highlights[1],400+ pacing hours logged
+content/team-members.json,johan-pulse.highlights[2],Level 1 road marshal
+content/team-members.json,johan-pulse.instagram,johanpulse
+content/team-members.json,johan-pulse.name,Johan Pulse
+content/team-members.json,johan-pulse.role,Pace Lead
+content/team-members.json,johan-pulse.tiktok,pulsepace
+content/team-members.json,ken-moss.avatar,https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80
+content/team-members.json,ken-moss.bio,"Ken handles gradient prep, layering strength cues with downhill control so the crew stays quick and injury-free."
+content/team-members.json,ken-moss.highlights[0],Penang ECO 30K podium
+content/team-members.json,ken-moss.highlights[1],Spartan Beast Malaysia finisher
+content/team-members.json,ken-moss.highlights[2],Trail technique clinics lead
+content/team-members.json,ken-moss.instagram,kenmoss.trails
+content/team-members.json,ken-moss.name,Ken Moss
+content/team-members.json,ken-moss.role,Elevation Coach
+content/team-members.json,ken-moss.tiktok,kenclimbs
+content/team-members.json,liyana-ridge.avatar,https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80
+content/team-members.json,liyana-ridge.bio,"Liyana scouts new routes around Selangor weekly, blending runnable climbs with teachable moments on footwork and safety."
+content/team-members.json,liyana-ridge.highlights[0],Sky Running Asia finisher
+content/team-members.json,liyana-ridge.highlights[1],MapMyRun trail ambassador
+content/team-members.json,liyana-ridge.highlights[2],First aid & wilderness certified
+content/team-members.json,liyana-ridge.instagram,liyanaridge
+content/team-members.json,liyana-ridge.name,Liyana Ridge
+content/team-members.json,liyana-ridge.role,Trail Navigator
+content/team-members.json,liyana-ridge.tiktok,ridgeguides
+content/team-members.json,malik-steel.avatar,https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=400&q=80
+content/team-members.json,malik-steel.bio,"Malik handles strength blocks, hill repeats, and gear checks so the ultra crew stays ready for huge vert weeks."
+content/team-members.json,malik-steel.highlights[0],Backyard Ultra 4th place
+content/team-members.json,malik-steel.highlights[1],Strength coach L2
+content/team-members.json,malik-steel.highlights[2],"Builder, Elevation Lab spreadsheet"
+content/team-members.json,malik-steel.instagram,maliksteel
+content/team-members.json,malik-steel.name,Malik Steel
+content/team-members.json,malik-steel.role,Elevation Analyst
+content/team-members.json,malik-steel.tiktok,steelultra
+content/team-members.json,nadia-circuit.avatar,https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80
+content/team-members.json,nadia-circuit.bio,"Nadia choreographs city loops that stitch KL landmarks with safe crossings, keeping night runs smooth and cinematic."
+content/team-members.json,nadia-circuit.highlights[0],Run tourism consultant
+content/team-members.json,nadia-circuit.highlights[1],Led 40+ heritage night runs
+content/team-members.json,nadia-circuit.highlights[2],Wahoo run leader
+content/team-members.json,nadia-circuit.instagram,nadiacircuit
+content/team-members.json,nadia-circuit.name,Nadia Circuit
+content/team-members.json,nadia-circuit.role,Route Curator
+content/team-members.json,nadia-circuit.tiktok,cityloops
+content/team-members.json,nisa-othman.avatar,https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80
+content/team-members.json,nisa-othman.bio,"Nisa captures the club heartbeat, directing photo stories and powering launch reels for every big block."
+content/team-members.json,nisa-othman.highlights[0],"Lead creative, #KJRCFrames"
+content/team-members.json,nisa-othman.highlights[1],Sony Alpha Creator
+content/team-members.json,nisa-othman.highlights[2],"Speaker, Run & Shoot 2024"
+content/team-members.json,nisa-othman.instagram,nisa.othman
+content/team-members.json,nisa-othman.name,Nisa Othman
+content/team-members.json,nisa-othman.role,Content Director
+content/team-members.json,nisa-othman.tiktok,nisa.othman
+content/team-members.json,salma-drift.avatar,https://images.unsplash.com/photo-1507120878965-54b0f6fd5d32?auto=format&fit=crop&w=400&q=80
+content/team-members.json,salma-drift.bio,Salma dials hydration plans and teaches micro-interval cues so runners learn how to finish strong on patient miles.
+content/team-members.json,salma-drift.highlights[0],Sports nutritionist
+content/team-members.json,salma-drift.highlights[1],"Host, Fuel for Miles micro sessions"
+content/team-members.json,salma-drift.highlights[2],Penang Bridge Marathon finisher
+content/team-members.json,salma-drift.instagram,salma.drift
+content/team-members.json,salma-drift.name,Salma Drift
+content/team-members.json,salma-drift.role,Fuel Coach
+content/team-members.json,salma-drift.tiktok,salmarunslong
+content/team-members.json,suri-ember.avatar,https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=400&q=80
+content/team-members.json,suri-ember.bio,Suri plans brutal back-to-back mileage weekends and coaches mental reps for long solo efforts.
+content/team-members.json,suri-ember.highlights[0],UTMB finisher
+content/team-members.json,suri-ember.highlights[1],"Coach, 100 Miles to Go programme"
+content/team-members.json,suri-ember.highlights[2],Sports psych student
+content/team-members.json,suri-ember.instagram,suriember
+content/team-members.json,suri-ember.name,Suri Ember
+content/team-members.json,suri-ember.role,Ultra Strategist
+content/team-members.json,suri-ember.tiktok,emberultra
+content/team-members.json,syafiq-jay.avatar,/dvsn/syafiqjay.jpg
+content/team-members.json,syafiq-jay.bio,"Syafiq engineers every Tuesday Speed Work session, dialing in paces and recoveries so the crew can stack quick turnover without burning out."
+content/team-members.json,syafiq-jay.highlights[0],1500m PR: 4:12
+content/team-members.json,syafiq-jay.highlights[1],Certified World Athletics Level 1 Coach
+content/team-members.json,syafiq-jay.highlights[2],"Founder, Section 13 speed lab"
+content/team-members.json,syafiq-jay.instagram,syafiqjay.9
+content/team-members.json,syafiq-jay.name,Syafiq J
+content/team-members.json,syafiq-jay.role,Track Captain
+content/team-members.json,syafiq-jay.tiktok,syafiqjay.9
+content/team-members.json,syamil-city.avatar,https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=400&q=80
+content/team-members.json,syamil-city.bio,"Syamil curates city grids that weave landmarks, safe crossings, and pace resets so every urban loop lands cinematic and safe."
+content/team-members.json,syamil-city.highlights[0],Led 50+ KL city loops
+content/team-members.json,syamil-city.highlights[1],Urban safety marshal
+content/team-members.json,syamil-city.highlights[2],Route design workshop host
+content/team-members.json,syamil-city.instagram,syamil.city
+content/team-members.json,syamil-city.name,Syamil
+content/team-members.json,syamil-city.role,City Captain
+content/team-members.json,syamil-city.tiktok,syamilruns
+content/team-members.json,yan-lsd.avatar,https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80
+content/team-members.json,yan-lsd.bio,Yan programs Sunday LSD loops with layered mileage and reset segments so the crew keeps stacking aerobic strength without burnout.
+content/team-members.json,yan-lsd.highlights[0],Certified long run pacer
+content/team-members.json,yan-lsd.highlights[1],Mapped 30+ Klang Valley endurance routes
+content/team-members.json,yan-lsd.highlights[2],Nutrition checkpoints lead
+content/team-members.json,yan-lsd.instagram,yan.lsd
+content/team-members.json,yan-lsd.name,Yan
+content/team-members.json,yan-lsd.role,LSD Captain
+content/team-members.json,yan-lsd.tiktok,yanruns
+public/manifest.json,description,Elite running club in Kuala Lumpur
+public/manifest.json,name,KJ Run Club
+public/manifest.json,short_name,KJRC
+public/robots.txt,directive[0],User-agent: *
+public/robots.txt,directive[1],Allow: /
+public/robots.txt,directive[2],Sitemap: https://kjrunclub.com/sitemap.xml

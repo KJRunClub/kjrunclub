@@ -40,6 +40,7 @@ interface RawDivision {
   nickname: string;
   focus: string;
   image: string;
+  logo: string;
   people: string[];
 }
 
@@ -49,6 +50,7 @@ export interface Division {
   nickname: string;
   focus: string;
   image: string;
+  logo: string;
   people: TeamMember[];
 }
 

@@ -206,5 +206,109 @@
     ],
     "instagram": "xilantra",
     "tiktok": "xilantra"
+  },
+  "yan-lsd": {
+    "name": "Yan",
+    "role": "LSD Captain",
+    "avatar": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80",
+    "bio": "Yan programs Sunday LSD loops with layered mileage and reset segments so the crew keeps stacking aerobic strength without burnout.",
+    "highlights": [
+      "Certified long run pacer",
+      "Mapped 30+ Klang Valley endurance routes",
+      "Nutrition checkpoints lead"
+    ],
+    "instagram": "yan.lsd",
+    "tiktok": "yanruns"
+  },
+  "jo-lsd": {
+    "name": "Jo",
+    "role": "LSD Support Lead",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80",
+    "bio": "Jo anchors hydration support and cadence cues mid-run, keeping every pack locked into conversational pace and prepared for progression blocks.",
+    "highlights": [
+      "Crew tempo pacer",
+      "On-route logistics planner",
+      "RRCA run leader"
+    ],
+    "instagram": "jorunssteady",
+    "tiktok": "steadywithjo"
+  },
+  "syamil-city": {
+    "name": "Syamil",
+    "role": "City Captain",
+    "avatar": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=400&q=80",
+    "bio": "Syamil curates city grids that weave landmarks, safe crossings, and pace resets so every urban loop lands cinematic and safe.",
+    "highlights": [
+      "Led 50+ KL city loops",
+      "Urban safety marshal",
+      "Route design workshop host"
+    ],
+    "instagram": "syamil.city",
+    "tiktok": "syamilruns"
+  },
+  "izzat-city": {
+    "name": "Izzat",
+    "role": "City Route Marshal",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+    "bio": "Izzat manages the mid-pack, reading traffic flow and pace checks so the crew glides through KL nights with confidence.",
+    "highlights": [
+      "Standard Chartered KL pacer",
+      "Night run safety lead",
+      "Crew radio comms coordinator"
+    ],
+    "instagram": "izzat.city",
+    "tiktok": "izzatloops"
+  },
+  "hatib-coach": {
+    "name": "Hatib",
+    "role": "Head Coach",
+    "avatar": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=400&q=80",
+    "bio": "Hatib architects periodised training blocks, balancing strength, tempo, and recovery so the crew hits racing form on schedule.",
+    "highlights": [
+      "World Athletics Level 2 coach",
+      "12-week peak block designer",
+      "Strength & conditioning specialist"
+    ],
+    "instagram": "coachhatib",
+    "tiktok": "hatibcoaches"
+  },
+  "debb-coach": {
+    "name": "Debb",
+    "role": "Technique Lead",
+    "avatar": "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=400&q=80",
+    "bio": "Debb drills posture, footstrike, and breathing mechanics, delivering micro feedback that refines every runner’s form.",
+    "highlights": [
+      "Run clinic facilitator",
+      "Mobility lab architect",
+      "Certified breathwork coach"
+    ],
+    "instagram": "debb.moves",
+    "tiktok": "debbdrills"
+  },
+  "burhan-lsdt": {
+    "name": "Burhan",
+    "role": "LSDT Trail Captain",
+    "avatar": "https://images.unsplash.com/photo-1485451456034-3f9391c6b87e?auto=format&fit=crop&w=400&q=80",
+    "bio": "Burhan leads back-to-back looped trail LSDs, stacking vert, fueling cues, and crew accountability on every climb.",
+    "highlights": [
+      "Ultra trail finisher",
+      "Trail safety trainer",
+      "Creator, LSDT loop system"
+    ],
+    "instagram": "burhan.lsdt",
+    "tiktok": "lsdtwithburhan"
+  },
+  "haneem-lsdt": {
+    "name": "Haneem",
+    "role": "LSDT Support Lead",
+    "avatar": "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=400&q=80",
+    "bio": "Haneem manages trail sweeps, effort checks, and mental reps so the pack stays locked through technical terrain.",
+    "highlights": [
+      "Endurance trail sweeper",
+      "Crew safety liaison",
+      "Recovery protocol specialist"
+    ],
+    "instagram": "haneem.lsdt",
+    "tiktok": "haneemtrail"
   }
 }

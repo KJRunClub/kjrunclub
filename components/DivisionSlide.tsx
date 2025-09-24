@@ -43,6 +43,17 @@ export function DivisionSlide({ division, index }: DivisionSlideProps) {
         <div className="grid min-h-[70vh] gap-8 md:grid-cols-[0.85fr_1.15fr] md:gap-12">
           <div className="order-last flex flex-col justify-center md:order-none">
             <div className="rounded-3xl border border-neutral-800 bg-neutral-900/85 p-8 shadow-[0_24px_80px_rgba(0,0,0,0.45)] md:p-10">
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl border border-neutral-800 bg-neutral-950/60">
+                <div className="relative h-12 w-12">
+                  <Image
+                    src={division.logo}
+                    alt={`${division.name} logo`}
+                    fill
+                    sizes="48px"
+                    className="object-contain"
+                  />
+                </div>
+              </div>
               <p className="font-mono text-[0.65rem] uppercase tracking-[0.4em] text-neutral-400">Division</p>
               <h2 className="mt-3 font-bebas text-5xl uppercase tracking-[0.18em] text-neutral-50 md:text-6xl">
                 {division.name}
